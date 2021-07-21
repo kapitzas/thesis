@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: thesis_ref_style.bst
+Reallocated field_info (elt_size=4) to 10100 items from 5000.
+Database file #1: bibliography.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "lambin_are_2000"
+Warning--I didn't find a database entry for "venables_modern_2002"
+Warning--I didn't find a database entry for "center_for_international_earth_science_information_network_-_ciesin_-_columbia_global_2013"
+Warning--I didn't find a database entry for "valavi_blockcv_2019"
+Warning--to sort, need author or key in scbd_global_2010
+Warning--empty author in scbd_global_2010
+Warning--missing institution in esa_land_2019
+Warning--missing institution in european_union_copernicus_2019
+Warning--empty journal in global_soil_data_task_group_global_2000
+Warning--empty year in hijmans_worldclim_nodate; set to ????
+Warning--empty journal in hijmans_worldclim_nodate
+Warning--missing publisher in horridge_gempack_2018
+Warning--missing publisher in ipbes_summary_2016
+Warning--missing institution in ipbes_summary_2019
+Warning--empty year in phillips_internet_nodate; set to ????
+Warning--missing institution in un_general_assembly_transforming_2015
+Warning--empty journal in world_bank_group_population_2016
+You've used 200 entries,
+            2877 wiz_defined-function locations,
+            2196 strings with 81341 characters,
+and the built_in function-call counts, 181874 in all, are:
+= -- 12882
+> -- 14815
+< -- 11
++ -- 5633
+- -- 5340
+* -- 16059
+:= -- 30505
+add.period$ -- 389
+call.type$ -- 200
+change.case$ -- 2681
+chr.to.int$ -- 197
+cite$ -- 215
+duplicate$ -- 10471
+empty$ -- 9754
+format.name$ -- 5816
+if$ -- 33952
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 2817
+newline$ -- 606
+num.names$ -- 800
+pop$ -- 5698
+preamble$ -- 1
+purify$ -- 2450
+quote$ -- 0
+skip$ -- 2719
+stack$ -- 0
+substring$ -- 6198
+swap$ -- 6555
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1788
+warning$ -- 13
+while$ -- 1099
+width$ -- 0
+write$ -- 2194
+(There were 17 warnings)
