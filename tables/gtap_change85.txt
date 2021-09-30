@@ -1,0 +1,29 @@
+\definecolor{tempcolor1}{rgb}{0.96,0.98,1} 
+\definecolor{tempcolor2}{rgb}{0.87,0.92,0.96} 
+\definecolor{tempcolor3}{rgb}{0.42,0.68,0.84} 
+\definecolor{tempcolor4}{rgb}{0.77,0.86,0.93} 
+\definecolor{tempcolor5}{rgb}{0.13,0.44,0.71} 
+\definecolor{tempcolor6}{rgb}{0.03,0.19,0.42} 
+\definecolor{tempcolor7}{rgb}{0.26,0.57,0.77} 
+\definecolor{black}{rgb}{0.0, 0.0, 0.0} 
+\begin{table}[!hbtp]
+\begin{center}
+\begin{normalsize}
+\color{black}
+\begin{tabular}{rrrrrrrrrrrr}
+\multicolumn{12}{c}{Table 5. Heatmap table with 'Blue' palette}\\ 
+\hline
+&mpg&cyl&disp&hp&drat&wt&qsec&vs&am&gear&carb\\ 
+\hline
+Mazda RX4&\cellcolor{tempcolor1}21.00&\cellcolor{tempcolor1}6.00&\cellcolor{tempcolor3}\color{white}160.00&\cellcolor{tempcolor4}110.00&\cellcolor{tempcolor1}3.90&\cellcolor{tempcolor1}2.62&\cellcolor{tempcolor1}16.46&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}4.00&\cellcolor{tempcolor1}4.00\\ 
+Mazda RX4 Wag&\cellcolor{tempcolor1}21.00&\cellcolor{tempcolor1}6.00&\cellcolor{tempcolor3}\color{white}160.00&\cellcolor{tempcolor4}110.00&\cellcolor{tempcolor1}3.90&\cellcolor{tempcolor1}2.88&\cellcolor{tempcolor1}17.02&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}4.00&\cellcolor{tempcolor1}4.00\\ 
+Datsun 710&\cellcolor{tempcolor2}22.80&\cellcolor{tempcolor1}4.00&\cellcolor{tempcolor4}108.00&\cellcolor{tempcolor4}93.00&\cellcolor{tempcolor1}3.85&\cellcolor{tempcolor1}2.32&\cellcolor{tempcolor1}18.61&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}4.00&\cellcolor{tempcolor1}1.00\\ 
+Hornet 4 Drive&\cellcolor{tempcolor1}21.40&\cellcolor{tempcolor1}6.00&\cellcolor{tempcolor5}\color{white}258.00&\cellcolor{tempcolor4}110.00&\cellcolor{tempcolor1}3.08&\cellcolor{tempcolor1}3.21&\cellcolor{tempcolor1}19.44&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}3.00&\cellcolor{tempcolor1}1.00\\ 
+Hornet Sportabout&\cellcolor{tempcolor1}18.70&\cellcolor{tempcolor1}8.00&\cellcolor{tempcolor6}\color{white}360.00&\cellcolor{tempcolor3}\color{white}175.00&\cellcolor{tempcolor1}3.15&\cellcolor{tempcolor1}3.44&\cellcolor{tempcolor1}17.02&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}3.00&\cellcolor{tempcolor1}2.00\\ 
+Valiant&\cellcolor{tempcolor1}18.10&\cellcolor{tempcolor1}6.00&\cellcolor{tempcolor7}\color{white}225.00&\cellcolor{tempcolor4}105.00&\cellcolor{tempcolor1}2.76&\cellcolor{tempcolor1}3.46&\cellcolor{tempcolor1}20.22&\cellcolor{tempcolor1}1.00&\cellcolor{tempcolor1}0.00&\cellcolor{tempcolor1}3.00&\cellcolor{tempcolor1}1.00\\ 
+\hline
+\end{tabular}
+\end{normalsize}
+\end{center}
+\end{table}
+\color{black}

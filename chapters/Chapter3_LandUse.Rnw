@@ -1,0 +1,931 @@
+\chapter{A predictive model of fractional land use}
+\label{ch3}
+\newpage
+
+{\parindent0pt
+\textbf{Title:} A predictive model of fractional land use
+
+\vspace{1cm}
+
+\textbf{Authorship:} Simon Kapitza\textsuperscript{1*}, Nick
+Golding\textsuperscript{2,3}, \& Brendan A. Wintle\textsuperscript{1}
+
+\vspace{1cm}
+
+\emph{\textsuperscript{1} School of Biosciences, The University of
+Melbourne, Parkville VIC 3010, Australia \newline \textsuperscript{2}
+Telethon Kids Institute, Perth Children's Hospital, 15 Hospital Ave,
+Nedlands WA 6009, Australia \newline \textsuperscript{3} Curtin
+University, Kent St, Bentley WA 6102, Australia}
+
+
+\vspace{1cm}
+
+\textbf{Authorship contribution statement}
+
+SK, BW conceived the idea of providing a fractional land use model. NG,
+and SK and BW designed the model and validation steps. SK coded the
+model and analyzed the data. SK led the manuscript with edits from NG
+and BW.
+
+\vspace{1cm}
+
+\textbf{Data accessibility}
+
+All input data required to repeat this work will be made available and
+receive a permanent DOI through FigShare upon publication. An \texttt{R} package
+containing the model source code is available on GitHub
+(kapitzas/flutes). All code for data preprocessing and analysis is also
+provided through a GitHub repository (kapitzas/frac\_lumodel). Both
+repositories will be receive permanent DOI through Zenodo upon
+publication.
+}
+
+\newpage
+
+\section{Highlights}
+
+\begin{itemize}
+\item
+  A model to predict fine-resolution fractional land use change, based
+  on future land use demands.
+\item
+  Development version implemented as \texttt{R} package, making the model
+  accessible to \texttt{R-}trained users.
+\item
+  Validation shows high prediction accuracy in Amazon basin, but the
+  model can be fitted anywhere to predict future land use change.
+\end{itemize}
+
+\section{Abstract}
+
+By mapping land use under projections of socio-economic change,
+ecological changes can be predicted to inform conservation
+decision-making. We present a land use model that enables the fine-scale
+mapping of land use change under future scenarios. Its predictions can
+be used as input to virtually all existing spatially-explicit ecological
+models. Our model maps the fractional cover of land use within each grid
+cell, providing higher information content than discrete classes at the
+same spatial resolution. The method accurately reproduced land use
+patterns observed in the Amazon, both in terms of the allocated
+fractional amounts and also the direction of predicted land use changes.
+A small case study showcases the application of our model to reproduce
+patterns of agricultural expansion and natural habitat declines. The
+model source code is provided as an open-source \texttt{R} package, making this
+new method available to bridge the gap between socio-economic, land use
+and biodiversity modelling.
+
+\vspace{1cm}
+
+\textbf{Keywords:} Land use forecasting, fractional land cover,
+continuous fields, agricultural expansion, socio-economic change,
+biodiversity conservation.
+
+\section{Introduction}
+
+Land use change is a key driver of global environmental change, causing
+global declines in biodiversity, species extinctions and resulting in
+the deterioration of ecosystem services
+\citep{foley_global_2005, ipbes_summary_2019}.
+
+Land use change is driven by bio-physical and socio-economic processes
+\citep{lambin_global_2011}. Climate change will likely result in global
+shifts and declines of land suitable for agricultural production, with
+projected depletion of land reserves in the first half of the 21st
+century \citep{lambin_global_2011}. Most socio-economic scenarios of
+future change describe future increases in food production and
+international trade of goods \citep{oneill_new_2014, oneill_roads_2017}.
+Even under lowest impact scenarios, also known as `shared socio-economic
+pathways' (SSPs), in which land use is strongly regulated, deforestation
+rates are reduced, diets are more plant-based and climate change
+mitigation starts early, crop and livestock production are still likely
+to be higher and occupy a larger land area than they do today
+\citep{oneill_new_2014}.
+
+There is mounting evidence of adverse impacts of historic and current
+land use change on biodiversity and the need for global assessments of
+future biodiversity change in response to land use change has been
+increasingly acknowledged
+\citep{urban_improving_2016, kim_protocol_2018, powers_global_2019}.
+However, work concerned with understanding future biodiversity change
+tends to focus on climate change
+\citep{titeux_biodiversity_2016, struebig_anticipated_2015, urban_improving_2016},
+or other aggregated effects of socio-economic change, such as forest
+loss \citep{perez-vega_comparing_2012, margono_primary_2014} and urban
+expansion \citep{seto_global_2012}. Consequently, future predictions of
+biodiversity change will benefit from explicit accounting of the drivers
+and effects of land use change at the level of individual types of use.
+Detailed, large-scale maps of future land use under competing future
+scenarios provide useful insights for researchers and policy makers,
+particularly in terms of informing conservation planning and preventing
+future biodiversity loss.
+
+Different conceptual approaches have found application in investigations
+of past, present and future land use change. \citet{koomen_core_2011}
+identify four theoretical core principles for modelling land use change.
+Predictions can be made based on \emph{the continuation of historical
+developments}, where past patterns are extrapolated into future
+conditions, the \emph{suitability of land}, where land use changes are
+predicted based on proximity to markets, biophysical conditions and
+other environmental drivers, \emph{neighbourhood interactions}, where
+neighbouring land uses affect local changes and \emph{actor
+interactions}, where land use changes explicitly emerge from the
+decision-making of individual actors, or groups of actors.
+
+These principals appear in many existing models. For example, artificial
+neural networks and markov chain models learn and infer patterns from
+historic time series of land use change
+\citep{tayyebi_modeling_2014, pijanowski_using_2002}. To allow for
+spatially-explicit assessments, markov chain models have been frequently
+combined with cellular automata \citep[CA-Markov models,
+see][]{hyandye_markovian_2017, aburas_improving_2017, koomen_core_2011}.
+In cellular automata the transition probability of a cell to another
+land use depends on its current state and the state of neighbouring
+cells, both of which are the result of historic changes
+\citep{koomen_core_2011}. Cellular automata have been used successfully
+to simulate strongly auto-correlated changes, such urban sprawl
+\citep{verburg_land_2004, fang_impact_2005, shafizadeh_moghadam_spatiotemporal_2013, sun_modeling_2007}.
+
+Some existing modelling approaches apply regression analysis and other
+techniques to identify associations between various environmental
+conditions and observed land use patterns
+\citep{koomen_core_2011, lambin_global_2011, verburg_land_2004}. Available
+models applying this approach include SLEUTH
+\citep{dietzel_toward_2007}, DINAMICO EGO
+\citep{soares-filho_modeling_2009}, IDRISI LCM
+\citep{eastman_short_2018} and, perhaps most prominently, the Conversion
+of Land Use and its Effects (CLUE) model series (\Cref{ch3:tab1}). CLUE models have found application in the
+prediction of spatially-explicit patterns of land use at national and
+continental scales
+\citep{veldkamp_clue_1996, verburg_combining_2009, verburg_land_1999, verburg_modeling_2002, kapitza_assessing_2021}.
+Exogenously determined future changes in area demands for different land
+uses, often predicted by an economic model \citep{aguiar_overview_2016},
+may be downscaled by establishing statistical relationships between
+observed land use and a set of socio-economic and bio-physical drivers
+of land use and land use change. Predicted land use suitability surfaces
+inform local competition for different land uses
+\citep{verburg_modeling_2002, meiyappan_spatial_2014}. Models can be
+further parametrized by including transition rules at local (cell) and
+landscape levels and constraints on overall turn-over through time. More
+simplistic models based on statistical analysis use an ordered
+allocation algorithm, in which competition between land uses is handled
+by ordering allocations in terms of perceived socio-economic value
+\citep{fuchs_high-resolution_2013}.
+
+Most of these models apply statistical analyses of discrete land use
+classes using binary logistic regression to model the cell-wise
+probabilities of occurrence for each land use, independent of the
+probabilities of other land uses. The resulting probability of land use
+occurrence at a site produced by separate models is an incomplete
+representation of the underlying structure of land use probability,
+because it omits that occurrence probabilities are dependent between
+land use types, and that the probabilities of all discrete classes must
+sum to one. For example, when a site has very high probability for urban
+land use, this implies relatively low probabilities for primary natural
+habitat, which separate, independent logistic regressions do not fully
+capture.
+
+One step toward explicitely modelling competition between land uses is
+to apply multinomial regression, thus allowing for the prediction of
+conditional binary probabilities of multiple classes
+\citep{noszczyk_review_2019}. For many ecological considerations it is
+desirable to know individual probabilities of land use occurrence for
+each land use type in order to characterize the underlying continuous
+fractions occupied by different land use types within a classified site.
+For example, many species may be able to persist in an area if only a
+small proportion of the area is made up of a suitable land class, such
+as remnant vegetation \citep{wintle_global_2019}. A few model examples
+are capable of predicting continuous fractions of land use directly
+\citep[see][]{hasegawa_global_2017, meiyappan_spatial_2014}, by
+providing fine-resolution categorical representations that can be
+resampled to coarser-resolution continuous representations \citep[see
+Future Land Use Simulation Model (FLUS),][]{liu_future_2017} or as part
+of integrated assessment frameworks \citep[see CLIMSAVE
+IA,][]{harrison_combining_2013}. However, some of these documented
+approaches are not available in a usable package suited to
+regional-continental scale
+\citep{hasegawa_global_2017, meiyappan_spatial_2014}, or provide user
+interfaces that do not allow seamless, reproducible integration into
+programmatic workflows \citep{harrison_combining_2013, liu_future_2017}
+(\Cref{ch3:tab1}).
+
+\begin{table}[tbp]
+\caption{Comparison of land-use modelling approaches. Compared models were chosen based on their perceived feasibility in ecological research conducted by researchers with limited expertise in land-use modelling.}
+\label{ch3:tab1}
+\begin{tabularx}{\textwidth} {@{}llllllY@{}}
+\toprule 
+model & resolution & response & interface & source & license & reference \\
+\toprule 
+FLUS    & \textbf{flexible} & categorical & GUI & C++ & \textbf{free} & \citep{liu_future_2017} \\
+Dyna-CLUE   & \textbf{flexible} & categorical & GUI, \textbf{R} & C++ & limited & \citep{verburg_combining_2009} \\
+DINAMICO EGO & \textbf{flexible} & categorical &    GUI & C++, Java & \textbf{free} & \cite{soares-filho_modeling_2009} \\
+CLUMondo & flexible &   categorical & GUI & C++ & \textbf{free} & \cite{van_asselen_land_2013} \\
+SLEUTH & \textbf{flexible} & categorical & GUI & C & \textbf{free} & \cite{dietzel_toward_2007} \\
+IDRISI LCM & \textbf{flexible} & categorical & GUI & n/a & limited & \cite{eastman_short_2018} \\
+CLIMSAVE IA & \textbf{flexible} & \textbf{continuous} & GUI & various (DLL) &   \textbf{free} & \cite{harrison_combining_2013} \\
+\textit{Our model} & \textbf{flexible} & \textbf{continuous} & \textbf{R} & \textbf{R} & \textbf{free}  & \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Increasingly, categorical land use data sets are available at spatial
+resolutions of finer than 1km. Three prominent examples include the
+CORINE Land Cover inventory \citep{bossard_corine_2000}, which contains
+several time steps between 1990 and 2018 at 100m resolution for the
+European continent, global land cover maps produced for the year 2010
+through Copernicus Land Monitoring Service
+\citep{european_union_copernicus_2019} at the same resolution, as well
+as global maps of land cover in annual time steps between 1992 and 2018,
+produced under the European Space Agency's (ESA) Climate Change
+Initiative Land Cover (CCI-LC) project \citep{esa_land_2019}, available
+at 300m resolution.
+
+However, the spatial variables that represent drivers of land use and
+biodiversity change are often not available over large spatial extents
+at fine resolutions better than 1km \citep{dendoncker_statistical_2006},
+though this situation is changing. Global map and climatic projections
+based on Global Circulation Models \citep{hijmans_very_2005} and other
+drivers, such as soil properties
+\citep{global_soil_data_task_group_global_2000}, are all now mapped at
+1km or better. Infrastructure such as roads
+\citep{ciesn_global_2013}
+and built-up areas \citep{fao_built-up_1997} is typically represented by
+geographic features, but can be converted to raster representation at
+fine resolutions.
+
+Lowering the resolution of available land use data sets to fit the
+resolution of continental- or global-scale environmental covariates has
+the advantage of higher computational efficiency when simulating
+changes. Assigning a single category of land use on each larger pixel
+effectively eliminates sub-pixel information on land use
+\citep{seo_mapping_2016}, so this approach is not desirable. In order to
+retain information, it is preferable to calculate the fractions of land
+use covering each new cell, producing continuous fields of information
+and retaining information at sub-pixel level \citep{seo_mapping_2016}.
+
+Mapped representations of land use fractions have high utility in
+down-stream ecological modelling applications because they contain
+information on spatial heterogeneity within pixels, thus providing a
+much more refined landscape representation than discrete categories at
+the same spatial resolution. For example, many wide-ranging species may
+persist in landscapes if a certain proportion of the landscape is
+comprised of old forest. It has been shown that continuous fields of
+land use allow better estimation of biomass and biomass change
+\citep{xian_characterization_2015} and are better able to explain
+variation in home range sizes \citep{bevanda_adding_2014} than
+categorical land use data. Continental-scale biodiversity assessments
+have shown that patterns are associated with high spatial-resolution
+fractional land use measures such as the regional aggregation of land
+use types, land cover diversity and land use covariates including land
+use intensity \citep{mouchet_testing_2015} and actual
+evapo-transpiration \citep{mouchet_testing_2015, whittaker_geographical_2006}. Creating maps
+of some of these covariates requires fine-scale maps of fractional land use as principal input \citep{plutzar_changes_2016}. The intensification of agriculture and forest harvesting are crucial factors shaping biodiversity \citep{levers_drivers_2014, levers_drivers_2016} that
+require inputs of crop type and vegetation composition within each
+spatial unit. These ecological considerations of the utility of
+fractional land cover and land use representations are underpinned by
+recent advancements in algorithms to produce high resolution maps of
+fractional land cover from satellite data
+\citep{allred_improving_2021, hill_modis_2020}.
+
+Here, we innovate a land use modelling approach providing a readily
+available means to incorporate fractional land use change into
+ecological modelling. An advantage of our approach compared to existing
+fractional land use modelling approaches is its implementation in \texttt{R} \citep{r_development_core_team_r_2008}, making use of a development
+environment for which high expertise already exists among ecological
+modellers. Our model can be fitted at different scales with minimal
+parametrization requirements and performs efficiently at various
+resolutions and extents. The source code for our method is freely
+available as a small open source \texttt{R} package hosted on GitHub
+(\texttt{kapitzas/flutes}). As such, our approach contributes a new open method
+toward bridging the gap between socio-economic, land use and
+biodiversity modelling.
+
+We provide a mathematical description of the developed fractional land
+use model and evaluate our model according to its ability to correctly
+estimate the direction and intensity of observed land use changes using
+a case study in the Brazilian Amazon.
+
+\section{Materials and methods}
+
+\subsection{Model description}
+
+The model consists of two main components (\Cref{ch3:fig1}).
+First, statistical analysis is used to determine how the suitability of
+the landscape for different land uses relates to a set of environmental
+drivers of land use change, producing a suitability surface for each
+land use class (\Cref{ch3:fig1}a). Second, fractional changes
+in additional land use demands are allocated iteratively in the
+landscape, scaling with the land use suitability surfaces (\Cref{ch3:fig1}b). We utilize a cellular automaton to introduce
+cell-level allocation decisions that constrain the location and
+direction of land use changes according to three rules:
+
+\begin{figure*}[htb]
+  \centering
+    \includegraphics[width=1\linewidth]{chapters/figures/chapter3/fig1.pdf} 
+    \caption{Conceptual diagram of land use modelling approach. (a) Land use suitability model. Observed fractions of land use are first converted to integer counts through multinomial draws and their relationship with environmental drivers and neighbourhood covariates (derived from previous time steps land-use distribution) is assessed. (b) Allocation algorithm. First, it is estimated by how much each cell has to change to achieve the modelled ideal distribution of land uses. Change factors are then converted to relative suitabilities that serve to distribute land use supply required to satisfy the additional demand in the landscape. Multinomial draws ensure that each cells land use class probabilities sum to 1. The resulting difference of the current supply and the total additional demand is recalculated to support allocation in the next iteration. The cycle repeats until the difference between the current supply and total additional demand is very close to zero, meaning that all additional demand has been allocated. At this point, the integer counts representing the land use fractions on each cell are converted back to fractional representation. The new fractions are used to calculate neighbourhood covariates in the next time step.}
+    \label{ch3:fig1}
+\end{figure*}
+
+\subsubsection{Rule 1: Future land use supply meets additional demand}
+
+Projections of land use demands may be provided through external models, such as Computational General Equilibrium (CGE) models \citep[i.e.~GTAP,][]{aguiar_overview_2016}), or through the analysis and extrapolation of historic patterns \citep{moulds_open_2015}. The model allocates additional demand by adding cell-level supply of that time step \(d_{i,k,t+1}\) in cell \(i\), land use \(k\) and time step \(t+1\) to the fractions of the current time step \(q_{i,k,t}\) (\Cref{ch3:fig1}b). The first model objective can be formulated:
+
+\begin{equation}
+ \begin{aligned}
+\sum_{i=1}^N q_{i,k,t+1} = \sum_{i=1}^N (q_{i,k,t} + d_{i,k,t+1})\\
+\end{aligned}
+\end{equation}
+
+\begin{equation}
+ \begin{aligned}
+\sum_{i=1}^N d_{i,k,t+1} = D_{k,t+1}
+\end{aligned}
+\end{equation}
+
+\(D_{k,t+1}\) is the additional landscape-wide supply and is at
+equilibrium with additional demand after the algorithm converges.
+
+\subsubsection{Rule 2: Cell-level fractions must sum to1}
+
+The second model condition requires that supply of all land-use types in
+a cell \(d_{i,k,t+1}\) is allocated across cells so it adds up to one (\Cref{ch3:fig1}b):
+\begin{equation}
+\begin{aligned}
+\sum_{k=1}^K q_{i,k,t+1} = 1
+\end{aligned}
+\end{equation}
+
+\subsubsection{Rule 3: Allocations are determined by land use
+suitability}
+
+The third model condition requires cell-level supply \(d_{i,k,t+1}\) to
+be distributed in such a way that the allocated amounts in each cell
+scale with a predicted probability surface \(s\), by modelling
+\(q_{i,k,t=0} \approx s_{i,k}=f^k(\mathbf{X_i})\), where \(X_i\) is a
+set of demographic and bio-physical drivers related to land use. \(f^k\)
+is a multinomial, multi-response model (\Cref{ch3:fig1}a). The
+parameter estimation of this model is based on the first time step and
+predicted to the conditions of subsequent time steps. Accordingly, while
+the model assumes stationarity of the modelled statistical
+relationships, it implements temporal dynamics based on changing demand
+and changing environmental conditions. Changing environmental conditions
+are represented as changes to independent model variables.
+
+The land use status in a cell's neighbourhood has been shown to play an
+important role in determining a cell's land use
+\citep{dendoncker_spatial_2007, mustafa_modelling_2018, van_vliet_measuring_2013, verburg_method_2004}.
+Our suitability model applies neighbourhood interactions by calculating
+autocovariates \citep{verburg_method_2004} and including these in the
+multinomial regression of the land use suitability model. Following
+\citet{verburg_method_2004}, our autocovariates measure the amount of
+clustering of land uses in the cell neighbourhood when compared to the
+entire landscape. We calculate autocovariates as enrichment factors
+\(F_{d,i,k,t}=\frac{\sum_{i \in d} (q_{i,k,t})/N_d}{\sum_{i=1}^N (q_{i,k,t})/N}\).
+The numerator is the average fraction of land use \(k\) in the
+neighbourhood \(d\) of each central cell \(i\) and the denominator is
+the average fraction of land use \(k\) in the entire landscape \(N\).
+Here, we only included neighbourhood characteristics in the \(3x3\)
+neighbourhood around each central cell, but other neighbourhoods are
+possible \citep{verburg_method_2004}. When predicting suitability at
+each time step, the autocovariates are recalculated based on the
+assigned fractions from the previous timestep.
+
+Our response variable is a fractional land use value, not discrete
+classes normally required in multinomial regression. Therefore, we
+assume that underlying the land use fractions for each cell is a vector
+of counts \(c_{i,k,t}\) that sums to a total number of counts \(C\) in
+each cell (e.g.~\(C=1e6\)). We derive these counts through
+\(c_{i,k,t} \approx q_{i,k,t} * C\). In integer representation, the data
+are approximately proportional to the original fractions. When fitting
+the suitability model, parameter uncertainty depends on the assumption
+of \(C\). \(C\) should be chosen to represent the degree of numerical
+precision in the observed fractions. For example, if there are only 2
+decimal places, setting \(C = 100\) results in counts that represent all
+of the information contained in the original fractions. Accordingly, the
+multinomial logit model takes the form
+
+\begin{equation}
+\begin{aligned}
+s_{i,k,t}= P(Y_{i} = k) = \frac{e^{\beta_{k} * X_{i,t} + \gamma_{d,k}*F_{d,i,k,t}}}{\sum_{k=1}^k e^{\beta_{k} * X_{i,t}+ \gamma_{d,k}*F_{d,i,k,t}}}
+\end{aligned}
+\end{equation}
+
+where \(k\) is the reference land use class, \(\beta_{k}\) the estimated
+parameters in each class for covariates \(X_{i,t}\) and \(\gamma_{d,k}\)
+the estimated parameters for autocovariates \(F_{d,i,k,t}\). We
+estimated parameters using R's `nnet' package
+\citep{venables_modern_2002}. Predicted fractions satisfy
+\(\sum_{k=1}^K s_{i,k,t} = 1\).
+
+All software development and model validation was conducted in \texttt{R} (version 4.0.1) \citep{r_development_core_team_r_2008}.
+
+\subsection{Data}
+
+We developed and tested our model using land use and environmental data
+from the Amazon basin. We downloaded 7 time steps (1992, 1997, 2003,
+2008, 2013, 2015 and 2018) of the global land cover map provided through
+the European Space Agency's Climate Change Initiative Land Cover
+(CCI-LC) project \citep{esa_land_2019}. These data are available at a
+grid resolution of 300m. We combined the recorded 31 land cover classes
+to 9 new classes of land use we deemed crucial to identify processes
+leading to agricultural expansion and declines in habitat (\Cref{ch3:tab2}). We aggregated the resolution
+10km\textsuperscript{2} squares, calculating fractions of land use from
+the cell counts of each land use class on the original map present in
+each new cell. Fractional land use in \(K\) classes is mapped over \(N\)
+raster cells, with fractions \(q_{i,k,t}\) in cell \(i\) in each land
+use class \(k\) always satisfying \(0\leqslant q_{i,k,t}\leqslant 1\)
+and \(\sum_{k=1}^K q_{i,k,t} = 1\).
+
+\begin{table}[htb]
+\setlength\tabcolsep{4pt} % default: 6pt
+\caption{Mapping of original land use classes to new classes applied in this study}  
+\label{ch3:tab2}
+\begin{tabularx}{1\textwidth}{@{}llllY@{}}
+\toprule 
+  & New class & Abbr. & CCI-LC class & Description \\
+\toprule 
+1 & Cropland & Cro & 10, 11, 12, 20, 30 & Rainfed and irrigated cropland, mosaic cropland with \textgreater 50\% cropland and natural vegetation (tree, shrub, grass) \\ 
+2 & Cropland mosaic & CrM & 40 & Mosaic cropland with \textless 50\% cropland and natural vegetation (tree, shrub, grass) \\ 
+3 & Forest & For & 50, 60-62, 
+                70, 80, 90, 100, 160, 170 & Forest, closed to open, with \textgreater 15\% canopy cover, Mosaic tree/shrub (\textgreater 50\%) / herbacious cover, Flooded tree cover \\ 
+4 & Grassland & Gra & 110, 130 & Grassland and mosaic herbacious cover (\textgreater 50\%) / tree/shrub \\ 
+5 & Shrubland & Shr & 180 & Closed to open and open shrubland \\ 
+6 & Wetland & Wet & 190 & Flooded shrub or herbacious cover \\ 
+7 & Urban & Urb & 120 & Settlement, Urban land uses \\ 
+8 & Other & Oth & 140, 150, 151-153, 200-202, 220 & Lichen/mosses, sparse trees/shrubs/herbaceous vegetation, bare areas, snow/ice \\ 
+9 & Inland water & Wat & 210 & Natural and artificial inland water bodies \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+We downloaded a set of spatially explicit climate, topographic soil and
+human covariates (\Cref{ch3:tab3} for a full list of
+covariates), derived neighbourhood covariates from observed land use in
+the first time step and estimated observed demand change by calculating
+the landscape-wide mean fraction for each land use class in each
+observed time step. All explanatory covariates were standardized to have
+mean 0 and standard deviation 1. We removed covariates from correlated
+pairs (Spearman's rank correlation coefficient \(> 0.7\)), always
+retaining the covariate with the smaller average correlation with all
+other covariates in order to maximise the amount of independent
+information in the final data set used for fitting.
+
+\begin{table}[htb]
+\setlength\tabcolsep{4pt} % default: 6pt
+\caption{List of covariates that were included in land use suitability model}  
+\label{ch3:tab3}
+\footnotesize 
+\begin{tabularx}{0.8\textwidth}{@{} llll@{}}
+\toprule 
+Type & Covariate name & Source \\
+\toprule
+climate & Annual mean temperature & \cite{fick_worldclim_2017} \\
+& Mean diurnal range & \\
+& Isothermality & \\
+& Temperature seasonality & \\
+& Max. temperature of warmest month & \\
+& Min. temperature of coldest month & \\
+& Temperature annual range & \\
+& Mean temperature of wettest quarter & \\
+& Mean temperature of driest quarter & \\
+& Mean temperature of warmest quarter & \\
+& Mean temperature of coldest quarter & \\
+& Annual precipitation & \\
+& Precipitation of wettest week & \\
+& Precipitation of driest week & \\
+& Precipitation of driest month & \\
+& Precipitation of wettest quarter & \\
+& Precipitation of driest quarter & \\
+& Precipitation of warmest quarter & \\
+& Precipitation of coldest quarter & \\
+topographic & Roughness & \cite{hijmans_very_2005} \\
+& Slope & \\
+& Elevation & \\
+& Distance to coast & \cite{wessel_global_1996}\\
+& Distance to lake & \\
+soil & Nitrogen Content & \cite{global_soil_data_task_group_global_2000}\\
+& Available Water Content & \\
+& Carbon Density & \\
+& Bulk Density & \\
+human & Distance to built-up areas & \cite{fao_built-up_1997}\\
+& Distance to highways & CIESIN (\citeyear{center_for_international_earth_science_information_network_-_ciesin_-_columbia_global_2013})\\
+& Distance to private roads & \\
+& Distance to trails & \\
+& Protected areas & \cite{iucn_world_2014} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Model constraints}
+
+Analysing time series data, we determined that only very small
+percentages of cells change from being devoid of a particular land use
+to containing that land use within one time step (\Cref{ch3:tab4}). To control unrealistic dispersal of land uses into
+areas where they have not previously existed, we added a constraint that
+land use increases are more likely to be applied to cells where the land
+use is already present. The constraint parameter was the percentage of
+cells in which a non-existent land use was newly established between
+time steps. For example, setting the constraint to 100\% would allow
+increases of a land use in all cells that did not contain that land use
+in the previous time step.
+
+We parametrized the constraint by determining on how many cells
+(expressed as a percentage) we could observe the new establishment of a
+land use from one time step to the next (\Cref{ch3:tab4}). To
+account for annual variation, we calculated the mean of these
+percentages for each land use throughout the entire observed time
+series. For example, throughout the simulation, we allowed \emph{Cro}
+increases in 1.35\% of the cells in which \emph{Cro} was not present in
+the preceding time step (\Cref{ch3:tab4}). We selected those
+cells for new establishment of a land use that had the highest predicted
+suitability for that land use (see \Cref{apx:ch3} for more information on
+this constraint).
+
+We masked category I and II protected areas established up until 1992
+from land use changes as has been shown previously (see
+\Cref{ch3:fig2} for a map of protected areas)
+\citep{verburg_modeling_2002, iucn_world_2014, kapitza_assessing_2021}.
+To reflect the high initial investment of urban infrastructure, we did
+not allow reductions in urban land \citep{verburg_combining_2009}.
+
+\begin{table}[htb]
+\captionsetup{width=.5\textwidth}
+\caption{Share of cells ($\%$) containing a land use that were completely devoid of that land use in the preceding time step. Values derived from observed time series.}  
+\label{ch3:tab4}
+\footnotesize
+\centering
+\begin{tabularx}{.5\textwidth}{@{}lXXXXXXX@{}}
+\toprule 
+Land use & 1996 & 2001 & 2006 & 2011 & 2016 & 2018 & mean \\ 
+\toprule 
+Cro & $1.75$ & $1.66$ & $4.49$ & $0.08$ & $0.06$ & $0.07$ & $1.35$ \\ 
+CrM & $2.39$ & $2.37$ & $7.24$ & $0.05$ & $0.03$ & $0.05$ & $2.02$ \\ 
+For & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\ 
+Gra & $0.40$ & $0.62$ & $0.94$ & $0.15$ & $0.04$ & $0.04$ & $0.37$ \\ 
+Shr & $0.62$ & $0.90$ & $1.44$ & $0.15$ & $0.07$ & $0.06$ & $0.54$ \\ 
+Wet & $0.62$ & $0.68$ & $2.60$ & $0.26$ & $0.13$ & $0.11$ & $0.73$ \\ 
+Urb & $0.36$ & $0.61$ & $1.12$ & $0.16$ & $0.28$ & $0.02$ & $0.43$ \\ 
+Oth & $0.02$ & $0.06$ & $0.12$ & $0.05$ & $0.02$ & $0.01$ & $0.05$ \\ 
+Wat & $0.81$ & $0.35$ & $1.19$ & $0.02$ & $0.01$ & $0.01$ & $0.40$ \\ 
+\bottomrule 
+\end{tabularx} 
+\end{table}
+
+\subsection{Validating the intensity and direction of predicted
+changes}
+
+First, we examined the accuracy of the multinomial suitability model and
+how it is affected by spatial resolution and the included covariates. To
+account for spatial autocorrelation in the environmental covariates and
+land use time series, we conducted spatial-blocks cross-validation
+\citep{valavi_blockcv:_2019} by separating the landscape into 9
+equal-sized spatial blocks. We fitted models using data from 8 of the 9
+blocks and predicted the model to the withheld block, until predictions
+were made for the entire study area. We cross-validated suitability
+models at 1km and 10km, including 1) only environmental covariates, 2)
+only neighbourhood covariates and 3) both covariate types combined. For
+each of the three models we measured predictive performance by
+estimating cell-level suitability Root Mean Squared Error
+(RMSE\textsubscript{suit}) between the predicted suitability surfaces
+\(s_{m,i,k,t}\) and the observed fractions \(o_{i,k,t}\), following
+
+\begin{equation}
+\begin{aligned}
+RMSE_{suit,m,i,t} = \sqrt{\frac{1}{K} \sum_{k=1}^K(o_{i,k,t}-s_{m,i,k,t})^2}
+\end{aligned}
+\end{equation}
+
+
+for each suitability model \(m\).
+
+Second, to validate the intensity of changes predicted by the allocation
+algorithm, we assessed the accuracy of predictions of cell-level
+fractions under competing models predicted throughout the observed time
+series. 1) Under the null model, we assumed no change of land use
+through time. The null model served as reference to measure the
+improvements provided by each additional model component. 2) Under the
+naive model we only allocated additional demands, but scaled cell-level
+allocations with the average supply observed across the entire
+landscape. This model assumes that suitability is not informative about
+where a change will happen and that allocations are equally likely to be
+anywhere in the landscape. 3) Under the semi-naive model, cell-level
+allocations were additionally scaled with the predicted suitability
+surfaces \(s_{i,k,t}\) (as illustrated in \Cref{ch3:fig1}). 4)
+Under the full model, allocations were scaled with suitability surfaces
+\(s_{i,k,t}\) and all constraints (constraining most increases to cells
+where land use type already exists and masking protected areas from
+changes) were applied.
+
+We calculated RMSE\textsubscript{alloc} under each allocation model
+\(w\) to estimate how well the different model components simulated each
+cell-level vector of land use fractions \(q_{m,i,k,t}\) compared to the
+respective observed vectors \(o_{i,k,t}\), following
+
+\begin{equation}
+\begin{aligned}
+RMSE_{alloc, w,i,t} = \sqrt{\frac{1}{K} \sum_{k=1}^K(o_{i,k,t}-q_{w,i,k,t})^2}
+\end{aligned}
+\end{equation}
+
+Due to the squared term, RMSE cannot inform on whether the models
+correctly identified the direction of change. Therefore, we estimated
+and validated the direction of cell-level changes (decreases, no change,
+increases) separately. We mapped these transitions for each class
+between the time steps of the observed time series and the time steps of
+the time series simulated under each model. We calculated \emph{overall
+difference} of each pair of corresponding maps to obtain an
+interpretable measure of similarity of predicted and observed direction
+of changes \citep{pontius_death_2011, pontius_quantity_2014}. Achieving
+high accuracy in these first two model goals would suggest that
+simulated patterns of land use change closely resemble observed
+patterns.
+
+\subsection{Case study: agricultural expansion in the Amazon
+Basin}
+
+The Amazon catchment is largest river basin in the world and occupies
+over one third of the South American land mass (\Cref{ch3:fig2}a). As the world's most diverse tropical forest area,
+the basin hosts at least 10\% of the world's known species
+\citep{da_silva_fate_2005}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=3.11in]{chapters/figures/chapter3/fig2.pdf} 
+\caption{Overview of the study area. (a) Location of the amazon catchment in South America (grey-shaded area), including IUCN protected areas (categories I and II) which were used to constrain land use changes (black shaded areas). (b) Changes in selected land uses, derived from observed land use maps. Pasture includes Gra and Shr, Cropping includes Cro and CrM and forest includes For. Beside the bars are percentage cover in 1992 (top) and percentage cover in 2018 (bottom). Land use classes are specified in \Cref{ch3:tab3}.}
+\label{ch3:fig2}
+\end{figure}
+
+The Amazon biome is threatened by a multitude of interacting factors.
+Ecosystem services, such as water supply, carbon storage and provision
+of species habitat are directly threatened by the effects of climate
+change and the increasing pressure on land, with projected severe
+reductions in water yields, carbon content and species habitat, which is
+particularly affected by changes in natural vegetation cover
+\citep{prussmann_vulnerability_2016}. The primary uses for cleared
+forest land are pasture for cattle farming and industrial soy cropping
+\citep{nepstad_slowing_2014, fao_aquastat_2015}. Between 1992 and 2018,
+the biome has seen significant increases in land required for cropping
+and pasture, as well as significant decreases in forest cover (\ref{ch3:fig2}b).
+
+Using a broad reclassification of the predicted and observed land use
+classes into cropland, pasture and habitat, we were able to specifically
+validate our model's ability to predict agricultural expansion and
+habitat declines as aggregated threats to ecosystems and biodiversity.
+First, we determined areas of agricultural (pasture or cropland)
+expansion with simultaneous declines in classes containing natural
+habitats (\emph{For}, \emph{Wet} and \emph{Oth}). We categorized the
+observed and predicted maps into 1) areas with no cropland increase, 2)
+areas where cropland increase led to mostly forest declines (net
+replacement of forest), and 3) areas where cropland increase led to
+mostly declines in other natural habitat classes (net replacement of
+other habitat). Similarly, we categorized the landscape into 1) areas
+with no pasture increase, 2) areas where pasture increase led to mostly
+forest declines, and 3) areas where pasture increase led to mostly
+declines in other natural habitat classes. From the resulting
+reclassified time series we assessed the difference between the
+respective observed and predicted maps by overlaying them and
+identifying where no agricultural increase was observed and predicted
+(persistence predicted as persistence), where agricultural increase was
+correctly predicted and led to decreases in the correct habitat class,
+where agricultural increase was correctly predicted but resulted in
+decreases in the incorrect habitat class, where no agricultural increase
+was observed, but agricultural increase was predicted, and where
+agricultural increase was observed, but not predicted
+\citep{pontius_comparison_2011}.
+
+\section{Results}
+
+\subsection{Predicting land use change intensity}
+
+Results of the cross-validation of the suitability model component show
+that including neighbourhood covariates resulted in substantial
+predictive performance improvements across spatial blocks at both
+resolutions (\Cref{ch3:fig3}c); models using neighbourhood
+covariates alone were approximately as good as the model using the full
+covariate set. Including only environmental variables resulted in less
+accurate predictions at both resolutions, with predictions under the
+fine resolution comparatively worse than under the coarse resolution.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=4.33in]{chapters/figures/chapter3/fig3.pdf} 
+\caption{Validation of predicted land use change intensity and direction of change and cross-validation of suitability model. a) The difference between RMSE for each model (naive, semi-naive, full) and RMSE of the null model. The null model assumes that land use is static through time, the naive model assumes completely random allocations, the semi-naive model assumes that allocations are scaled with land use suitability and the full model assumes that allocations are both scaled with land use suitability and subject to model constraints (no changes in areas under high protection status and no land use increases in areas completely devoid of that land use). All RMSE were calculated at cell-level, using the predicted and observed vectors of land use fractions in each cell. Plotted are means across cells. Positive values indicate better fits under the null model, negative values indicate better fit under more highly parametrised models. Data on validation outcomes are grouped by the magnitude of the largest observed proportional change in any land use within a cell. In general, the larger the observed change in land use, the better the parameterized models did compared with the null model. b) The proportional disagreement between predictions of the cell-level direction of change (no change, decrease, increase) for each land use and the observed direction of change at each time step. Smaller values indicate lower overall difference and higher similarity between corresponding maps. c) Difference between cross-validated RMSE estimated for suitability models containing only environmental covariates and only neighbourhood covariates and models containing both covariate types combined. Positive values indicate a poorer fit than the model containing both covariate types.}
+\label{ch3:fig3}
+\end{figure}
+
+Under all tested models (naive, semi-naive, full), the accuracy of
+cell-level allocations improved with the intensity of observed changes
+(\Cref{ch3:fig3}a). This implies that our model makes good
+predictions under scenarios with high expected overall changes.
+
+Where observed changes were large (\Cref{ch3:fig3}a, bottom
+two panels), including land use suitability and constraints (full model)
+resulted in substantial increases of predictive performance. In these
+areas, the null model's assumption of no spatial variation in
+reallocation of land use introduced very high bias, which our
+constraints were able to reduce.
+
+When observed changes were small (\Cref{ch3:fig3}a, top two
+panels), the null model made near perfect predictions. Given how close
+the null model already was to the truth, improvements by allocating
+demand (naive model) and accounting for land use suitability (semi-naive
+model) were difficult to achieve; in the smallest change category (\Cref{ch3:fig3}a, top left panel), the naive and semi-naive
+predictions were in fact slightly worse than the null. In these areas
+the largest observed changes were below 0.5\%, making the assumption of
+no change under the null model highly plausible. Under the full model,
+the applied constraint limited the areas that could be flagged for
+increases. Accordingly, where observed changes were small, this model
+made better predictions than the semi-naive and naive models, in which
+this constraint was not applied.
+
+\subsection{Predicting the direction of land use
+changes}
+
+The worst predictions of cell-level direction of change were made by the
+naive and semi-naive models and the best predictions under the full
+model \Cref{ch3:fig3}b), with overall difference consistently
+less than 25\%. Predictions became more accurate the more model
+components were applied. Under the full model we achieved the highest
+prediction accuracy. Overall, the semi-naive model performed slightly
+better than the naive model, demonstrating the utility of scaling
+allocations with land use suitability surfaces.
+
+\subsection{Predicting agricultural expansion and habitat
+declines}
+
+Our model achieved high accuracy when predicting agricultural (cropland
+and pasture) expansion on forest and other land use types containing
+natural habitats (\Cref{ch3:fig4}). In more than 80\% of cells
+our model predicted correctly whether agricultural land (cropland or
+pasture) increased, or persisted at current levels or decreased, and
+which habitat type decreased due to increases in agricultural classes
+(\Cref{ch3:fig4}b, d).
+
+\begin{figure}[htb]
+\centering 
+\includegraphics[width=4.33in]{chapters/figures/chapter3/fig4.pdf}
+\caption{Validation of modelling agricultural expansion in cropland and pasture on forest and other natural habitat types in the Amazon basin. (a, b) Spatial configuration of correct and erroneous predictions of cropland in the last time step of the validation time series (2018) (a) and the relative size of the landscape where predictions matched observations (correct) and where predictions deviated from observations (error) in cropland (b). (c, d) Spatial configuration of correct and erroneous predictions of pasture in the last time step of the validation time series (2018) (c) and the relative size of the landscape where predictions matched observations (correct) and where predictions deviated from observations (error) in pasture (d).}
+\label{ch3:fig4}
+\end{figure}
+
+The percentage of the landscape in which we correctly predicted cropland
+increase at the expense of the correct habitat class increased through
+the time series, suggesting that our model was good at identifying not
+only where cropland did not change or decreased (persistence), but also
+where it increased and on which habitat type that increase took place
+(\Cref{ch3:fig4}b). Our model made some incorrect predictions of
+cropland increase in areas where no increase was observed in the
+southern tip and the central north of the study area, although these
+areas were very small compared to surrounding areas in which increases
+were correctly predicted and occurred on the appropriate habitat classes
+(\Cref{ch3:fig4}a). Perhaps the most severe type of error in
+terms of ecological considerations was the prediction of no cropland
+increase (persistence) in areas where increase was observed. However,
+these areas were small (increasing from 2.3\% of the landscape at the
+beginning to 9.6\% at the end of the time series).
+
+Pasture expansion (\Cref{ch3:fig4}c, d) was much smaller than
+cropland expansion overall, with much larger areas of the basin
+correctly predicted as not increasing in pasture land (persistence)
+through time (\Cref{ch3:fig4}d). Some small areas in the
+southern tip, the central north and along the western boundary of the
+basin were correctly predicted to increase in pasture land, with
+decreases in the appropriate natural habitat class. Pasture expansion
+was underpredicted in very small areas in the south, north and along the
+eastern boundary of the basin (\Cref{ch3:fig4}c).
+
+\section{Discussion and conclusions}
+
+We have presented a new land use model to predict land use fractions,
+thus retaining information at sub-pixel level. The model is able to
+accurately allocate fractions of land use through time, especially under
+scenarios of more extreme land use change. We explicitly accounted for
+competition between land use types and land use suitability in response
+to environmental drivers by means of a multinomial logistic model and
+could show that this aspect brings substantial improvements to
+predictions, when compared to the assumption that land use does not
+change at all (null model).
+
+Our model made accurate predictions in areas in which only small land
+use changes were observable, but also in areas where land use changes
+were observed to be high. This suggests that our model provides a
+suitable method to produce future land use maps under contrasting
+scenario settings. In scenarios where demand changes are expected to be
+high, our model allocates supply to match aggregated demand, changing
+the total area allocated to different land uses and also allowing land
+uses to be established in new areas. In scenarios with small expected
+demand changes, land use changes, including the establishment of land
+uses in new areas, remain small.
+
+We assumed that the initial land use distribution we used to calibrate
+our model resulted from long time periods of optimizing behaviour and we
+have not yet implemented a parameter allowing to specify land use
+elasticity (the propensity of land uses to shift across the landscape
+without net changes to their total areas at the study area level), as is
+implemented, for example, in Dyna-CLUE \citep{verburg_combining_2009}.
+For this reason, in our model land use cannot change to match predicted
+land use suitability alone. For example, if the modelled cropland
+suitability in an area is 0.8, but the observed cropland fraction is
+0.2, our model would only allow a local increase in cropland if the
+aggregated demand for cropland at the study area level increased. While
+the discrepancy between an area's potential for a certain land use
+measured by the predicted suitability and the realized fraction of that
+land use implicitly captures processes that cannot be captured by the
+suitability model, in this first version of our model this only occurs
+when triggered by changes in external demand for that land use.
+
+Similar to CLUE, our constraint on turn-over allowed us to account for
+conversion effort. Here, data from the observed validation time series
+allowed us to extract a raw estimate of the constraint parameter to tune
+our model. We estimated the parameter using long-term observed means. We
+assume this to be similarly informative as informal expert knowledge,
+which has been suggested as a primary means to parametrize land use
+conversion effort in previous land use models
+\citep{van_asselen_land_2013, overmars_comparison_2007}.
+
+We could show that our model is very easily adaptable to specific
+ecological study contexts. When validating our model's performance in
+the context of agricultural expansion on natural habitat, we mapped the
+model's ability to reproduce where agricultural expansion occurs in both
+pasture and cropland and which natural habitat classes decreased in
+their place. Consistently more than 80\% of the landscape where
+correctly classified as no change or a decrease (persistence) or
+increase of agricultural land with decreases in the correct habitat
+types. Crucially, underprediction of agricultural expansion with
+possible negative implications for conservation management remained very
+small throughout. This demonstrates that our model is a useful tool to
+predict the spatial configuration of land use change impacts that are
+driven by agricultural expansion into different habitat types.
+
+Validating the suitability model component of our model approach, we
+found that neighbourhood covariates explained much of the suitability
+patterns across the landscape. This is a common effect of including
+flexible spatial correlation terms in models with other
+spatially-varying covariates (spatial confounding)
+\citep{hodges_adding_2010}. The models describe the spatial pattern with
+the spatial correlation term, but this effect does not imply causation
+and other drivers included in the model may still drive changes in the
+response, particularly over long time periods. Here, similar to what was
+shown by \citet{dendoncker_spatial_2007}, including neighbourhood
+covariates lead to the most highly fitted models. Allowing spatial
+autocorrelation to drive patterns seems a sensible choice for
+predictions in this case study because the model only predicts three
+decades. However, for longer time spans, spatial autocorrelation
+probably becomes less important and continental-scale environmental
+driving factors acting homogeneously across the whole landscape may
+dominate patterns in reality. When making such longer-term predictions,
+this could be captured by fitting the suitability model with several
+time steps of data, thus ensuring that land use suitability is less
+reliant on the present land use state, but more weight is given to
+long-term and large-scale environmental processes.
+
+The results of our validation also strongly indicate that in case of our
+model, adding constraints (decision rules) in terms of where and how
+land use changes are allowed to occur, are responsible for the majority
+of increases in predictive performance. While we provide initial steps
+in parametrising these constraints, more specific knowledge of bottom-up
+processes that drive land use stasis and change across the landscape
+could further consolidate the accuracy of our model. For example, this
+could be achieved by including data on the expected behaviour of
+economic agents who seek to maximise returns on their productive land.
+One example includes the Land Use Trade-offs (LUTO) model
+\citep{bryan_supply_2014, connor_modelling_2015}, which includes
+pixel-wise optimisation of cost and return of alternative land uses.
+However, such models are difficult to parametrise in data-scarce regions
+and require significant computational power. Bottom-up processes, such
+as price feedbacks, also tend to act at very fine spatial resolutions,
+but have little effect when seen at a continental scale, where scenario
+uncertainty and global processes dominate predictions
+\citep{connor_modelling_2015}. Depending on scale, including very
+fine-scale dynamics of agent behaviour may simply not pay off, or it
+might be more appropriate to merely downscale them to the study area
+extent \citep{van_asselen_land_2013, connor_modelling_2015}.
+
+In order to allow scaling our model to global applications, we only used
+drivers that were available at global scales. However, improvements to
+the land use suitability model can be achieved by including more
+proximate drivers of land use change, such as market accessibility
+\citep{meiyappan_spatial_2014, verburg_global_2011}, by fitting the land
+use suitability model for individual subsets of the study area to
+improve local fit, or by creating more land use classes for which
+particular biophysical constraints are known. Including
+location-dependent drivers and models and raising the resolution may
+substantially improve the accuracy of land use suitability maps,
+increasing the contribution of this model component to overall
+prediction accuracy.
+
+Developments of our model and expanding application could include the
+estimation of use intensity of different land use types, which has been
+shown to be an important driver of biodiversity change
+\citep{newbold_global_2015, newbold_has_2016}. Such developments could
+enhance efforts to tailor macroeconomic and land use modelling to assess
+the fate of future biodiversity \citep{kapitza_assessing_2021}.
+
+\section{Acknowledgements}
+
+We are grateful for contributions made throughout the research phase by
+J. Elith and D. Zurell and helpful comments by Robert G. Pontius Jr on a
+preprint of this manuscript. Funding: this work received funding under
+the Australian Research Council Discovery grant DP170104795. NG was
+supported by an ARC DECRA fellowship (DE180100635). SK was supported by
+the Melbourne International Research Scholarship (MIRS).

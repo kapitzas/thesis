@@ -1,0 +1,243 @@
+\documentclass[titlesmallcaps,copyrightpage]{uomthesis}
+%----------------------------------------------------------
+% OPTIONS
+% Options you can use in the documentclass above:
+%
+% phd/mres/hons = set the degree text [default=phd]
+% copyrightpage = print a copyright page on the back 
+%                 of the title page [default=false]
+% examinerscopy = print "Examiner's Copy" of title page and 
+%                 change linespacing to 1.5 [default=false]
+% titlesmallcaps = Use smallcaps for the title [default=false]
+%---------------------------------------------------------- 
+
+% this shows what labels you are using for cross references
+% \usepackage{showkeys} 
+%---------------------------------------------------------- 
+% STRUCTURE
+% this document is a skeleton which pulls in the meat of the thesis
+% from other files. Comment out and add lines as appropriate.
+%---------------------------------------------------------- 
+
+%remove title and space above bibliography - code has to live here...
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\list{\@biblabel{\@arabic\c@enumiv}}
+           {\settowidth\labelwidth{\@biblabel{#1}}
+            \leftmargin\labelwidth
+            \setlength{\topsep}{0pt} 
+            \setlength{\partopsep}{0pt}
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}
+      \endlist}
+\makeatother
+
+% my packages
+\usepackage{pdflscape}
+\usepackage{adjustbox}
+\usepackage{afterpage}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{makecell,booktabs}
+% \usepackage[arr
+% bookmarksopen,
+% bookmarksdepth=2,
+% colorlinks=true,
+% urlcolor=blue]{hyperref}
+\usepackage{pdfpages}
+
+\usepackage{subcaption}
+\captionsetup{justification=raggedright, singlelinecheck=false}
+\usepackage[font=small,labelfont=bf,labelsep=space]{subcaption}
+
+\usepackage[inline]{enumitem} %for inline list
+\setlist*[enumerate,1]{%
+  label=(\roman*),
+}
+
+\begin{document}
+
+\frontmatter
+\title{A new framework to predict the impacts of global socio-economic change on biodiversity}
+
+\author{Simon Kapitza}
+\orcid{ORCID: 0000-0002-3382-1871} % <---- UoM now requires this on titlepage; if you don't have one just
+\department{Ecosystem and Forest Sciences}           %       leave it blank
+
+\titlepage
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Abstract}
+\begin{localsize-main}{11}
+\noindent\textit{In brief: Biodiversity continues to be under threat and sound predictive modelling of biodiversity impacts is crucial to inform global conservation policy. However, modelling frameworks combining interdisciplinary methods to quantify future scenarios of socio-economic change are typically not streamlined for the application in biodiversity assessments. My thesis aims to fill this gap by developing and implementing a new framework to combine macro-economic, land-use and biodiversity modelling power for continental-to-global biodiversity assessments.}
+\end{localsize-main}
+
+\vspace{1.5cm}
+
+Biodiversity in the anthropocene is under threat, but under current trajectories of socio-economic development it is unlikely that current targets to halt the decline of biodiversity will be met. Climate change, sea/land-use change, pollution, direct exploitation of organisms and the invasion of alien species continue to directly drive global biodiversity change, with significant adverse impacts on species and ecosystems. These drivers are themselves driven by global patterns in the consumption and production of economic commodities, trade, governance, human population trends, and technological innovations. To better protect biodiversity, it is necessary to reduce uncertainty around future biodiversity change and to clearly delineate how changes may manifest themselves throughout the 21st century. Accordingly, the integration biodiversity models with models from socio-economic (and other) disciplines is critical for accurate representations of linkage between human and natural systems driving biodiversity change. 
+
+However, established integrated assessment models are highly complex and typically not designed for biodiversity assessments. Streamlined frameworks that can be used quickly by ecologists remain very rare and new methods are sorely needed to make integrated biodiversity modelling accessible to a wide range of applications. 
+
+To fill this gap, this thesis innovates a new integrated modelling framework for biodiversity assessments, coupling macro-economic, land-use and biodiversity modelling power. Our framework capitalizes on recent advances in computable general equilibrium (CGE) modelling, bringing unprecedented power to parametrize the impacts of various socio-economic impacts and climate change on global commodity consumption and production patterns at very high commodity and temporal resolutions. Land-use changes caused by changes in the consumption and production of agricultural commodities are spatially downscaled and resulting predicted land-use maps serve as input for biodiversity models. 
+
+\Cref{ch2} provides the initial roll-out of our integrated assessment framework to quantify the relative influence of direct biophysical and indirect socio-economic (via commodity demand and land-use change) climate change impacts on bird species in Vietnam and Australia. In this chapter, we spatially downscale projected changes in commodity demand, using an existing categorical land-use model with limited applicability. 
+
+\Cref{ch3} introduces and validates a new land-use model to interface global commodity demand projections and biodiversity change. The model enables the fine-scale mapping of future land-use change under alternative scenarios of commodity demand change. It represents land-use as fractional cover within grid cells, thus providing higher information content than discrete categories of land-use, without the need to decrease the spatial resolution. The model allows us to upscale the modelling framework to the global extent and to better align land-use predictions with the requirements of global-scale biodiversity modelling. 
+
+\Cref{ch4} presents a first global implementation of our framework to predict global biodiversity under shared socio-economic scenarios. We use the land-use model developed in \Cref{ch3} to spatially downscale commodity demand change expected under two socio-economic scenarios also commonly applied in other disciplines, and compare predictions made using our streamlined framework against predictions made using a highly complex integrated assessment model. 
+
+We contribute an open and streamlined method to model socio-economic impacts on biodiversity, bringing integrated assessments of biodiversity change within reach of ecologists. The work presented here demonstrates that we are now capable of successful applications under a wide range of scenarios and highlights where developments are necessary to further improve our framework's relevance to support global biodiversity policy.
+
+
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Declaration}
+This is to certify that:
+{\renewcommand{\theenumi}{\roman{enumi}}%
+\begin{enumerate}
+ \item the thesis comprises only my original work towards the PhD except where indicated in the Preface,
+ \item due acknowledgment has been made in the text to all other material used,
+ \item the thesis is fewer than 100 000 words in length, exclusive of tables, maps, bibliographies and appendices.
+\end{enumerate}
+}
+\hrulefill \\
+
+\begin{flushright} 
+\includegraphics[scale=0.2,trim={0 0 0 0},clip]{signature.jpg}
+
+Simon Kapitza
+
+\today
+\end{flushright}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Preface}
+Support for this thesis has been provided through collaboration with my primary supervisors, Brendan A. Wintle (BW) and Nick Golding (NG). Further principal collaborators were Ha Pham Van (HPV), Tom Kompas (TK), Natasha C. R. Cadenhead (NC) and Payal Bal (PB). Chapters 2 and 3 of this thesis have been drafted as peer-reviewed journal articles and as such are structured as independent pieces of work. However, equation numbering, figure numbering and the format of figure panel labels were kept consistent with the formatting requirements of this thesis. To reflect the collaborative nature of my thesis, all chapters apply the collective "we", in line with common practice in academic publishing.
+
+
+\subsection*{Chapter 2}
+This chapter represents the paper \textit{Assessing biophysical and socio-economic impacts of climate change on regional avian biodiversity}, which was published as part of the ongoing outputs of my PhD candidature.
+Contributions: SK, NC and BW conceived the idea. SK led the modelling with contributions from HPV, TK, NG, NC and BW. BW, TK and SK conceptualised the analysis framework. SK led the writing of the manuscript with contributions from BW, PB, NC, NG, HPV and TK.
+
+\subsection*{Chapter 3}
+This chapter represents the paper \textit{A predictive model of fractional land use}, which is under review at this time. 
+Contributions: SK, BW conceived the idea of providing a fractional land use model. NG, and SK and BW designed the model and validation steps. SK coded the model and analyzed the data. SK led the manuscript with edits from NG and BW.
+
+\subsection*{Chapter 4}
+This chapter 
+Contributions: SK and BW conceived the idea. SK, NG, HPV and TK led the modelling. SK analysed the data and wrote the manuscript.
+
+\subsection*{Support}
+This thesis was written as contribution to the project "Predicting the ecological and economic outcomes of trade" (Discovery Grant number: DP170104795, funding period: 2017 - 2020). 
+My candidature and this thesis were generously supported by a University of Melbourne International Research Scholarship, a top-up scholarship provided through an Australian Research Council Discovery Grant (DP170104795), the David H Ashton Scholarship (University of Melbourne), the Science Abroad Travelling Scholarship (University of Melbourne Faculty of Science), Financial Support for Research or Conference Travel (University of Melbourne) and the Drummond Travel Award (University of Melbourne).
+
+\subsection*{Publications}
+
+\begin{enumerate}
+  \item{\textbf{Kapitza, S.}, Ha, P. V., Golding, N., Kompas, T, Cadenhead, N. C. R., Bal, P., Wintle, B.A., Assessing biophysical and socio-economic impacts of climate change on regional avian biodiversity. Sci Rep 11, 3304 (2021).}
+  \item{\textbf{Kapitza, S.}, Golding, N., Wintle, B. A., A predictive model of fractional land use, (under review in Environmental Modelling \& Software, submitted 21/05/2021).}
+  \item{\textbf{Kapitza, S.}, Ha, P. V., Kompas, T., Golding N., Wintle, B. A., Toward streamlined and transparent economic-ecological predictions of land-use change impacts on biodiversity, (in prep).}
+  \end{enumerate}
+  
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Acknowledgements}
+A PhD thesis is a difficult task for most people and being the first in my family to embark on that journey and complete half of it remotely and in isolation during a global public health crisis has been accompanied by particular challenges. I could not have navigated this alone and without the personal and professional support I was lucky to have throughout this time.
+
+First of all, I would like to thank my two PhD supervisors, Brendan Wintle and Nick Golding. Brendan has provided me with fascinating research opportunities in Australia since the day we first met in Freiburg in 2015. He has constantly inspired me with his achievements for conservation science and policy and helped me to develop my passion for ecology. Through Nick and our many 10-minute whiteboard sessions I quickly gained confidence in my coding and statistics learning. To both I am grateful for their above-and-beyond mental health support and shining a light through tough phases, at the same time challenging me to learn and progress as a researcher and making me feel as a respected collaborator and valued colleague. Anyone would be very lucky to have Brendan and Nick as supervisors and colleagues and it is this kind of leadership I look up to.
+
+I am grateful to Jane Elith, my committee chair, and Emily Nicholson, PhD committee member, for you guidance and ideas through my candidature and introducing me to fantastic colleagues in Europe.
+
+To my collaborators Ha Van Pham, Tom Kompas, Natasha Cadenhead, Payal Bal and Matthew Cantele for the many patient conversations, brainstormings and bringing our project onto its tracks together.
+
+To my Australian family: Saras Windecker for giving me a beautiful home in Melbourne when I first arrived, kick-starting me into my PhD candidature with her insights and encouragement and exploring Victoria and Tasmania with me. I won't ever forget the magic of hiking into the sunset at Wilson's Prom. Khorloo Batpurev for teaching me how to skate on cross-country skies and the many flower-picking walks and talks through Melbourne's suburbs, and Valeria D'agostino for many dinners, coffees and all the laughter. Khorloo, Saras, David, Valeria, Kim, Dave, Ash, you have been my home and family in Australia and I can't wait to visit.
+
+I am grateful to my inspiring mentor Pia Lentini for counselling me on the challenges and intricacies of my PhD candidature and academia and for highlighting many opportunities to grow.
+
+I would like to thank Damaris Zurell for giving me a workspace in Berlin, introducing me to a group of wonderful colleagues and providing opportunities to contribute to exciting projects through her labs at Humboldt University and later at Potsdam University.
+
+Thank you to everyone in QAEco, working in this group has been an especially rewarding experience. The research excellence in QAEco would be intimidating if it was not for the incredible, all-round amazing humans that together create such an inclusive, accepting and productive environment. Happy people accomplish great things.
+
+And finally to my partner Theresa Volkmer, who has lived 15,972.34 km and 10 time zones away and still felt close every day. Thank you for picking me up and dropping me off at the airport in Berlin (and once in Bejing) a total of six times, hopping on a plane to Melbourne twice and taking the time to get to know my friends, colleagues and life in Melbourne, while at the same time keeping the wheels spinning for me in Germany. I am stoked every day by your smarts, ambition and drive, and most importantly the love you have for yourself and what you do. It takes a Thesi to be all that; you are an inspiration not only to me, but to many others.
+
+
+
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\tableofcontents
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\listoffigures
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\listoftables
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\mainmatter
+
+\Sexpr{knitr::knit_child('chapters/Chapter1_Introduction.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Chapter2_ClimateChange.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Chapter3_LandUse.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Chapter4_BII.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Chapter5_Discussion.Rnw')}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+{
+\backmatter
+\chapter{References}
+%\newpage
+\bibliography{bibliography}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+}
+
+%---------------------------------------------------------- 
+% APPENDICES
+% include chapters as needed (will be numbered differently)
+%---------------------------------------------------------- 
+\let\svaddcontentsline\addcontentsline %supress tables and figures in index from showing
+\renewcommand\addcontentsline[3]{%     % up in lists in frontmatter
+  \ifthenelse{\equal{#1}{lof}}{}%
+  {\ifthenelse{\equal{#1}{lot}}{}{\svaddcontentsline{#1}{#2}{#3}}}}
+
+\clearpage
+\appendix
+\fancyhead[R]{\sc Appendix \thechapter}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\Sexpr{knitr::knit_child('chapters/Appendix_ch2.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Appendix_ch3.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Appendix_ch4.Rnw')}
+\Sexpr{knitr::knit_child('chapters/Appendix_5.Rnw')}
+
+% \renewcommand{\thesection}{2.1.\arabic{section}}
+
+%---------------------------------------------------------- 
+% BACK
+% list of symbols / references / index etc
+%---------------------------------------------------------- 
+%\backmatter
+%
+%\chapter{List of Symbols}
+%
+%
+%The following list is neither exhaustive nor exclusive, but may be helpful.
+%\begin{list}{}{%
+%\setlength{\labelwidth}{24mm}
+%\setlength{\leftmargin}{35mm}}
+%\item[$a$, $b$, $c$, $d$\dotfill] annihilation operators
+%\item[$a^\dagger$, $b^\dagger$, $c^\dagger$, $d^\dagger$\dotfill] creation
+%operators
+%\end{list}
+
+\end{document}

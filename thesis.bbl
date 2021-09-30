@@ -1,45 +1,43 @@
-\begin{thebibliography}{200}
+\begin{thebibliography}{227}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
-\bibitem[{scb(2010)}]{scbd_global_2010}
- (2010) Global {Biodiversity} {Outlook} 3. Tech. rep., sCBD, Montreal, oCLC:
-  ocn636152283.
-
 \bibitem[{Aburas et~al.(2017)Aburas, Ho, Ramli \&
-  Ash’aari}]{aburas_improving_2017}
-Aburas, M.M., Ho, Y.M., Ramli, M.F. \& Ash’aari, Z.H. (2017) Improving the
-  capability of an integrated {CA}-{Markov} model to simulate spatio-temporal
-  urban growth trends using an {Analytical} {Hierarchy} {Process} and
-  {Frequency} {Ratio}. \emph{International Journal of Applied Earth Observation
-  and Geoinformation} \textbf{59}, 65--78.
+  Ash'aari}]{aburas_improving_2017}
+Aburas, M.M., Ho, Y.M., Ramli, M.F. \& Ash'aari, Z.H. (2017) Improving the
+  capability of an integrated {{CA}}-{{Markov}} model to simulate
+  spatio-temporal urban growth trends using an {{Analytical Hierarchy Process}}
+  and {{Frequency Ratio}}. \emph{International Journal of Applied Earth
+  Observation and Geoinformation} \textbf{59}, 65--78.
 
 \bibitem[{Aguiar, Narayanan  \&  McDougall(2016)Aguiar, Narayanan \&
   McDougall}]{aguiar_overview_2016}
-Aguiar, A., Narayanan, B. \& McDougall, R. (2016) An {Overview} of the {GTAP} 9
-  {Data} {Base}. \emph{Journal of Global Economic Analysis} \textbf{1},
-  181--208.
+Aguiar, A., Narayanan, B. \& McDougall, R. (2016) An {{Overview}} of the
+  {{GTAP}} 9 {{Data Base}}. \emph{Journal of Global Economic Analysis}
+  \textbf{1}, 181--208.
 
-\bibitem[{Allred et~al.(2020)Allred, Bestelmeyer, Boyd, Brown, Davies,
-  Ellsworth, Erickson, Fuhlendorf, Griffiths, Jansen, Jones, Karl, Maestas,
-  Maynard, McCord, Naugle, Starns, Twidwell \& Uden}]{allred_improving_2020}
-Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W.,
-  Ellsworth, L.M., Erickson, T.A., Fuhlendorf, S.D., Griffiths, T.V., Jansen,
-  V., Jones, M.O., Karl, J., Maestas, J.D., Maynard, J.J., McCord, S.E.,
-  Naugle, D.E., Starns, H.D., Twidwell, D. \& Uden, D.R. (2020) Improving
-  {Landsat} predictions of rangeland fractional cover with multitask learning
-  and uncertainty. preprint, Ecology.
+\bibitem[{Allred et~al.(2021)Allred, Bestelmeyer, Boyd, Brown, Davies, Duniway,
+  Ellsworth, Erickson, Fuhlendorf, Griffiths, Jansen, Jones, Karl, Knight,
+  Maestas, Maynard, McCord, Naugle, Starns, Twidwell \&
+  Uden}]{allred_improving_2021}
+Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Duniway,
+  M.C., Ellsworth, L.M., Erickson, T.A., Fuhlendorf, S.D., Griffiths, T.V.,
+  Jansen, V., Jones, M.O., Karl, J., Knight, A., Maestas, J.D., Maynard, J.J.,
+  McCord, S.E., Naugle, D.E., Starns, H.D., Twidwell, D. \& Uden, D.R. (2021)
+  Improving {{Landsat}} predictions of rangeland fractional cover with
+  multitask learning and uncertainty. \emph{Methods in Ecology and Evolution}
+  \textbf{12}, 841--849.
 
 \bibitem[{Baldwin(2009)}]{baldwin_use_2009}
-Baldwin, R. (2009) Use of {Maximum} {Entropy} {Modeling} in {Wildlife}
-  {Research}. \emph{Entropy} \textbf{11}, 854--866.
+Baldwin, R. (2009) Use of {{Maximum Entropy Modeling}} in {{Wildlife
+  Research}}. \emph{Entropy} \textbf{11}, 854--866.
 
-\bibitem[{Bates et~al.(2015)Bates, Mächler, Bolker \&
+\bibitem[{Bates et~al.(2015)Bates, M{\"a}chler, Bolker \&
   Walker}]{bates_fitting_2015}
-Bates, D., Mächler, M., Bolker, B. \& Walker, S. (2015) Fitting {Linear}
-  {Mixed}-{Effects} {Models} {Using} lme4. \emph{Journal of Statistical
-  Software} \textbf{67}.
+Bates, D., M{\"a}chler, M., Bolker, B. \& Walker, S. (2015) Fitting {{Linear
+  Mixed}}-{{Effects Models Using}} lme4. \emph{Journal of Statistical Software}
+  \textbf{67}.
 
 \bibitem[{Bellard et~al.(2013)Bellard, Thuiller, Leroy, Genovesi, Bakkenes \&
   Courchamp}]{bellard_will_2013}
@@ -50,35 +48,38 @@ Bellard, C., Thuiller, W., Leroy, B., Genovesi, P., Bakkenes, M. \& Courchamp,
 \bibitem[{Bevanda et~al.(2014)Bevanda, Horning, Reineking, Heurich, Wegmann \&
   Mueller}]{bevanda_adding_2014}
 Bevanda, M., Horning, N., Reineking, B., Heurich, M., Wegmann, M. \& Mueller,
-  J. (2014) Adding structure to land cover – using fractional cover to study
-  animal habitat use. \emph{Movement Ecology} \textbf{2}, 26.
+  J. (2014) Adding structure to land cover \textendash{} using fractional cover
+  to study animal habitat use. \emph{Movement Ecology} \textbf{2}, 26.
 
 \bibitem[{{BirdLife
   International}(2018{\natexlab{a}})}]{birdlife_international_country_2018-1}
-{BirdLife International} (2018{\natexlab{a}}) Country {Profile}: {Australia}.
+{BirdLife International} (2018{\natexlab{a}}) Country {{Profile}}:
+  {{Australia}}.
 
 \bibitem[{{BirdLife
   International}(2018{\natexlab{b}})}]{birdlife_international_country_2018}
-{BirdLife International} (2018{\natexlab{b}}) Country profile: {Vietnam}.
+{BirdLife International} (2018{\natexlab{b}}) Country profile: {{Vietnam}}.
 
 \bibitem[{Bondeau et~al.(2007)Bondeau, Smith, Zaehle, Schaphoff, Lucht, Cramer,
-  Gerten, Lotze-Campen, Müller, Reichstein \& Smith}]{bondeau_modelling_2007}
+  Gerten, {Lotze-Campen}, M{\"u}ller, Reichstein \&
+  Smith}]{bondeau_modelling_2007}
 Bondeau, A., Smith, P.C., Zaehle, S., Schaphoff, S., Lucht, W., Cramer, W.,
-  Gerten, D., Lotze-Campen, H., Müller, C., Reichstein, M. \& Smith, B. (2007)
-  Modelling the role of agriculture for the 20th century global terrestrial
-  carbon balance. \emph{Global Change Biology} \textbf{13}, 679--706.
+  Gerten, D., {Lotze-Campen}, H., M{\"u}ller, C., Reichstein, M. \& Smith, B.
+  (2007) Modelling the role of agriculture for the 20th century global
+  terrestrial carbon balance. \emph{Global Change Biology} \textbf{13},
+  679--706.
 
 \bibitem[{Bossard, Feranec  \&  Otahel(2000)Bossard, Feranec \&
   Otahel}]{bossard_corine_2000}
-Bossard, M., Feranec, J. \& Otahel, J. (2000) {CORINE} land cover technical
-  guide: {Addendum} 2000. Technical report Technical report No 40, European
-  Environment Agency.
+Bossard, M., Feranec, J. \& Otahel, J. (2000) {{CORINE}} land cover technical
+  guide: {{Addendum}} 2000. Technical Report Technical report No 40, {European
+  Environment Agency}.
 
 \bibitem[{Brambilla et~al.(2016)Brambilla, Pedrini, Rolando \&
   Chamberlain}]{brambilla_climate_2016}
 Brambilla, M., Pedrini, P., Rolando, A. \& Chamberlain, D.E. (2016) Climate
   change will increase the potential conflict between skiing and high-elevation
-  bird species in the {Alps}. \emph{Journal of Biogeography} \textbf{43},
+  bird species in the {{Alps}}. \emph{Journal of Biogeography} \textbf{43},
   2299--2309.
 
 \bibitem[{Brodie(2016)}]{brodie_synergistic_2016}
@@ -86,65 +87,66 @@ Brodie, J.F. (2016) Synergistic effects of climate change and agricultural land
   use on mammals. \emph{Frontiers in Ecology and the Environment} \textbf{14},
   20--26.
 
-\bibitem[{Bryan et~al.(2014)Bryan, Nolan, Harwood, Connor, Navarro-Garcia,
+\bibitem[{Bryan et~al.(2014)Bryan, Nolan, Harwood, Connor, {Navarro-Garcia},
   King, Summers, Newth, Cai, Grigg, Harman, Crossman, Grundy, Finnigan,
-  Ferrier, Williams, Wilson, Law \& Hatfield-Dodds}]{bryan_supply_2014}
-Bryan, B.A., Nolan, M., Harwood, T.D., Connor, J.D., Navarro-Garcia, J., King,
-  D., Summers, D.M., Newth, D., Cai, Y., Grigg, N., Harman, I., Crossman, N.D.,
-  Grundy, M.J., Finnigan, J.J., Ferrier, S., Williams, K.J., Wilson, K.A., Law,
-  E.A. \& Hatfield-Dodds, S. (2014) Supply of carbon sequestration and
-  biodiversity services from {Australia}'s agricultural land under global
+  Ferrier, Williams, Wilson, Law \& {Hatfield-Dodds}}]{bryan_supply_2014}
+Bryan, B.A., Nolan, M., Harwood, T.D., Connor, J.D., {Navarro-Garcia}, J.,
+  King, D., Summers, D.M., Newth, D., Cai, Y., Grigg, N., Harman, I., Crossman,
+  N.D., Grundy, M.J., Finnigan, J.J., Ferrier, S., Williams, K.J., Wilson,
+  K.A., Law, E.A. \& {Hatfield-Dodds}, S. (2014) Supply of carbon sequestration
+  and biodiversity services from {{Australia}}'s agricultural land under global
   change. \emph{Global Environmental Change} \textbf{28}, 166--181.
 
 \bibitem[{Bryan et~al.(2016)Bryan, Nolan, McKellar, Connor, Newth, Harwood,
   King, Navarro, Cai, Gao, Grundy, Graham, Ernst, Dunstall, Stock, Brinsmead,
   Harman, Grigg, Battaglia, Keating, Wonhas \&
-  Hatfield-Dodds}]{bryan_land-use_2016}
+  {Hatfield-Dodds}}]{bryan_land-use_2016}
 Bryan, B.A., Nolan, M., McKellar, L., Connor, J.D., Newth, D., Harwood, T.,
   King, D., Navarro, J., Cai, Y., Gao, L., Grundy, M., Graham, P., Ernst, A.,
   Dunstall, S., Stock, F., Brinsmead, T., Harman, I., Grigg, N.J., Battaglia,
-  M., Keating, B., Wonhas, A. \& Hatfield-Dodds, S. (2016) Land-use and
+  M., Keating, B., Wonhas, A. \& {Hatfield-Dodds}, S. (2016) Land-use and
   sustainability under intersecting global change and domestic policy
-  scenarios: {Trajectories} for {Australia} to 2050. \emph{Global Environmental
-  Change} \textbf{38}, 130--152.
+  scenarios: {{Trajectories}} for {{Australia}} to 2050. \emph{Global
+  Environmental Change} \textbf{38}, 130--152.
 
-\bibitem[{Butchart et~al.(2010)Butchart, Walpole, Collen, van Strien,
+\bibitem[{Butchart et~al.(2010)Butchart, Walpole, Collen, {van Strien},
   Scharlemann, Almond, Baillie, Bomhard, Brown, Bruno, Carpenter, Carr,
   Chanson, Chenery, Csirke, Davidson, Dentener, Foster, Galli, Galloway,
   Genovesi, Gregory, Hockings, Kapos, Lamarque, Leverington, Loh, McGeoch,
   McRae, Minasyan, Morcillo, Oldfield, Pauly, Quader, Revenga, Sauer, Skolnik,
-  Spear, Stanwell-Smith, Stuart, Symes, Tierney, Tyrrell, Vie \&
+  Spear, {Stanwell-Smith}, Stuart, Symes, Tierney, Tyrrell, Vie \&
   Watson}]{butchart_global_2010}
-Butchart, S.H.M., Walpole, M., Collen, B., van Strien, A., Scharlemann, J.P.W.,
-  Almond, R.E.A., Baillie, J.E.M., Bomhard, B., Brown, C., Bruno, J.,
+Butchart, S.H.M., Walpole, M., Collen, B., {van Strien}, A., Scharlemann,
+  J.P.W., Almond, R.E.A., Baillie, J.E.M., Bomhard, B., Brown, C., Bruno, J.,
   Carpenter, K.E., Carr, G.M., Chanson, J., Chenery, A.M., Csirke, J.,
   Davidson, N.C., Dentener, F., Foster, M., Galli, A., Galloway, J.N.,
   Genovesi, P., Gregory, R.D., Hockings, M., Kapos, V., Lamarque, J.F.,
   Leverington, F., Loh, J., McGeoch, M.A., McRae, L., Minasyan, A., Morcillo,
   M.H., Oldfield, T.E.E., Pauly, D., Quader, S., Revenga, C., Sauer, J.R.,
-  Skolnik, B., Spear, D., Stanwell-Smith, D., Stuart, S.N., Symes, A., Tierney,
-  M., Tyrrell, T.D., Vie, J.C. \& Watson, R. (2010) Global {Biodiversity}:
-  {Indicators} of {Recent} {Declines}. \emph{Science} \textbf{328}, 1164--1168.
+  Skolnik, B., Spear, D., {Stanwell-Smith}, D., Stuart, S.N., Symes, A.,
+  Tierney, M., Tyrrell, T.D., Vie, J.C. \& Watson, R. (2010) Global
+  {{Biodiversity}}: {{Indicators}} of {{Recent Declines}}. \emph{Science}
+  \textbf{328}, 1164--1168.
 
 \bibitem[{Bytnerowicz, Omasa  \&  Paoletti(2007)Bytnerowicz, Omasa \&
   Paoletti}]{bytnerowicz_integrated_2007}
 Bytnerowicz, A., Omasa, K. \& Paoletti, E. (2007) Integrated effects of air
-  pollution and climate change on forests: {A} northern hemisphere perspective.
-  \emph{Environmental Pollution} \textbf{147}, 438--445.
+  pollution and climate change on forests: {{A}} northern hemisphere
+  perspective. \emph{Environmental Pollution} \textbf{147}, 438--445.
 
-\bibitem[{Cadenhead et~al.(2015)Cadenhead, Kearney, Moore, Mcalpin \&
-  Wintle}]{cadenhead_climate_2015}
-Cadenhead, N.C.R., Kearney, M.R., Moore, D., Mcalpin, S. \& Wintle, B.A. (2015)
-  Climate and {Fire} {Scenario} {Uncertainty} {Dominate} the {Evaluation} of
-  {Options} for {Conserving} the {Great} {Desert} {Skink}. \emph{Conservation
-  Letters} .
+\bibitem[{Cadenhead et~al.(2016)Cadenhead, Kearney, Moore, McAlpin \&
+  Wintle}]{cadenhead_climate_2016}
+Cadenhead, N.C., Kearney, M.R., Moore, D., McAlpin, S. \& Wintle, B.A. (2016)
+  Climate and fire scenario uncertainty dominate the evaluation of options for
+  conserving the great desert skink. \emph{Conservation Letters} \textbf{9},
+  181--190.
 
-\bibitem[{Calvin et~al.(2017)Calvin, Bond-Lamberty, Clarke, Edmonds, Eom,
-  Hartin, Kim, Kyle, Link, Moss \& {others}}]{calvin_ssp4_2017}
-Calvin, K., Bond-Lamberty, B., Clarke, L., Edmonds, J., Eom, J., Hartin, C.,
-  Kim, S., Kyle, P., Link, R., Moss, R. \& {others} (2017) The {SSP4}: {A}
-  world of deepening inequality. \emph{Global Environmental Change}
-  \textbf{42}, 284--296, publisher: Elsevier.
+\bibitem[{Calvin et~al.(2017)Calvin, {Bond-Lamberty}, Clarke, Edmonds, Eom,
+  Hartin, Kim, Kyle, Link, Moss \emph{et~al.}}]{calvin_ssp4_2017}
+Calvin, K., {Bond-Lamberty}, B., Clarke, L., Edmonds, J., Eom, J., Hartin, C.,
+  Kim, S., Kyle, P., Link, R., Moss, R. \emph{et~al.} (2017) The {{SSP4}}:
+  {{A}} world of deepening inequality. \emph{Global Environmental Change}
+  \textbf{42}, 284--296.
 
 \bibitem[{Chaudhary  \&  Kastner(2016)Chaudhary \&
   Kastner}]{chaudhary_land_2016}
@@ -152,29 +154,29 @@ Chaudhary, A. \& Kastner, T. (2016) Land use biodiversity impacts embodied in
   international food trade. \emph{Global Environmental Change} \textbf{38},
   195--204.
 
-\bibitem[{{CIESIN}(2011)}]{ciesin_global_2011}
-{CIESIN} (2011) Global {Rural}-{Urban} {Mapping} {Project}, {Version} 1
-  ({GRUMPv1}): {Population} {Density} {Grid}. Tech. rep., Center for
-  International Earth Science Information Network (CIESIN) Columbia University,
-  International Food Policy Research Institute (IFPRI), The World Bank \&
-  Centro Internacional de Agricultura Tropical (CIAT).
+\bibitem[{{CIESN}(2011)}]{ciesn_global_2011}
+{CIESN} (2011) Center for {{International Earth Science Information Network}} -
+  {{CIESIN}} - {{Columbia University}}, {{International Food Policy Research
+  Institute}} - {{IFPRI}}, {{The World Bank}}, {{Centro Internacional}} de
+  {{Agricultura Tropical}} - {{CIAT}}, {{Global Rural}}-{{Urban Mapping
+  Project}}, {{Version}} 1 ({{GRUMPv1}}): {{Population Density Grid}}.
 
 \bibitem[{{CIESN}(2013)}]{ciesn_global_2013}
-{CIESN} (2013) Global {Roads} {Open} {Access} {Data} {Set}, {Version} 1
-  ({gROADSv1}). Tech. rep., Center for International Earth Science Information
-  Network (CIESIN), Columbia University, NASA Socioeconomic Data and
-  Applications Center (SEDAC).
+{CIESN} (2013) Center for {{International Earth Science Information Network}} -
+  {{CIESIN}} - {{Columbia University}}, {{Information Technology Outreach
+  Services}} - {{ITOS}} - {{University}} of {{Georgia}}, {{Global Roads Open
+  Access Data Set}}, {{Version}} 1 ({{gROADSv1}}).
 
 \bibitem[{Connor et~al.(2015)Connor, Bryan, Nolan, Stock, Gao, Dunstall,
-  Graham, Ernst, Newth, Grundy \& Hatfield-Dodds}]{connor_modelling_2015}
+  Graham, Ernst, Newth, Grundy \& {Hatfield-Dodds}}]{connor_modelling_2015}
 Connor, J.D., Bryan, B.A., Nolan, M., Stock, F., Gao, L., Dunstall, S., Graham,
-  P., Ernst, A., Newth, D., Grundy, M. \& Hatfield-Dodds, S. (2015) Modelling
-  {Australian} land use competition and ecosystem services with food price
+  P., Ernst, A., Newth, D., Grundy, M. \& {Hatfield-Dodds}, S. (2015) Modelling
+  {{Australian}} land use competition and ecosystem services with food price
   feedbacks at high spatial resolution. \emph{Environmental Modelling and
   Software} \textbf{69}, 141--154.
 
 \bibitem[{Corlett(2015)}]{corlett_anthropocene_2015}
-Corlett, R.T. (2015) The {Anthropocene} concept in ecology and conservation.
+Corlett, R.T. (2015) The {{Anthropocene}} concept in ecology and conservation.
   \emph{Trends in Ecology \& Evolution} \textbf{30}, 36--41.
 
 \bibitem[{Cornell et~al.(2019)Cornell, Suprunenko, Finkelshtein, Somervuo \&
@@ -190,22 +192,23 @@ Coxen, C.L., Frey, J.K., Carleton, S.A. \& Collins, D.P. (2017) Species
   satellite tracking data. \emph{Global Ecology and Conservation} \textbf{11},
   298--311.
 
-\bibitem[{Da~Silva, Rylands  \&  da~Fonseca(2005)Da~Silva, Rylands \&
-  da~Fonseca}]{da_silva_fate_2005}
-Da~Silva, J.M.C., Rylands, A.B. \& da~Fonseca, G.A.B. (2005) The {Fate} of the
-  {Amazonian} {Areas} of {Endemism}. \emph{Conservation Biology} \textbf{19},
-  689--694.
+\bibitem[{Da~Silva, Rylands  \&  {da Fonseca}(2005)Da~Silva, Rylands \& {da
+  Fonseca}}]{da_silva_fate_2005}
+Da~Silva, J.M.C., Rylands, A.B. \& {da Fonseca}, G.A.B. (2005) The {{Fate}} of
+  the {{Amazonian Areas}} of {{Endemism}}. \emph{Conservation Biology}
+  \textbf{19}, 689--694.
 
-\bibitem[{de~Chazal  \&  Rounsevell(2009)de~Chazal \&
+\bibitem[{{de Chazal}  \&  Rounsevell(2009){de Chazal} \&
   Rounsevell}]{de_chazal_land-use_2009}
-de~Chazal, J. \& Rounsevell, M.D. (2009) Land-use and climate change within
-  assessments of biodiversity change: {A} review. \emph{Global Environmental
+{de Chazal}, J. \& Rounsevell, M.D. (2009) Land-use and climate change within
+  assessments of biodiversity change: {{A}} review. \emph{Global Environmental
   Change} \textbf{19}, 306--315.
 
-\bibitem[{De~Palma, Sanchez-Ortiz  \&  Purvis(2019)De~Palma, Sanchez-Ortiz \&
-  Purvis}]{de_palma_calculating_2019}
-De~Palma, A., Sanchez-Ortiz, K. \& Purvis, A. (2019) Calculating the
-  biodiversity intactness index: the {PREDICTS} implementation.
+\bibitem[{De~Palma, {Sanchez-Ortiz}  \&  Purvis(2019)De~Palma, {Sanchez-Ortiz}
+  \& Purvis}]{de_palma_calculating_2019}
+De~Palma, A., {Sanchez-Ortiz}, K. \& Purvis, A. (2019) Calculating the
+  biodiversity intactness index: The {{PREDICTS}} implementation.
+  https://doi.org/10.5281/zenodo.3518067.
 
 \bibitem[{DeAngelis  \&  Grimm(2014)DeAngelis \&
   Grimm}]{deangelis_individual-based_2014}
@@ -221,42 +224,66 @@ Dendoncker, N., Bogaert, P. \& Rounsevell, M. (2006) A statistical method to
 \bibitem[{Dendoncker, Rounsevell  \&  Bogaert(2007)Dendoncker, Rounsevell \&
   Bogaert}]{dendoncker_spatial_2007}
 Dendoncker, N., Rounsevell, M. \& Bogaert, P. (2007) Spatial analysis and
-  modelling of land use distributions in {Belgium}. \emph{Computers,
+  modelling of land use distributions in {{Belgium}}. \emph{Computers,
   Environment and Urban Systems} \textbf{31}, 188--205.
 
-\bibitem[{Dietrich et~al.(2019)Dietrich, Bodirsky, Humpenöder, Weindl,
-  Stevanović, Karstens, Kreidenweis, Wang, Mishra, Klein, Ambrósio, Araujo,
-  Yalew, Baumstark, Wirth, Giannousakis, Beier, Chen, Lotze-Campen \&
+\bibitem[{Dietrich et~al.(2019)Dietrich, Bodirsky, Humpen{\"o}der, Weindl,
+  Stevanovi{\'c}, Karstens, Kreidenweis, Wang, Mishra, Klein, Ambr{\'o}sio,
+  Araujo, Yalew, Baumstark, Wirth, Giannousakis, Beier, Chen, {Lotze-Campen} \&
   Popp}]{dietrich_magpie_2019}
-Dietrich, J.P., Bodirsky, B.L., Humpenöder, F., Weindl, I., Stevanović, M.,
-  Karstens, K., Kreidenweis, U., Wang, X., Mishra, A., Klein, D., Ambrósio,
-  G., Araujo, E., Yalew, A.W., Baumstark, L., Wirth, S., Giannousakis, A.,
-  Beier, F., Chen, D.M.C., Lotze-Campen, H. \& Popp, A. (2019) {MAgPIE} 4 – a
-  modular open-source framework for modeling global land systems.
-  \emph{Geoscientific Model Development} \textbf{12}, 1299--1317.
+Dietrich, J.P., Bodirsky, B.L., Humpen{\"o}der, F., Weindl, I., Stevanovi{\'c},
+  M., Karstens, K., Kreidenweis, U., Wang, X., Mishra, A., Klein, D.,
+  Ambr{\'o}sio, G., Araujo, E., Yalew, A.W., Baumstark, L., Wirth, S.,
+  Giannousakis, A., Beier, F., Chen, D.M.C., {Lotze-Campen}, H. \& Popp, A.
+  (2019) {{MAgPIE}} 4 \textendash{} a modular open-source framework for
+  modeling global land systems. \emph{Geoscientific Model Development}
+  \textbf{12}, 1299--1317.
 
 \bibitem[{Dietzel  \&  Clarke(2007)Dietzel \& Clarke}]{dietzel_toward_2007}
-Dietzel, C. \& Clarke, K.C. (2007) Toward {Optimal} {Calibration} of the
-  {SLEUTH} {Land} {Use} {Change} {Model}. \emph{Transactions in GIS}
-  \textbf{11}, 29--45.
+Dietzel, C. \& Clarke, K.C. (2007) Toward {{Optimal Calibration}} of the
+  {{SLEUTH Land Use Change Model}}. \emph{Transactions in GIS} \textbf{11},
+  29--45.
+
+\bibitem[{Downing et~al.(2019)Downing, Bhowmik, Collste, Cornell, Donges,
+  Fetzer, H{\"a}yh{\"a}, Hinton, Lade \& Mooij}]{downing_matching_2019}
+Downing, A.S., Bhowmik, A., Collste, D., Cornell, S.E., Donges, J., Fetzer, I.,
+  H{\"a}yh{\"a}, T., Hinton, J., Lade, S. \& Mooij, W.M. (2019) Matching scope,
+  purpose and uses of planetary boundaries science. \emph{Environmental
+  Research Letters} \textbf{14}, 073005.
 
 \bibitem[{Drechsler(2020)}]{drechsler_model-based_2020}
 Drechsler, M. (2020) Model-based integration of ecology and socio-economics for
-  the management of biodiversity and ecosystem services: {State} of the art,
+  the management of biodiversity and ecosystem services: {{State}} of the art,
   diversity and current trends. \emph{Environmental Modelling \& Software}
   \textbf{134}, 104892.
 
-\bibitem[{Eastman  \&  Toledano(2018)Eastman \& Toledano}]{eastman_short_2018}
-Eastman, J.R. \& Toledano, J. (2018) A short presentation of the {Land}
-  {Change} {Modeler} ({LCM}). \emph{Geomatic approaches for modeling land
-  change scenarios}, pp. 499--505, Springer.
+\bibitem[{Dreiseitl  \&  {Ohno-Machado}(2002)Dreiseitl \&
+  {Ohno-Machado}}]{dreiseitl_logistic_2002}
+Dreiseitl, S. \& {Ohno-Machado}, L. (2002) Logistic regression and artificial
+  neural network classification models: A methodology review. \emph{Journal of
+  Biomedical Informatics} \textbf{35}, 352--359.
 
-\bibitem[{{ESA}(2019)}]{esa_land_2019}
-{ESA} (2019) Land {Cover} {CCI} {Version} 2.0 and {Version} 2.1.1. Tech. rep.
+\bibitem[{Eastman  \&  Toledano(2018)Eastman \& Toledano}]{eastman_short_2018}
+Eastman, J.R. \& Toledano, J. (2018) A short presentation of the {{Land Change
+  Modeler}} ({{LCM}}). \emph{Geomatic Approaches for Modeling Land Change
+  Scenarios}, pp. 499--505, {Springer}, {Cham}.
+
+\bibitem[{Erb et~al.(2018)Erb, Kastner, Plutzar, Bais, Carvalhais, Fetzel,
+  Gingrich, Haberl, Lauk, Niedertscheider, Pongratz, Thurner \&
+  Luyssaert}]{erb_unexpectedly_2018}
+Erb, K.H., Kastner, T., Plutzar, C., Bais, A.L.S., Carvalhais, N., Fetzel, T.,
+  Gingrich, S., Haberl, H., Lauk, C., Niedertscheider, M., Pongratz, J.,
+  Thurner, M. \& Luyssaert, S. (2018) Unexpectedly large impact of forest
+  management and grazing on global vegetation biomass. \emph{Nature}
+  \textbf{553}, 73--76.
+
+\bibitem[{{European Space Agency}(2019)}]{esa_land_2019}
+{European Space Agency} (2019) Land {{Cover CCI Version}} 2.0 and {{Version}}
+  2.1.1. {{https://www.esa-landcover-cci.org/?q=node/164}}.
 
 \bibitem[{{European Union}(2019)}]{european_union_copernicus_2019}
-{European Union} (2019) Copernicus {Land} {Monitoring} {Service}. Tech. rep.,
-  European Enviornment Agency (EEA).
+{European Union} (2019) Copernicus {{Land Monitoring Service}}. {{European
+  Enviornment Agency}} ({{EEA}}). {{https://land.copernicus.eu.}}
 
 \bibitem[{Fang et~al.(2005)Fang, Gertner, Sun \& Anderson}]{fang_impact_2005}
 Fang, S., Gertner, G.Z., Sun, Z. \& Anderson, A.A. (2005) The impact of
@@ -264,25 +291,48 @@ Fang, S., Gertner, G.Z., Sun, Z. \& Anderson, A.A. (2005) The impact of
   \emph{Landscape and Urban Planning} \textbf{73}, 294--306.
 
 \bibitem[{{FAO}(1997)}]{fao_built-up_1997}
-{FAO} (1997) Built-up {Areas} of the {World} ({Vmap0}). Tech. rep., Food and
-  Agriculture Organization of the United Nations (FAO).
+{FAO} (1997) Built-up {{Areas}} of the {{World}} ({{Vmap0}}). {{Food}} and
+  {{Agriculture Organization}} of the {{United Nations}} ({{FAO}}).
 
 \bibitem[{{FAO}(2015)}]{fao_aquastat_2015}
-{FAO} (2015) {AQUASTAT} {Transboundary} {River} {Basin} {Overview} –
-  {Amazon}. Tech. rep., Food and Agriculture Organization of the United Nations
-  (FAO), Rome, Italy.
+{FAO} (2015) {{AQUASTAT Transboundary River Basin Overview}} \textendash{}
+  {{Amazon}}. {{Food}} and {{Agriculture Organization}} of the {{United
+  Nations}} ({{FAO}}).
 
 \bibitem[{{FAO}(2017)}]{fao_faostat_2017}
-{FAO} (2017) {FAOSTAT} {Statistics} {Database}. Tech. rep., Food and
-  Agriculture Organization of the United Nations (FAO), Rome.
+{FAO} (2017) {{FAOSTAT Statistics Database}}. {{Food}} and {{Agriculture
+  Organization}} of the {{United Nations}} ({{FAO}}).
+
+\bibitem[{Farr  \&  Kobrick(2000)Farr \& Kobrick}]{nasa_shuttle_2013}
+Farr, T.G. \& Kobrick, M. (2000) Shuttle radar topography mission produces a
+  wealth of data. \emph{Eos, Transactions American Geophysical Union}
+  \textbf{81}, 583.
+
+\bibitem[{{Fern{\'a}ndez-Juricic}(2021)}]{fernandez-juricic_why_2021}
+{Fern{\'a}ndez-Juricic}, E. (2021) Why sharing data and code during peer review
+  can enhance behavioral ecology research. \emph{Behavioral Ecology and
+  Sociobiology} \textbf{75}, 1--5.
 
 \bibitem[{Fick  \&  Hijmans(2017)Fick \& Hijmans}]{fick_worldclim_2017}
-Fick, S. \& Hijmans, R. (2017) {WorldClim} 2: new 1‐km spatial resolution
+Fick, S. \& Hijmans, R. (2017) {{WorldClim}} 2: New 1-km spatial resolution
   climate surfaces for global land areas. \emph{International Journal of
   Climatology} \textbf{37}, 4302--4315.
 
+\bibitem[{Fidler et~al.(2017)Fidler, Chee, Wintle, Burgman, McCarthy \&
+  Gordon}]{fidler_metaresearch_2017}
+Fidler, F., Chee, Y.E., Wintle, B.C., Burgman, M.A., McCarthy, M.A. \& Gordon,
+  A. (2017) Metaresearch for evaluating reproducibility in ecology and
+  evolution. \emph{BioScience} \textbf{67}, 282--289.
+
+\bibitem[{Fithian et~al.(2015)Fithian, Elith, Hastie \&
+  Keith}]{fithian_bias_2015}
+Fithian, W., Elith, J., Hastie, T. \& Keith, D.A. (2015) Bias correction in
+  species distribution models: {{Pooling}} survey and collection data for
+  multiple species. \emph{Methods in Ecology and Evolution} \textbf{6},
+  424--438.
+
 \bibitem[{Foley(2005)}]{foley_global_2005}
-Foley, J.A. (2005) Global {Consequences} of {Land} {Use}. \emph{Science}
+Foley, J.A. (2005) Global {{Consequences}} of {{Land Use}}. \emph{Science}
   \textbf{309}, 570--574.
 
 \bibitem[{Fricko et~al.(2017)Fricko, Havlik, Rogelj, Klimont, Gusti, Johnson,
@@ -293,77 +343,94 @@ Fricko, O., Havlik, P., Rogelj, J., Klimont, Z., Gusti, M., Johnson, N., Kolp,
   P., Strubegger, M., Valin, H., Amann, M., Ermolieva, T., Forsell, N.,
   Herrero, M., Heyes, C., Kindermann, G., Krey, V., McCollum, D.L.,
   Obersteiner, M., Pachauri, S., Rao, S., Schmid, E., Schoepp, W. \& Riahi, K.
-  (2017) The marker quantification of the {Shared} {Socioeconomic} {Pathway} 2:
-  {A} middle-of-the-road scenario for the 21st century. \emph{Global
+  (2017) The marker quantification of the {{Shared Socioeconomic Pathway}} 2:
+  {{A}} middle-of-the-road scenario for the 21st century. \emph{Global
   Environmental Change} \textbf{42}, 251--267.
 
 \bibitem[{Friedman, Hastie  \&  Tibshirani(2010)Friedman, Hastie \&
   Tibshirani}]{friedman_regularization_2010}
-Friedman, J., Hastie, T. \& Tibshirani, R. (2010) Regularization {Paths} for
-  {Generalized} {Linear} {Models} via {Coordinate} {Descent}. \emph{Journal of
+Friedman, J., Hastie, T. \& Tibshirani, R. (2010) Regularization {{Paths}} for
+  {{Generalized Linear Models}} via {{Coordinate Descent}}. \emph{Journal of
   Statistical Software} \textbf{33}.
 
 \bibitem[{Fuchs et~al.(2013)Fuchs, Herold, Verburg \&
   Clevers}]{fuchs_high-resolution_2013}
 Fuchs, R., Herold, M., Verburg, P.H. \& Clevers, J.G. (2013) A high-resolution
   and harmonized model approach for reconstructing and analysing historic land
-  changes in {Europe}. \emph{Biogeosciences} \textbf{10}, 1543--1559.
+  changes in {{Europe}}. \emph{Biogeosciences} \textbf{10}, 1543--1559.
 
 \bibitem[{Fujimori et~al.(2017)Fujimori, Hasegawa, Masui, Takahashi, Herran,
   Dai, Hijioka \& Kainuma}]{fujimori_ssp3_2017}
 Fujimori, S., Hasegawa, T., Masui, T., Takahashi, K., Herran, D.S., Dai, H.,
-  Hijioka, Y. \& Kainuma, M. (2017) {SSP3}: {AIM} implementation of {Shared}
-  {Socioeconomic} {Pathways}. \emph{Global Environmental Change} \textbf{42},
-  268--283.
+  Hijioka, Y. \& Kainuma, M. (2017) {{SSP3}}: {{AIM}} implementation of
+  {{Shared Socioeconomic Pathways}}. \emph{Global Environmental Change}
+  \textbf{42}, 268--283.
 
 \bibitem[{Gao(2020)}]{gao_global_2020}
-Gao, J. (2020) Global 1-km {Downscaled} {Population} {Base} {Year} and
-  {Projection} {Grids} {Based} on the {Shared} {Socioeconomic} {Pathways},
-  {Revision} 01. Tech. rep., Socioeconomic Data and Applications Center
-  (SEDAC), Palisades, NY.
+Gao, J. (2020) Global 1-km {{Downscaled Population Base Year}} and {{Projection
+  Grids Based}} on the {{Shared Socioeconomic Pathways}}, {{Revision}} 01.
+  {{Socioeconomic Data}} and {{Applications Center}} ({{SEDAC}}).
+  {{https://doi.org/10.7927/q7z9-9r69.}}
 
-\bibitem[{{GBIF}(2016)}]{gbif_gbif_2016}
-{GBIF} (2016) {GBIF} data portal.
+\bibitem[{{GBIF.org}(2016)}]{gbif_gbif_2016}
+{GBIF.org} (2016) {{GBIF Data Portal}}.
+
+\bibitem[{{GBIF.org}(2021)}]{gbiforg_gbif_2021}
+{GBIF.org} (2021) {{GBIF Home Page}}. {{https://www.gbif.org}}.
 
 \bibitem[{Gillings, Balmer  \&  Fuller(2015)Gillings, Balmer \&
   Fuller}]{gillings_directionality_2015}
 Gillings, S., Balmer, D.E. \& Fuller, R.J. (2015) Directionality of recent bird
-  distribution shifts and climate change in {Great} {Britain}. \emph{Global
+  distribution shifts and climate change in {{Great Britain}}. \emph{Global
   Change Biology} \textbf{21}, 2155--2168.
 
 \bibitem[{{Global Soil Data Task
   Group}(2000)}]{global_soil_data_task_group_global_2000}
-{Global Soil Data Task Group} (2000) Global {Gridded} {Surfaces} of {Selected}
-  {Soil} {Characteristics} ({IGBP}-{DIS}) .
+{Global Soil Data Task Group} (2000) Global gridded surfaces of selected soil
+  characteristics ({{IGBP}}-{{DIS}}). {{https://doi.org/10.3334/ornldaac/569}}
+  .
 
 \bibitem[{Goetz et~al.(2014)Goetz, Sun, Zolkos, Hansen \&
   Dubayah}]{goetz_relative_2014}
 Goetz, S.J., Sun, M., Zolkos, S., Hansen, A. \& Dubayah, R. (2014) The relative
-  importance of climate and vegetation properties on patterns of {North}
-  {American} breeding bird species richness. \emph{Environmental Research
+  importance of climate and vegetation properties on patterns of {{North
+  American}} breeding bird species richness. \emph{Environmental Research
   Letters} \textbf{9}, 034013--034013.
 
 \bibitem[{Gordon et~al.(2012)Gordon, Wintle, Bekessy, Pearce, Venier \&
   Wilson}]{gordon_use_2012}
 Gordon, A., Wintle, B.A., Bekessy, S.A., Pearce, J.L., Venier, L.A. \& Wilson,
   J.N. (2012) The use of dynamic landscape metapopulation models for forest
-  management: a case study of the red-backed salamander. \emph{Canadian Journal
+  management: A case study of the red-backed salamander. \emph{Canadian Journal
   of Forest Research} \textbf{42}, 1091--1106.
 
-\bibitem[{Harfoot et~al.(2014)Harfoot, Newbold, Tittensor, Emmott, Hutton,
-  Lyutsarev, Smith, Scharlemann \& Purves}]{harfoot_emergent_2014}
+\bibitem[{Harfoot et~al.(2014{\natexlab{a}})Harfoot, Tittensor, Newbold,
+  McInerny, Smith \& Scharlemann}]{harfoot_integrated_2014}
+Harfoot, M., Tittensor, D.P., Newbold, T., McInerny, G., Smith, M.J. \&
+  Scharlemann, J.P.W. (2014{\natexlab{a}}) Integrated assessment models for
+  ecologists: The present and the future: {{Integrated}} assessment models for
+  ecologists. \emph{Global Ecology and Biogeography} \textbf{23}, 124--143.
+
+\bibitem[{Harfoot et~al.(2014{\natexlab{b}})Harfoot, Newbold, Tittensor,
+  Emmott, Hutton, Lyutsarev, Smith, Scharlemann \&
+  Purves}]{harfoot_emergent_2014}
 Harfoot, M.B.J., Newbold, T., Tittensor, D.P., Emmott, S., Hutton, J.,
-  Lyutsarev, V., Smith, M.J., Scharlemann, J.P.W. \& Purves, D.W. (2014)
-  Emergent {Global} {Patterns} of {Ecosystem} {Structure} and {Function} from a
-  {Mechanistic} {General} {Ecosystem} {Model}. \emph{PLoS Biology} \textbf{12},
-  e1001841.
+  Lyutsarev, V., Smith, M.J., Scharlemann, J.P.W. \& Purves, D.W.
+  (2014{\natexlab{b}}) Emergent {{Global Patterns}} of {{Ecosystem Structure}}
+  and {{Function}} from a {{Mechanistic General Ecosystem Model}}. \emph{PLoS
+  Biology} \textbf{12}, e1001841.
+
+\bibitem[{Harris, Goldman  \&  Gibbes(2019)Harris, Goldman \&
+  Gibbes}]{harris_spatial_2019}
+Harris, N., Goldman, E.D. \& Gibbes, S. (2019) Spatial {{Database}} of
+  {{Planted Trees}} ({{SDPT}}) {{Version}} 1.0. www.globalforestwatch.org.
 
 \bibitem[{Harrison et~al.(2013)Harrison, Holman, Cojocaru, Kok, Kontogianni,
   Metzger \& Gramberger}]{harrison_combining_2013}
 Harrison, P.A., Holman, I.P., Cojocaru, G., Kok, K., Kontogianni, A., Metzger,
   M.J. \& Gramberger, M. (2013) Combining qualitative and quantitative
   understanding for exploring cross-sectoral climate change impacts, adaptation
-  and vulnerability in {Europe}. \emph{Regional Environmental Change}
+  and vulnerability in {{Europe}}. \emph{Regional Environmental Change}
   \textbf{13}, 761--780.
 
 \bibitem[{Hasegawa et~al.(2017)Hasegawa, Fujimori, Ito, Takahashi \&
@@ -372,55 +439,71 @@ Hasegawa, T., Fujimori, S., Ito, A., Takahashi, K. \& Masui, T. (2017) Global
   land-use allocation model linked to an integrated assessment model.
   \emph{Science of The Total Environment} \textbf{580}, 787--796.
 
+\bibitem[{Hauck, Winkler  \&  Priess(2015)Hauck, Winkler \&
+  Priess}]{hauck_reviewing_2015}
+Hauck, J., Winkler, K.J. \& Priess, J.A. (2015) Reviewing drivers of ecosystem
+  change as input for environmental and ecosystem services modelling.
+  \emph{Sustainability of Water Quality and Ecology} \textbf{5}, 9--30.
+
 \bibitem[{Hernandez et~al.(2006)Hernandez, Graham, Master \&
   Albert}]{hernandez_effect_2006}
 Hernandez, P.A., Graham, C., Master, L.L. \& Albert, D.L. (2006) The effect of
   sample size and species characteristics on performance of different species
   distribution modeling methods. \emph{Ecography} \textbf{29}, 773--785.
 
-\bibitem[{Hertel(1997)}]{hertel_global_1997}
-Hertel, T. (1997) \emph{Global {Trade} {Analysis}: {Modeling} and
-  applications}. Center for Global Trade Analysis, Department of Agricultural
-  Economics, Purdue University.
+\bibitem[{Hertel et~al.(1997)Hertel, Powell, Frisvold, Gehlhar, Gray, Hanslow,
+  Huff, Ianchovichina, Kuhn, Lanclos, MacLaren, Martin, McDonald, McDougall,
+  Pearson, Perroni, Swaminathan, Tsigas, Tyers, Wigle, Yang, Yanagishima \&
+  Young}]{hertel_global_1997}
+Hertel, T., Powell, A., Frisvold, G., Gehlhar, M., Gray, D., Hanslow, K., Huff,
+  K., Ianchovichina, E., Kuhn, B., Lanclos, D.K., MacLaren, D., Martin, W.,
+  McDonald, B., McDougall, R., Pearson, K., Perroni, C., Swaminathan, P.,
+  Tsigas, M., Tyers, R., Wigle, R., Yang, Y., Yanagishima, K. \& Young, L.M.
+  (1997) Global trade analysis: {{Modeling}} and applications. University of
+  {{Cambridge}}, {Global Trade Analysis Project (GTAP)}, {Department of
+  Agricultural Economics, Purdue University, West Lafayette, IN}.
 
 \bibitem[{Hijmans et~al.(2011)Hijmans, Phillips, Leathwick \&
   Elith}]{hijmans_package_2011}
 Hijmans, R., Phillips, S., Leathwick, J. \& Elith, J. (2011) Package 'dismo'.
+  http://cran.r-project.org/web/packages/dismo/index.html.
 
-\bibitem[{Hijmans et~al.()Hijmans, Cameron, Parra, Jones \&
+\bibitem[{Hijmans et~al.(2005{\natexlab{a}})Hijmans, Cameron, Parra, Jones \&
   Jarvis}]{hijmans_worldclim_nodate}
-Hijmans, R., Cameron, S., Parra, J., Jones, P. \& Jarvis, A. (????) {WORLDCLIM}
-  - a set of global climate layers (climate grids), version 1.4. .
+Hijmans, R., Cameron, S., Parra, J., Jones, P. \& Jarvis, A.
+  (2005{\natexlab{a}}) {{WORLDCLIM}}\textendash a set of global climate layers
+  (climate grids). \emph{International Journal of Climatology} \textbf{25},
+  1965--1978.
 
-\bibitem[{Hijmans et~al.(2005)Hijmans, Cameron, Parra, Jones \&
+\bibitem[{Hijmans et~al.(2005{\natexlab{b}})Hijmans, Cameron, Parra, Jones \&
   Jarvis}]{hijmans_very_2005}
-Hijmans, R.J., Cameron, S.E., Parra, J.L., Jones, P.G. \& Jarvis, A. (2005)
-  Very high resolution interpolated climate surfaces for global land areas.
-  \emph{International Journal of Climatology} \textbf{25}, 1965--1978.
+Hijmans, R.J., Cameron, S.E., Parra, J.L., Jones, P.G. \& Jarvis, A.
+  (2005{\natexlab{b}}) Very high resolution interpolated climate surfaces for
+  global land areas. \emph{International Journal of Climatology} \textbf{25},
+  1965--1978.
 
 \bibitem[{Hilaire  \&  Bertram(2020)Hilaire \&
   Bertram}]{hilaire_remind-magpie_2020}
-Hilaire, J. \& Bertram, C. (2020) The {REMIND}-{MAgPIE} model and scenarios for
-  transition risk analysis. {A} report prepared by {PIK} for the {UNEP}-{FI}
-  {Banking} {Pilot} project ({Phase} 2). Tech. rep., Potsdam Institute for
-  Climate Impact Research (PIK), artwork Size: 20 pages Publisher:
-  Potsdam-Institut für Klimafolgenforschung.
+Hilaire, J. \& Bertram, C. (2020) The {{REMIND}}-{{MAgPIE}} model and scenarios
+  for transition risk analysis. {{A}} report prepared by {{PIK}} for the
+  {{UNEP}}-{{FI Banking Pilot}} project ({{Phase}} 2). Tech. rep., {Potsdam
+  Institute for Climate Impact Research (PIK)}.
 
 \bibitem[{Hill  \&  Guerschman(2020)Hill \& Guerschman}]{hill_modis_2020}
-Hill, M.J. \& Guerschman, J.P. (2020) The {MODIS} {Global} {Vegetation}
-  {Fractional} {Cover} {Product} 2001–2018: {Characteristics} of {Vegetation}
-  {Fractional} {Cover} in {Grasslands} and {Savanna} {Woodlands}. \emph{Remote
+Hill, M.J. \& Guerschman, J.P. (2020) The {{MODIS Global Vegetation Fractional
+  Cover Product}} 2001\textendash 2018: {{Characteristics}} of {{Vegetation
+  Fractional Cover}} in {{Grasslands}} and {{Savanna Woodlands}}. \emph{Remote
   Sensing} \textbf{12}, 406.
 
 \bibitem[{Hodges  \&  Reich(2010)Hodges \& Reich}]{hodges_adding_2010}
-Hodges, J.S. \& Reich, B.J. (2010) Adding {Spatially}-{Correlated} {Errors}
-  {Can} {Mess} {Up} the {Fixed} {Effect} {You} {Love}. \emph{The American
-  Statistician} \textbf{64}, 325--334.
+Hodges, J.S. \& Reich, B.J. (2010) Adding {{Spatially}}-{{Correlated Errors Can
+  Mess Up}} the {{Fixed Effect You Love}}. \emph{The American Statistician}
+  \textbf{64}, 325--334.
 
 \bibitem[{Horridge et~al.(2018)Horridge, Jerie, Mustakinov \&
   Schiffmann}]{horridge_gempack_2018}
-Horridge, J.M., Jerie, M., Mustakinov, D. \& Schiffmann, F. (2018)
-  \emph{{GEMPACK} manual, {GEMPACK} {Software}, {ISBN} 978-1-921654-34-3}.
+Horridge, J.M., Jerie, M., Mustakinov, D. \& Schiffmann, F. (2018) {{GEMPACK}}
+  manual, {{GEMPACK Software}}, {{ISBN}} 978-1-921654-34-3.
 
 \bibitem[{Hoskins et~al.(2016)Hoskins, Bush, Gilmore, Harwood, Hudson, Ware,
   Williams \& Ferrier}]{hoskins_downscaling_2016}
@@ -429,152 +512,356 @@ Hoskins, A.J., Bush, A., Gilmore, J., Harwood, T., Hudson, L.N., Ware, C.,
   global 30" estimates of five land-use classes. \emph{Ecology and Evolution}
   \textbf{6}, 3040--3055.
 
+\bibitem[{Hudson et~al.(2017)Hudson, Newbold, Contu, Hill, Lysenko, De~Palma,
+  Phillips, Alhusseini, Bedford, Bennett, Booth, Burton, Chng, Choimes,
+  Correia, Day, {Echeverr{\'i}a-Londo{\~n}o}, Emerson, Gao, Garon, Harrison,
+  Ingram, Jung, Kemp, Kirkpatrick, Martin, Pan, {Pask-Hale}, Pynegar, Robinson,
+  {Sanchez-Ortiz}, Senior, Simmons, White, Zhang, Aben, Abrahamczyk, Adum,
+  {Aguilar-Barquero}, Aizen, Albertos, Alcala, {del Mar Alguacil}, Alignier,
+  Ancrenaz, Andersen, {Arbel{\'a}ez-Cort{\'e}s}, Armbrecht,
+  {Arroyo-Rodr{\'i}guez}, Aumann, Axmacher, Azhar, Azpiroz, Baeten, Bakayoko,
+  B{\'a}ldi, Banks, Baral, Barlow, Barratt, Barrico, Bartolommei, Barton,
+  Basset, Bat{\'a}ry, Bates, Baur, Bayne, Beja, Benedick, Berg, Bernard, Berry,
+  Bhatt, Bicknell, Bihn, Blake, Bobo, B{\'o}{\c c}on, Boekhout,
+  {B{\"o}hning-Gaese}, Bonham, Borges, Borges, Boutin, Bouyer, Bragagnolo,
+  Brandt, Brearley, Brito, Bros, Brunet, Buczkowski, Buddle, Bugter, Buscardo,
+  Buse, {Cabra-Garc{\'i}a}, C{\'a}ceres, Cagle, {Calvi{\~n}o-Cancela}, Cameron,
+  Cancello, Caparr{\'o}s, Cardoso, Carpenter, Carrijo, Carvalho, Cassano,
+  Castro, {Castro-Luna}, Rolando, Cerezo, Chapman, Chauvat, Christensen,
+  Clarke, Cleary, Colombo, Connop, Craig, {Cruz-L{\'o}pez}, Cunningham,
+  D'Aniello, D'Cruze, {da Silva}, Dallimer, Danquah, Darvill, Dauber, Davis,
+  Dawson, {de Sassi}, {de Thoisy}, Deheuvels, Dejean, Devineau, Diek{\"o}tter,
+  Dolia, Dom{\'i}nguez, {Dominguez-Haydar}, Dorn, Draper, Dreber, Dumont,
+  Dures, Dynesius, Edenius, Eggleton, Eigenbrod, Elek, Entling, Esler, {de
+  Lima}, Faruk, Farwig, Fayle, Felicioli, Felton, Fensham, Fernandez, Ferreira,
+  Ficetola, Fiera, Filgueiras, F{\i}r{\i}nc{\i}o{\u g}lu, Flaspohler, Floren,
+  Fonte, Fournier, Fowler, Franz{\'e}n, Fraser, Fredriksson, Freire, Frizzo,
+  Fukuda, Furlani, Gaigher, Ganzhorn, Garc{\'i}a, {Garcia-R}, Garden,
+  Garilleti, Ge, {Gendreau-Berthiaume}, Gerard, {Gheler-Costa}, Gilbert,
+  Giordani, Giordano, Golodets, Gomes, Gould, Goulson, Gove, Granjon, Grass,
+  Gray, Grogan, Gu, Guardiola, Gunawardene, Gutierrez, {Guti{\'e}rrez-Lamus},
+  Haarmeyer, Hanley, Hanson, Hashim, Hassan, Hatfield, Hawes, Hayward,
+  H{\'e}bert, Helden, Henden, Henschel, Hern{\'a}ndez, Herrera, Herrmann,
+  Herzog, {Higuera-Diaz}, Hilje, H{\"o}fer, Hoffmann, Horgan, Hornung,
+  Horv{\'a}th, Hylander, {Isaacs-Cubides}, Ishida, Ishitani, Jacobs, Jaramillo,
+  Jauker, Hern{\'a}ndez, Johnson, Jolli, Jonsell, Juliani, Jung, Kapoor,
+  Kappes, Kati, Katovai, Kellner, Kessler, Kirby, Kittle, Knight, Knop, Kohler,
+  Koivula, Kolb, Kone, K{\H o}r{\"o}si, Krauss, Kumar, Kumar, Kurz, Kutt,
+  Lachat, Lantschner, Lara, Lasky, Latta, Laurance, Lavelle, Le~F{\'e}on,
+  LeBuhn, L{\'e}gar{\'e}, Lehouck, Lencinas, Lentini, Letcher, Li, Litchwark,
+  Littlewood, Liu, {Lo-Man-Hung}, {L{\'o}pez-Quintero}, Louhaichi, L{\"o}vei,
+  {Lucas-Borja}, Luja, Luskin, MacSwiney~G, Maeto, Magura, Mallari, Malone,
+  Malonza, {Malumbres-Olarte}, Mandujano, M{\aa}ren, {Marin-Spiotta}, Marsh,
+  Marshall, Mart{\'i}nez, Mart{\'i}nez~Pastur, Moreno~Mateos, Mayfield,
+  Mazimpaka, McCarthy, McCarthy, McFrederick, McNamara, Medina, Medina, Mena,
+  Mico, Mikusinski, Milder, Miller, {Miranda-Esquivel}, Moir, Morales, Muchane,
+  Muchane, {Mudri-Stojnic}, Munira, {Muo{\~n}z-Alonso}, Munyekenye, Naidoo,
+  Naithani, Nakagawa, Nakamura, Nakashima, Naoe, {Nates-Parra},
+  Navarrete~Gutierrez, {Navarro-Iriarte}, Ndang'ang'a, Neuschulz, Ngai,
+  Nicolas, Nilsson, Noreika, Norfolk, Noriega, Norton, N{\"o}ske, Nowakowski,
+  Numa, O'Dea, O'Farrell, Oduro, Oertli, {Ofori-Boateng}, Oke, Oostra,
+  Osgathorpe, Otavo, Page, Paritsis, {Parra-H}, Parry, Pe'er, Pearman,
+  Pelegrin, P{\'e}lissier, Peres, Peri, Persson, Petanidou, Peters,
+  Pethiyagoda, Phalan, Philips, Pillsbury, {Pincheira-Ulbrich}, Pineda, Pino,
+  {Pizarro-Araya}, Plumptre, Poggio, Politi, Pons, Poveda, Power, Presley,
+  Proen{\c c}a, Quaranta, Quintero, Rader, Ramesh, {Ramirez-Pinilla},
+  Ranganathan, Rasmussen, {Redpath-Downing}, Reid, Reis, Rey~Benayas,
+  {Rey-Velasco}, Reynolds, Ribeiro, Richards, Richardson, Richardson, R{\'i}os,
+  Robinson, Robles, R{\"o}mbke, {Romero-Duque}, R{\"o}s, Rosselli, Rossiter,
+  Roth, Roulston, Rousseau, Rubio, Ruel, Sadler, S{\'a}fi{\'a}n,
+  {Salda{\~n}a-V{\'a}zquez}, Sam, Samneg{\aa}rd, Santana, Santos, Savage,
+  Schellhorn, Schilthuizen, Schmiedel, Schmitt, Schon, Sch{\"u}epp, Schumann,
+  Schweiger, Scott, Scott, Sedlock, Seefeldt, Shahabuddin, Shannon, Sheil,
+  Sheldon, Shochat, Siebert, Silva, Simonetti, Slade, Smith, {Smith-Pardo},
+  Sodhi, Somarriba, Sosa, Soto~Quiroga, {St-Laurent}, Starzomski, Stefanescu,
+  {Steffan-Dewenter}, Stouffer, Stout, Strauch, Struebig, Su, {Suarez-Rubio},
+  Sugiura, Summerville, Sung, Sutrisno, Svenning, Teder, Threlfall, Tiitsaar,
+  Todd, Tonietto, Torre, T{\'o}thm{\'e}r{\'e}sz, Tscharntke, Turner,
+  Tylianakis, {Uehara-Prado}, {Urbina-Cardona}, Vallan, Vanbergen, Vasconcelos,
+  Vassilev, Verboven, Verdasca, Verd{\'u}, Vergara, Vergara, Verhulst,
+  Virgilio, Vu, Waite, Walker, Wang, Wang, Watling, Weller, Wells, Westphal,
+  Wiafe, Williams, Willig, Woinarski, Wolf, Wolters, Woodcock, Wu, Wunderle,
+  Yamaura, Yoshikura, Yu, Zaitsev, Zeidler, Zou, Collen, Ewers, Mace, Purves,
+  Scharlemann \& Purvis}]{hudson_database_2017}
+Hudson, L.N., Newbold, T., Contu, S., Hill, S.L.L., Lysenko, I., De~Palma, A.,
+  Phillips, H.R.P., Alhusseini, T.I., Bedford, F.E., Bennett, D.J., Booth, H.,
+  Burton, V.J., Chng, C.W.T., Choimes, A., Correia, D.L.P., Day, J.,
+  {Echeverr{\'i}a-Londo{\~n}o}, S., Emerson, S.R., Gao, D., Garon, M.,
+  Harrison, M.L.K., Ingram, D.J., Jung, M., Kemp, V., Kirkpatrick, L., Martin,
+  C.D., Pan, Y., {Pask-Hale}, G.D., Pynegar, E.L., Robinson, A.N.,
+  {Sanchez-Ortiz}, K., Senior, R.A., Simmons, B.I., White, H.J., Zhang, H.,
+  Aben, J., Abrahamczyk, S., Adum, G.B., {Aguilar-Barquero}, V., Aizen, M.A.,
+  Albertos, B., Alcala, E.L., {del Mar Alguacil}, M., Alignier, A., Ancrenaz,
+  M., Andersen, A.N., {Arbel{\'a}ez-Cort{\'e}s}, E., Armbrecht, I.,
+  {Arroyo-Rodr{\'i}guez}, V., Aumann, T., Axmacher, J.C., Azhar, B., Azpiroz,
+  A.B., Baeten, L., Bakayoko, A., B{\'a}ldi, A., Banks, J.E., Baral, S.K.,
+  Barlow, J., Barratt, B.I.P., Barrico, L., Bartolommei, P., Barton, D.M.,
+  Basset, Y., Bat{\'a}ry, P., Bates, A.J., Baur, B., Bayne, E.M., Beja, P.,
+  Benedick, S., Berg, {\AA}., Bernard, H., Berry, N.J., Bhatt, D., Bicknell,
+  J.E., Bihn, J.H., Blake, R.J., Bobo, K.S., B{\'o}{\c c}on, R., Boekhout, T.,
+  {B{\"o}hning-Gaese}, K., Bonham, K.J., Borges, P.A.V., Borges, S.H., Boutin,
+  C., Bouyer, J., Bragagnolo, C., Brandt, J.S., Brearley, F.Q., Brito, I.,
+  Bros, V., Brunet, J., Buczkowski, G., Buddle, C.M., Bugter, R., Buscardo, E.,
+  Buse, J., {Cabra-Garc{\'i}a}, J., C{\'a}ceres, N.C., Cagle, N.L.,
+  {Calvi{\~n}o-Cancela}, M., Cameron, S.A., Cancello, E.M., Caparr{\'o}s, R.,
+  Cardoso, P., Carpenter, D., Carrijo, T.F., Carvalho, A.L., Cassano, C.R.,
+  Castro, H., {Castro-Luna}, A.A., Rolando, C.B., Cerezo, A., Chapman, K.A.,
+  Chauvat, M., Christensen, M., Clarke, F.M., Cleary, D.F., Colombo, G.,
+  Connop, S.P., Craig, M.D., {Cruz-L{\'o}pez}, L., Cunningham, S.A., D'Aniello,
+  B., D'Cruze, N., {da Silva}, P.G., Dallimer, M., Danquah, E., Darvill, B.,
+  Dauber, J., Davis, A.L.V., Dawson, J., {de Sassi}, C., {de Thoisy}, B.,
+  Deheuvels, O., Dejean, A., Devineau, J.L., Diek{\"o}tter, T., Dolia, J.V.,
+  Dom{\'i}nguez, E., {Dominguez-Haydar}, Y., Dorn, S., Draper, I., Dreber, N.,
+  Dumont, B., Dures, S.G., Dynesius, M., Edenius, L., Eggleton, P., Eigenbrod,
+  F., Elek, Z., Entling, M.H., Esler, K.J., {de Lima}, R.F., Faruk, A., Farwig,
+  N., Fayle, T.M., Felicioli, A., Felton, A.M., Fensham, R.J., Fernandez, I.C.,
+  Ferreira, C.C., Ficetola, G.F., Fiera, C., Filgueiras, B.K.C.,
+  F{\i}r{\i}nc{\i}o{\u g}lu, H.K., Flaspohler, D., Floren, A., Fonte, S.J.,
+  Fournier, A., Fowler, R.E., Franz{\'e}n, M., Fraser, L.H., Fredriksson, G.M.,
+  Freire, G.B., Frizzo, T.L.M., Fukuda, D., Furlani, D., Gaigher, R., Ganzhorn,
+  J.U., Garc{\'i}a, K.P., {Garcia-R}, J.C., Garden, J.G., Garilleti, R., Ge,
+  B.M., {Gendreau-Berthiaume}, B., Gerard, P.J., {Gheler-Costa}, C., Gilbert,
+  B., Giordani, P., Giordano, S., Golodets, C., Gomes, L.G.L., Gould, R.K.,
+  Goulson, D., Gove, A.D., Granjon, L., Grass, I., Gray, C.L., Grogan, J., Gu,
+  W., Guardiola, M., Gunawardene, N.R., Gutierrez, A.G., {Guti{\'e}rrez-Lamus},
+  D.L., Haarmeyer, D.H., Hanley, M.E., Hanson, T., Hashim, N.R., Hassan, S.N.,
+  Hatfield, R.G., Hawes, J.E., Hayward, M.W., H{\'e}bert, C., Helden, A.J.,
+  Henden, J.A., Henschel, P., Hern{\'a}ndez, L., Herrera, J.P., Herrmann, F.,
+  Herzog, F., {Higuera-Diaz}, D., Hilje, B., H{\"o}fer, H., Hoffmann, A.,
+  Horgan, F.G., Hornung, E., Horv{\'a}th, R., Hylander, K., {Isaacs-Cubides},
+  P., Ishida, H., Ishitani, M., Jacobs, C.T., Jaramillo, V.J., Jauker, B.,
+  Hern{\'a}ndez, F.J., Johnson, M.F., Jolli, V., Jonsell, M., Juliani, S.N.,
+  Jung, T.S., Kapoor, V., Kappes, H., Kati, V., Katovai, E., Kellner, K.,
+  Kessler, M., Kirby, K.R., Kittle, A.M., Knight, M.E., Knop, E., Kohler, F.,
+  Koivula, M., Kolb, A., Kone, M., K{\H o}r{\"o}si, {\'A}., Krauss, J., Kumar,
+  A., Kumar, R., Kurz, D.J., Kutt, A.S., Lachat, T., Lantschner, V., Lara, F.,
+  Lasky, J.R., Latta, S.C., Laurance, W.F., Lavelle, P., Le~F{\'e}on, V.,
+  LeBuhn, G., L{\'e}gar{\'e}, J.P., Lehouck, V., Lencinas, M.V., Lentini, P.E.,
+  Letcher, S.G., Li, Q., Litchwark, S.A., Littlewood, N.A., Liu, Y.,
+  {Lo-Man-Hung}, N., {L{\'o}pez-Quintero}, C.A., Louhaichi, M., L{\"o}vei,
+  G.L., {Lucas-Borja}, M.E., Luja, V.H., Luskin, M.S., MacSwiney~G, M.C.,
+  Maeto, K., Magura, T., Mallari, N.A., Malone, L.A., Malonza, P.K.,
+  {Malumbres-Olarte}, J., Mandujano, S., M{\aa}ren, I.E., {Marin-Spiotta}, E.,
+  Marsh, C.J., Marshall, E.J.P., Mart{\'i}nez, E., Mart{\'i}nez~Pastur, G.,
+  Moreno~Mateos, D., Mayfield, M.M., Mazimpaka, V., McCarthy, J.L., McCarthy,
+  K.P., McFrederick, Q.S., McNamara, S., Medina, N.G., Medina, R., Mena, J.L.,
+  Mico, E., Mikusinski, G., Milder, J.C., Miller, J.R., {Miranda-Esquivel},
+  D.R., Moir, M.L., Morales, C.L., Muchane, M.N., Muchane, M., {Mudri-Stojnic},
+  S., Munira, A.N., {Muo{\~n}z-Alonso}, A., Munyekenye, B.F., Naidoo, R.,
+  Naithani, A., Nakagawa, M., Nakamura, A., Nakashima, Y., Naoe, S.,
+  {Nates-Parra}, G., Navarrete~Gutierrez, D.A., {Navarro-Iriarte}, L.,
+  Ndang'ang'a, P.K., Neuschulz, E.L., Ngai, J.T., Nicolas, V., Nilsson, S.G.,
+  Noreika, N., Norfolk, O., Noriega, J.A., Norton, D.A., N{\"o}ske, N.M.,
+  Nowakowski, A.J., Numa, C., O'Dea, N., O'Farrell, P.J., Oduro, W., Oertli,
+  S., {Ofori-Boateng}, C., Oke, C.O., Oostra, V., Osgathorpe, L.M., Otavo,
+  S.E., Page, N.V., Paritsis, J., {Parra-H}, A., Parry, L., Pe'er, G., Pearman,
+  P.B., Pelegrin, N., P{\'e}lissier, R., Peres, C.A., Peri, P.L., Persson,
+  A.S., Petanidou, T., Peters, M.K., Pethiyagoda, R.S., Phalan, B., Philips,
+  T.K., Pillsbury, F.C., {Pincheira-Ulbrich}, J., Pineda, E., Pino, J.,
+  {Pizarro-Araya}, J., Plumptre, A.J., Poggio, S.L., Politi, N., Pons, P.,
+  Poveda, K., Power, E.F., Presley, S.J., Proen{\c c}a, V., Quaranta, M.,
+  Quintero, C., Rader, R., Ramesh, B.R., {Ramirez-Pinilla}, M.P., Ranganathan,
+  J., Rasmussen, C., {Redpath-Downing}, N.A., Reid, J.L., Reis, Y.T.,
+  Rey~Benayas, J.M., {Rey-Velasco}, J.C., Reynolds, C., Ribeiro, D.B.,
+  Richards, M.H., Richardson, B.A., Richardson, M.J., R{\'i}os, R.M., Robinson,
+  R., Robles, C.A., R{\"o}mbke, J., {Romero-Duque}, L.P., R{\"o}s, M.,
+  Rosselli, L., Rossiter, S.J., Roth, D.S., Roulston, T.H., Rousseau, L.,
+  Rubio, A.V., Ruel, J.C., Sadler, J.P., S{\'a}fi{\'a}n, S.,
+  {Salda{\~n}a-V{\'a}zquez}, R.A., Sam, K., Samneg{\aa}rd, U., Santana, J.,
+  Santos, X., Savage, J., Schellhorn, N.A., Schilthuizen, M., Schmiedel, U.,
+  Schmitt, C.B., Schon, N.L., Sch{\"u}epp, C., Schumann, K., Schweiger, O.,
+  Scott, D.M., Scott, K.A., Sedlock, J.L., Seefeldt, S.S., Shahabuddin, G.,
+  Shannon, G., Sheil, D., Sheldon, F.H., Shochat, E., Siebert, S.J., Silva,
+  F.A.B., Simonetti, J.A., Slade, E.M., Smith, J., {Smith-Pardo}, A.H., Sodhi,
+  N.S., Somarriba, E.J., Sosa, R.A., Soto~Quiroga, G., {St-Laurent}, M.H.,
+  Starzomski, B.M., Stefanescu, C., {Steffan-Dewenter}, I., Stouffer, P.C.,
+  Stout, J.C., Strauch, A.M., Struebig, M.J., Su, Z., {Suarez-Rubio}, M.,
+  Sugiura, S., Summerville, K.S., Sung, Y.H., Sutrisno, H., Svenning, J.C.,
+  Teder, T., Threlfall, C.G., Tiitsaar, A., Todd, J.H., Tonietto, R.K., Torre,
+  I., T{\'o}thm{\'e}r{\'e}sz, B., Tscharntke, T., Turner, E.C., Tylianakis,
+  J.M., {Uehara-Prado}, M., {Urbina-Cardona}, N., Vallan, D., Vanbergen, A.J.,
+  Vasconcelos, H.L., Vassilev, K., Verboven, H.A.F., Verdasca, M.J., Verd{\'u},
+  J.R., Vergara, C.H., Vergara, P.M., Verhulst, J., Virgilio, M., Vu, L.V.,
+  Waite, E.M., Walker, T.R., Wang, H.F., Wang, Y., Watling, J.I., Weller, B.,
+  Wells, K., Westphal, C., Wiafe, E.D., Williams, C.D., Willig, M.R.,
+  Woinarski, J.C.Z., Wolf, J.H.D., Wolters, V., Woodcock, B.A., Wu, J.,
+  Wunderle, J.M., Yamaura, Y., Yoshikura, S., Yu, D.W., Zaitsev, A.S., Zeidler,
+  J., Zou, F., Collen, B., Ewers, R.M., Mace, G.M., Purves, D.W., Scharlemann,
+  J.P.W. \& Purvis, A. (2017) The database of the {{PREDICTS}} ({{Projecting
+  Responses}} of {{Ecological Diversity In Changing Terrestrial Systems}})
+  project. \emph{Ecology and Evolution} \textbf{7}, 145--188.
+
 \bibitem[{Hudson et~al.(2014)Hudson, Newbold, Contu, Hill, Lysenko, De~Palma,
   Phillips, Senior, Bennett, Booth, Choimes, Correia, Day,
-  Echeverr??a-Londo??o, Garon, Harrison, Ingram, Jung, Kemp, Kirkpatrick,
-  Martin, Pan, White, Aben, Abrahamczyk, Adum, Aguilar-Barquero, Aizen,
-  Ancrenaz, Arbel??ez-Cort??s, Armbrecht, Azhar, Azpiroz, Baeten, B??ldi,
-  Banks, Barlow, Bat??ry, Bates, Bayne, Beja, Berg, Berry, Bicknell, Bihn,
-  B??hning-Gaese, Boekhout, Boutin, Bouyer, Brearley, Brito, Brunet,
-  Buczkowski, Buscardo, Cabra-Garc??a, Calvi??o-Cancela, Cameron, Cancello,
-  Carrijo, Carvalho, Castro, Castro-Luna, Cerda, Cerezo, Chauvat, Clarke,
-  Cleary, Connop, D'Aniello, da~Silva, Darvill, Dauber, Dejean, Diek??tter,
-  Dominguez-Haydar, Dormann, Dumont, Dures, Dynesius, Edenius, Elek, Entling,
-  Farwig, Fayle, Felicioli, Felton, Ficetola, Filgueiras, Fonte, Fraser,
-  Fukuda, Furlani, Ganzhorn, Garden, Gheler-Costa, Giordani, Giordano,
-  Gottschalk, Goulson, Gove, Grogan, Hanley, Hanson, Hashim, Hawes, H??bert,
-  Helden, Henden, Hern??ndez, Herzog, Higuera-Diaz, Hilje, Horgan, Horv??th,
-  Hylander, Isaacs-Cubides, Ishitani, Jacobs, Jaramillo, Jauker, Jonsell, Jung,
-  Kapoor, Kati, Katovai, Kessler, Knop, Kolb, Kor??si, Lachat, Lantschner,
-  Le~F??on, Lebuhn, L??gar??, Letcher, Littlewood, L??pez-Quintero, Louhaichi,
-  L??vei, Lucas-Borja, Luja, Maeto, Magura, Mallari, Marin-Spiotta, Marshall,
-  Mart??nez, Mayfield, Mikusinski, Milder, Miller, Morales, Muchane, Muchane,
-  Naidoo, Nakamura, Naoe, Nates-Parra, Navarrete~Gutierrez, Neuschulz, Noreika,
-  Norfolk, Noriega, N??ske, O'Dea, Oduro, Ofori-Boateng, Oke, Osgathorpe,
-  Paritsis, Parra-H, Pelegrin, Peres, Persson, Petanidou, Phalan, Philips,
-  Poveda, Power, Presley, Proen??a, Quaranta, Quintero, Redpath-Downing, Reid,
-  Reis, Ribeiro, Richardson, Richardson, Robles, R??mbke, Romero-Duque,
-  Rosselli, Rossiter, Roulston, Rousseau, Sadler, S??fi??n, Salda??a-V??zquez,
-  Samneg??rd, Sch??epp, Schweiger, Sedlock, Shahabuddin, Sheil, Silva, Slade,
-  Smith-Pardo, Sodhi, Somarriba, Sosa, Stout, Struebig, Sung, Threlfall,
-  Tonietto, T??thm??r??sz, Tscharntke, Turner, Tylianakis, Vanbergen, Vassilev,
-  Verboven, Vergara, Vergara, Verhulst, Walker, Wang, Watling, Wells, Williams,
-  Willig, Woinarski, Wolf, Woodcock, Yu, Zaitsev, Collen, Ewers, Mace, Purves,
-  Scharlemann \& Purvis}]{hudson_predicts_2014}
+  {Echeverr{\'i}a-Londo{\~n}o}, Garon, Harrison, Ingram, Jung, Kemp,
+  Kirkpatrick, Martin, Pan, White, Aben, Abrahamczyk, Adum, {Aguilar-Barquero},
+  Aizen, Ancrenaz, {Arbel{\'a}ez-Cort{\'e}s}, Armbrecht, Azhar, Azpiroz,
+  Baeten, B{\'a}ldi, Banks, Barlow, Bat{\'a}ry, Bates, Bayne, Beja, Berg,
+  Berry, Bicknell, Bihn, {B{\"o}hning-Gaese}, Boekhout, Boutin, Bouyer,
+  Brearley, Brito, Brunet, Buczkowski, Buscardo, {Cabra-Garc{\'i}a},
+  {Calvi{\~n}o-Cancela}, Cameron, Cancello, Carrijo, Carvalho, Castro,
+  {Castro-Luna}, Cerda, Cerezo, Chauvat, Clarke, Cleary, Connop, D'Aniello, {da
+  Silva}, Darvill, Dauber, Dejean, Diek{\"o}tter, {Dominguez-Haydar}, Dormann,
+  Dumont, Dures, Dynesius, Edenius, Elek, Entling, Farwig, Fayle, Felicioli,
+  Felton, Ficetola, Filgueiras, Fonte, Fraser, Fukuda, Furlani, Ganzhorn,
+  Garden, {Gheler-Costa}, Giordani, Giordano, Gottschalk, Goulson, Gove,
+  Grogan, Hanley, Hanson, Hashim, Hawes, H{\'e}bert, Helden, Henden,
+  Hern{\'a}ndez, Herzog, {Higuera-Diaz}, Hilje, Horgan, Horv{\'a}th, Hylander,
+  {Isaacs-Cubides}, Ishitani, Jacobs, Jaramillo, Jauker, Jonsell, Jung, Kapoor,
+  Kati, Katovai, Kessler, Knop, Kolb, K{\H o}r{\"o}si, Lachat, Lantschner,
+  Le~F{\'e}on, LeBuhn, L{\'e}gar{\'e}, Letcher, Littlewood,
+  {L{\'o}pez-Quintero}, Louhaichi, L{\"o}vei, {Lucas-Borja}, Luja, Maeto,
+  Magura, Mallari, {Marin-Spiotta}, Marshall, Mart{\'i}nez, Mayfield,
+  Mikusinski, Milder, Miller, Morales, Muchane, Muchane, Naidoo, Nakamura,
+  Naoe, {Nates-Parra}, Navarrete~Gutierrez, Neuschulz, Noreika, Norfolk,
+  Noriega, N{\"o}ske, O'Dea, Oduro, {Ofori-Boateng}, Oke, Osgathorpe, Paritsis,
+  {Parra-H}, Pelegrin, Peres, Persson, Petanidou, Phalan, Philips, Poveda,
+  Power, Presley, Proen{\c c}a, Quaranta, Quintero, {Redpath-Downing}, Reid,
+  Reis, Ribeiro, Richardson, Richardson, Robles, R{\"o}mbke, {Romero-Duque},
+  Rosselli, Rossiter, Roulston, Rousseau, Sadler, S{\'a}fi{\'a}n,
+  {Salda{\~n}a-V{\'a}zquez}, Samneg{\aa}rd, Sch{\"u}epp, Schweiger, Sedlock,
+  Shahabuddin, Sheil, Silva, Slade, {Smith-Pardo}, Sodhi, Somarriba, Sosa,
+  Stout, Struebig, Sung, Threlfall, Tonietto, T{\'o}thm{\'e}r{\'e}sz,
+  Tscharntke, Turner, Tylianakis, Vanbergen, Vassilev, Verboven, Vergara,
+  Vergara, Verhulst, Walker, Wang, Watling, Wells, Williams, Willig, Woinarski,
+  Wolf, Woodcock, Yu, Zaitsev, Collen, Ewers, Mace, Purves, Scharlemann \&
+  Purvis}]{hudson_predicts_2014}
 Hudson, L.N., Newbold, T., Contu, S., Hill, S.L.L., Lysenko, I., De~Palma, A.,
   Phillips, H.R.P., Senior, R.A., Bennett, D.J., Booth, H., Choimes, A.,
-  Correia, D.L.P., Day, J., Echeverr??a-Londo??o, S., Garon, M., Harrison,
-  M.L.K., Ingram, D.J., Jung, M., Kemp, V., Kirkpatrick, L., Martin, C.D., Pan,
-  Y., White, H.J., Aben, J., Abrahamczyk, S., Adum, G.B., Aguilar-Barquero, V.,
-  Aizen, M.A., Ancrenaz, M., Arbel??ez-Cort??s, E., Armbrecht, I., Azhar, B.,
-  Azpiroz, A.B., Baeten, L., B??ldi, A., Banks, J.E., Barlow, J., Bat??ry, P.,
-  Bates, A.J., Bayne, E.M., Beja, P., Berg, k., Berry, N.J., Bicknell, J.E.,
-  Bihn, J.H., B??hning-Gaese, K., Boekhout, T., Boutin, C., Bouyer, J.,
-  Brearley, F.Q., Brito, I., Brunet, J., Buczkowski, G., Buscardo, E.,
-  Cabra-Garc??a, J., Calvi??o-Cancela, M., Cameron, S.A., Cancello, E.M.,
-  Carrijo, T.F., Carvalho, A.L., Castro, H., Castro-Luna, A.A., Cerda, R.,
-  Cerezo, A., Chauvat, M., Clarke, F.M., Cleary, D.F.R., Connop, S.P.,
-  D'Aniello, B., da~Silva, P.G., Darvill, B., Dauber, J., Dejean, A.,
-  Diek??tter, T., Dominguez-Haydar, Y., Dormann, C.F., Dumont, B., Dures, S.G.,
-  Dynesius, M., Edenius, L., Elek, Z., Entling, M.H., Farwig, N., Fayle, T.M.,
-  Felicioli, A., Felton, A.M., Ficetola, G.F., Filgueiras, B.K.C., Fonte, S.J.,
-  Fraser, L.H., Fukuda, D., Furlani, D., Ganzhorn, J.U., Garden, J.G.,
-  Gheler-Costa, C., Giordani, P., Giordano, S., Gottschalk, M.S., Goulson, D.,
-  Gove, A.D., Grogan, J., Hanley, M.E., Hanson, T., Hashim, N.R., Hawes, J.E.,
-  H??bert, C., Helden, A.J., Henden, J.A., Hern??ndez, L., Herzog, F.,
-  Higuera-Diaz, D., Hilje, B., Horgan, F.G., Horv??th, R., Hylander, K.,
-  Isaacs-Cubides, P., Ishitani, M., Jacobs, C.T., Jaramillo, V.J., Jauker, B.,
-  Jonsell, M., Jung, T.S., Kapoor, V., Kati, V., Katovai, E., Kessler, M.,
-  Knop, E., Kolb, A., Kor??si, d., Lachat, T., Lantschner, V., Le~F??on, V.,
-  Lebuhn, G., L??gar??, J.P., Letcher, S.G., Littlewood, N.A., L??pez-Quintero,
-  C.A., Louhaichi, M., L??vei, G.L., Lucas-Borja, M.E., Luja, V.H., Maeto, K.,
-  Magura, T., Mallari, N.A., Marin-Spiotta, E., Marshall, E.J.P., Mart??nez,
-  E., Mayfield, M.M., Mikusinski, G., Milder, J.C., Miller, J.R., Morales,
-  C.L., Muchane, M.N., Muchane, M., Naidoo, R., Nakamura, A., Naoe, S.,
-  Nates-Parra, G., Navarrete~Gutierrez, D.A., Neuschulz, E.L., Noreika, N.,
-  Norfolk, O., Noriega, J.A., N??ske, N.M., O'Dea, N., Oduro, W.,
-  Ofori-Boateng, C., Oke, C.O., Osgathorpe, L.M., Paritsis, J., Parra-H, A.,
-  Pelegrin, N., Peres, C.A., Persson, A.S., Petanidou, T., Phalan, B., Philips,
-  T.K., Poveda, K., Power, E.F., Presley, S.J., Proen??a, V., Quaranta, M.,
-  Quintero, C., Redpath-Downing, N.A., Reid, J.L., Reis, Y.T., Ribeiro, D.B.,
-  Richardson, B.A., Richardson, M.J., Robles, C.A., R??mbke, J., Romero-Duque,
-  L.P., Rosselli, L., Rossiter, S.J., Roulston, T.H., Rousseau, L., Sadler,
-  J.P., S??fi??n, S., Salda??a-V??zquez, R.A., Samneg??rd, U., Sch??epp, C.,
-  Schweiger, O., Sedlock, J.L., Shahabuddin, G., Sheil, D., Silva, F.A.B.,
-  Slade, E.M., Smith-Pardo, A.H., Sodhi, N.S., Somarriba, E.J., Sosa, R.A.,
-  Stout, J.C., Struebig, M.J., Sung, Y.H., Threlfall, C.G., Tonietto, R.,
-  T??thm??r??sz, B., Tscharntke, T., Turner, E.C., Tylianakis, J.M., Vanbergen,
-  A.J., Vassilev, K., Verboven, H.A.F., Vergara, C.H., Vergara, P.M., Verhulst,
-  J., Walker, T.R., Wang, Y., Watling, J.I., Wells, K., Williams, C.D., Willig,
-  M.R., Woinarski, J.C.Z., Wolf, J.H.D., Woodcock, B.A., Yu, D.W., Zaitsev,
-  A.S., Collen, B., Ewers, R.M., Mace, G.M., Purves, D.W., Scharlemann, J.P.W.
-  \& Purvis, A. (2014) The {PREDICTS} database: {A} global database of how
-  local terrestrial biodiversity responds to human impacts. \emph{Ecology and
-  Evolution} \textbf{4}, 4701--4735.
+  Correia, D.L.P., Day, J., {Echeverr{\'i}a-Londo{\~n}o}, S., Garon, M.,
+  Harrison, M.L.K., Ingram, D.J., Jung, M., Kemp, V., Kirkpatrick, L., Martin,
+  C.D., Pan, Y., White, H.J., Aben, J., Abrahamczyk, S., Adum, G.B.,
+  {Aguilar-Barquero}, V., Aizen, M.A., Ancrenaz, M., {Arbel{\'a}ez-Cort{\'e}s},
+  E., Armbrecht, I., Azhar, B., Azpiroz, A.B., Baeten, L., B{\'a}ldi, A.,
+  Banks, J.E., Barlow, J., Bat{\'a}ry, P., Bates, A.J., Bayne, E.M., Beja, P.,
+  Berg, {\AA}., Berry, N.J., Bicknell, J.E., Bihn, J.H., {B{\"o}hning-Gaese},
+  K., Boekhout, T., Boutin, C., Bouyer, J., Brearley, F.Q., Brito, I., Brunet,
+  J., Buczkowski, G., Buscardo, E., {Cabra-Garc{\'i}a}, J.,
+  {Calvi{\~n}o-Cancela}, M., Cameron, S.A., Cancello, E.M., Carrijo, T.F.,
+  Carvalho, A.L., Castro, H., {Castro-Luna}, A.A., Cerda, R., Cerezo, A.,
+  Chauvat, M., Clarke, F.M., Cleary, D.F.R., Connop, S.P., D'Aniello, B., {da
+  Silva}, P.G., Darvill, B., Dauber, J., Dejean, A., Diek{\"o}tter, T.,
+  {Dominguez-Haydar}, Y., Dormann, C.F., Dumont, B., Dures, S.G., Dynesius, M.,
+  Edenius, L., Elek, Z., Entling, M.H., Farwig, N., Fayle, T.M., Felicioli, A.,
+  Felton, A.M., Ficetola, G.F., Filgueiras, B.K.C., Fonte, S.J., Fraser, L.H.,
+  Fukuda, D., Furlani, D., Ganzhorn, J.U., Garden, J.G., {Gheler-Costa}, C.,
+  Giordani, P., Giordano, S., Gottschalk, M.S., Goulson, D., Gove, A.D.,
+  Grogan, J., Hanley, M.E., Hanson, T., Hashim, N.R., Hawes, J.E., H{\'e}bert,
+  C., Helden, A.J., Henden, J.A., Hern{\'a}ndez, L., Herzog, F.,
+  {Higuera-Diaz}, D., Hilje, B., Horgan, F.G., Horv{\'a}th, R., Hylander, K.,
+  {Isaacs-Cubides}, P., Ishitani, M., Jacobs, C.T., Jaramillo, V.J., Jauker,
+  B., Jonsell, M., Jung, T.S., Kapoor, V., Kati, V., Katovai, E., Kessler, M.,
+  Knop, E., Kolb, A., K{\H o}r{\"o}si, {\'A}., Lachat, T., Lantschner, V.,
+  Le~F{\'e}on, V., LeBuhn, G., L{\'e}gar{\'e}, J.P., Letcher, S.G., Littlewood,
+  N.A., {L{\'o}pez-Quintero}, C.A., Louhaichi, M., L{\"o}vei, G.L.,
+  {Lucas-Borja}, M.E., Luja, V.H., Maeto, K., Magura, T., Mallari, N.A.,
+  {Marin-Spiotta}, E., Marshall, E.J.P., Mart{\'i}nez, E., Mayfield, M.M.,
+  Mikusinski, G., Milder, J.C., Miller, J.R., Morales, C.L., Muchane, M.N.,
+  Muchane, M., Naidoo, R., Nakamura, A., Naoe, S., {Nates-Parra}, G.,
+  Navarrete~Gutierrez, D.A., Neuschulz, E.L., Noreika, N., Norfolk, O.,
+  Noriega, J.A., N{\"o}ske, N.M., O'Dea, N., Oduro, W., {Ofori-Boateng}, C.,
+  Oke, C.O., Osgathorpe, L.M., Paritsis, J., {Parra-H}, A., Pelegrin, N.,
+  Peres, C.A., Persson, A.S., Petanidou, T., Phalan, B., Philips, T.K., Poveda,
+  K., Power, E.F., Presley, S.J., Proen{\c c}a, V., Quaranta, M., Quintero, C.,
+  {Redpath-Downing}, N.A., Reid, J.L., Reis, Y.T., Ribeiro, D.B., Richardson,
+  B.A., Richardson, M.J., Robles, C.A., R{\"o}mbke, J., {Romero-Duque}, L.P.,
+  Rosselli, L., Rossiter, S.J., Roulston, T.H., Rousseau, L., Sadler, J.P.,
+  S{\'a}fi{\'a}n, S., {Salda{\~n}a-V{\'a}zquez}, R.A., Samneg{\aa}rd, U.,
+  Sch{\"u}epp, C., Schweiger, O., Sedlock, J.L., Shahabuddin, G., Sheil, D.,
+  Silva, F.A.B., Slade, E.M., {Smith-Pardo}, A.H., Sodhi, N.S., Somarriba,
+  E.J., Sosa, R.A., Stout, J.C., Struebig, M.J., Sung, Y.H., Threlfall, C.G.,
+  Tonietto, R., T{\'o}thm{\'e}r{\'e}sz, B., Tscharntke, T., Turner, E.C.,
+  Tylianakis, J.M., Vanbergen, A.J., Vassilev, K., Verboven, H.A.F., Vergara,
+  C.H., Vergara, P.M., Verhulst, J., Walker, T.R., Wang, Y., Watling, J.I.,
+  Wells, K., Williams, C.D., Willig, M.R., Woinarski, J.C.Z., Wolf, J.H.D.,
+  Woodcock, B.A., Yu, D.W., Zaitsev, A.S., Collen, B., Ewers, R.M., Mace, G.M.,
+  Purves, D.W., Scharlemann, J.P.W. \& Purvis, A. (2014) The {{PREDICTS}}
+  database: A global database of how local terrestrial biodiversity responds to
+  human impacts. \emph{Ecology and Evolution} \textbf{4}, 4701--4735.
 
 \bibitem[{Hurtt et~al.(2011)Hurtt, Chini, Frolking, Betts, Feddema, Fischer,
   Fisk, Hibbard, Houghton, Janetos, Jones, Kindermann, Kinoshita,
-  Klein~Goldewijk, Riahi, Shevliakova, Smith, Stehfest, Thomson, Thornton, van
-  Vuuren \& Wang}]{hurtt_harmonization_2011}
+  Klein~Goldewijk, Riahi, Shevliakova, Smith, Stehfest, Thomson, Thornton, {van
+  Vuuren} \& Wang}]{hurtt_harmonization_2011}
 Hurtt, G.C., Chini, L.P., Frolking, S., Betts, R.A., Feddema, J., Fischer, G.,
   Fisk, J.P., Hibbard, K., Houghton, R.A., Janetos, A., Jones, C.D.,
   Kindermann, G., Kinoshita, T., Klein~Goldewijk, K., Riahi, K., Shevliakova,
-  E., Smith, S., Stehfest, E., Thomson, A., Thornton, P., van Vuuren, D.P. \&
+  E., Smith, S., Stehfest, E., Thomson, A., Thornton, P., {van Vuuren}, D.P. \&
   Wang, Y.P. (2011) Harmonization of land-use scenarios for the period
   1500-2100: 600 years of global gridded annual land-use transitions, wood
   harvest, and resulting secondary lands. \emph{Climatic Change} \textbf{109},
   117--161.
 
+\bibitem[{Hurtt et~al.(2020)Hurtt, Chini, Sahajpal, Frolking, Bodirsky, Calvin,
+  Doelman, Fisk, Fujimori, Klein~Goldewijk, Hasegawa, Havlik, Heinimann,
+  Humpen{\"o}der, Jungclaus, Kaplan, Kennedy, Krisztin, Lawrence, Lawrence, Ma,
+  Mertz, Pongratz, Popp, Poulter, Riahi, Shevliakova, Stehfest, Thornton,
+  Tubiello, {van Vuuren} \& Zhang}]{hurtt_harmonization_2020}
+Hurtt, G.C., Chini, L., Sahajpal, R., Frolking, S., Bodirsky, B.L., Calvin, K.,
+  Doelman, J.C., Fisk, J., Fujimori, S., Klein~Goldewijk, K., Hasegawa, T.,
+  Havlik, P., Heinimann, A., Humpen{\"o}der, F., Jungclaus, J., Kaplan, J.O.,
+  Kennedy, J., Krisztin, T., Lawrence, D., Lawrence, P., Ma, L., Mertz, O.,
+  Pongratz, J., Popp, A., Poulter, B., Riahi, K., Shevliakova, E., Stehfest,
+  E., Thornton, P., Tubiello, F.N., {van Vuuren}, D.P. \& Zhang, X. (2020)
+  Harmonization of global land use change and management for the period
+  850\textendash 2100 ({{LUH2}}) for {{CMIP6}}. \emph{Geoscientific Model
+  Development} \textbf{13}, 5425--5464.
+
 \bibitem[{Hyandye  \&  Martz(2017)Hyandye \& Martz}]{hyandye_markovian_2017}
-Hyandye, C. \& Martz, L.W. (2017) A {Markovian} and cellular automata land-use
-  change predictive model of the {Usangu} {Catchment}. \emph{International
-  Journal of Remote Sensing} \textbf{38}, 64--81.
+Hyandye, C. \& Martz, L.W. (2017) A {{Markovian}} and cellular automata
+  land-use change predictive model of the {{Usangu Catchment}}.
+  \emph{International Journal of Remote Sensing} \textbf{38}, 64--81.
 
 \bibitem[{{IPBES}(2016)}]{ipbes_summary_2016}
-{IPBES} (2016) \emph{Summary for policymakers of the methodological assessment
-  of scenarios and models of biodiversity and ecosystem services of the
-  {Intergovernmental} {Science}-{Policy} {Platform} on {Biodiversity} and
-  {Ecosystem} {Services}. {S}. {Ferrier}, {K}. {N}.; {Ninan}, {P}.; {Leadley},
-  {R}.; {Alkemade}, {L}. {A}.; {Acosta}, {H}. {R}.; {Akçakaya}, {L}.;
-  {Brotons}, {W}. {W}. {L}.; {Cheung}, {V}. {Christensen}, {K}. {A}.;
-  {Harhash}, {J}.; {Kabubo}-{Mariara}, {C}.; {Lundquist}, {M}.; {Obersteiner},
-  {H}. {M}.; {Pereira}, {G}.; {Peterson}, {R}.; {Pichs}-{Madruga}, {N}.;
-  {Ravindranath}, {C}.; {Rondinini} and {B}. {A}. {Wintle} (eds.).
-  {Secretariat} of the {Intergovernmental} {Science}-{Policy} {Platform} on
-  {Biodiversity} and {Ecosystem} {Services}, {Bonn}, {Germany}.} Citation Key
-  Alias: ipbesSummaryPolicymakersMethodological2016b.
+{IPBES} (2016) Summary for policymakers of the methodological assessment of
+  scenarios and models of biodiversity and ecosystem services of the
+  {{Intergovernmental Science}}-{{Policy Platform}} on {{Biodiversity}} and
+  {{Ecosystem Services}}. {{S}}. {{Ferrier}}, {{K}}. {{N}}.; {{Ninan}}, {{P}}.;
+  {{Leadley}}, {{R}}.; {{Alkemade}}, {{L}}. {{A}}.; {{Acosta}}, {{H}}. {{R}}.;
+  {{Ak\c{c}akaya}}, {{L}}.; {{Brotons}}, {{W}}. {{W}}. {{L}}.; {{Cheung}},
+  {{V}}. {{Christensen}}, {{K}}. {{A}}.; {{Harhash}}, {{J}}.;
+  {{Kabubo}}-{{Mariara}}, {{C}}.; {{Lundquist}}, {{M}}.; {{Obersteiner}},
+  {{H}}. {{M}}.; {{Pereira}}, {{G}}.; {{Peterson}}, {{R}}.;
+  {{Pichs}}-{{Madruga}}, {{N}}.; {{Ravindranath}}, {{C}}.; {{Rondinini}} and
+  {{B}}. {{A}}. {{Wintle}} (eds.). {{Secretariat}} of the {{Intergovernmental
+  Science}}-{{Policy Platform}} on {{Biodiversity}} and {{Ecosystem Services}},
+  {{Bonn}}, {{Germany}}. 32 pages.
 
 \bibitem[{{IPBES}(2019)}]{ipbes_summary_2019}
 {IPBES} (2019) Summary for policymakers of the global assessment report on
-  biodiversity and ecosystem services of the {Intergovernmental}
-  {Science}-{Policy} {Platform} on {Biodiversity} and {Ecosystem} {Services}.
-  {S}. {Díaz}, {J}. {Settele}, {E}. {S}. {Brondízio} {E}.{S}., {H}. {T}.
-  {Ngo}, {M}. {Guèze}, {J}. {Agard}, {A}. {Arneth}, {P}. {Balvanera}, {K}.
-  {A}. {Brauman}, {S}. {H}. {M}. {Butchart}, {K}. {M}. {A}. {Chan}, {L}. {A}.
-  {Garibaldi}, {K}. {Ichii}, {J}. {Liu}, {S}. {M}. {Subramanian}, {G}. {F}.
-  {Midgley}, {P}. {Miloslavich}, {Z}. {Molnár}, {D}. {Obura}, {A}. {Pfaff},
-  {S}. {Polasky}, {A}. {Purvis}, {J}. {Razzaque}, {B}. {Reyers}, {R}. {Roy}
-  {Chowdhury}, {Y}. {J}. {Shin}, {I}. {J}. {Visseren}-{Hamakers}, {K}. {J}.
-  {Willis}, and {C}. {N}. {Zayas} (eds.). Tech. rep., IPBES secretariat, Bonn.
+  biodiversity and ecosystem services of the {{Intergovernmental
+  Science}}-{{Policy Platform}} on {{Biodiversity}} and {{Ecosystem Services}}.
+  {{S}}. {{D\'iaz}}, {{J}}. {{Settele}}, {{E}}. {{S}}. {{Brond\'izio
+  E}}.{{S}}., {{H}}. {{T}}. {{Ngo}}, {{M}}. {{Gu\`eze}}, {{J}}. {{Agard}},
+  {{A}}. {{Arneth}}, {{P}}. {{Balvanera}}, {{K}}. {{A}}. {{Brauman}}, {{S}}.
+  {{H}}. {{M}}. {{Butchart}}, {{K}}. {{M}}. {{A}}. {{Chan}}, {{L}}. {{A}}.
+  {{Garibaldi}}, {{K}}. {{Ichii}}, {{J}}. {{Liu}}, {{S}}. {{M}}.
+  {{Subramanian}}, {{G}}. {{F}}. {{Midgley}}, {{P}}. {{Miloslavich}}, {{Z}}.
+  {{Moln\'ar}}, {{D}}. {{Obura}}, {{A}}. {{Pfaff}}, {{S}}. {{Polasky}}, {{A}}.
+  {{Purvis}}, {{J}}. {{Razzaque}}, {{B}}. {{Reyers}}, {{R}}. {{Roy Chowdhury}},
+  {{Y}}. {{J}}. {{Shin}}, {{I}}. {{J}}. {{Visseren}}-{{Hamakers}}, {{K}}.
+  {{J}}. {{Willis}}, and {{C}}. {{N}}. {{Zayas}} (eds.). {{IPBES}} secretariat,
+  {{Bonn}}. 56 pages.
 
 \bibitem[{{IUCN}(2018)}]{iucn_iucn_2018}
-{IUCN} (2018) The {IUCN} {Red} {List} of {Threatened} {Species}. {Version}
-  2018-2.
+{IUCN} (2018) The {{IUCN Red List}} of {{Threatened Species}}. {{Version}}
+  2018-2. {{https://www.iucnredlist.org}}.
 
 \bibitem[{{IUCN}  \&  {UNEP-WCMC}(2014){IUCN} \& {UNEP-WCMC}}]{iucn_world_2014}
-{IUCN} \& {UNEP-WCMC} (2014) The {World} {Database} on {Protected} {Areas}
-  ({WDPA}). Tech. rep., IUCN and UNEP-WCMC, Cambridge, UK.
+{IUCN} \& {UNEP-WCMC} (2014) The {{World Database}} on {{Protected Areas}}
+  ({{WDPA}}). {{UNEP World Conservation Monitoring Centre}}. {{Cambridge}},
+  {{UK}}. {{https://www.protectedplanet.net}}.
 
-\bibitem[{Jiménez-Valverde(2012)}]{jimenez-valverde_insights_2012}
-Jiménez-Valverde, A. (2012) Insights into the area under the receiver
-  operating characteristic curve ({AUC}) as a discrimination measure in species
-  distribution modelling. \emph{Global Ecology and Biogeography} \textbf{21},
-  498--507.
+\bibitem[{{Jim{\'e}nez-Valverde}(2012)}]{jimenez-valverde_insights_2012}
+{Jim{\'e}nez-Valverde}, A. (2012) Insights into the area under the receiver
+  operating characteristic curve ({{AUC}}) as a discrimination measure in
+  species distribution modelling. \emph{Global Ecology and Biogeography}
+  \textbf{21}, 498--507.
 
 \bibitem[{Kapitza, Golding  \&  Wintle(2020)Kapitza, Golding \&
   Wintle}]{kapitza_predictive_2020}
 Kapitza, S., Golding, N. \& Wintle, B.A. (2020) A predictive model of
-  fractional land use. preprint, Ecology.
+  fractional land use. {{bioRxiv}}: 10.1101/2020.12.08.415992.
 
 \bibitem[{Kapitza et~al.(2021)Kapitza, Van~Ha, Kompas, Golding, Cadenhead, Bal
   \& Wintle}]{kapitza_assessing_2021}
@@ -583,20 +870,21 @@ Kapitza, S., Van~Ha, P., Kompas, T., Golding, N., Cadenhead, N.C.R., Bal, P. \&
   climate change on regional avian biodiversity. \emph{Scientific Reports}
   \textbf{11}.
 
-\bibitem[{Kim et~al.(2018)Kim, Rosa, Alkemade, Leadley, Hurtt, Popp, van
-  Vuuren, Anthoni, Arneth, Baisero, Caton, Chaplin-Kramer, Chini, De~Palma,
+\bibitem[{Kim et~al.(2018)Kim, Rosa, Alkemade, Leadley, Hurtt, Popp, {van
+  Vuuren}, Anthoni, Arneth, Baisero, Caton, {Chaplin-Kramer}, Chini, De~Palma,
   Di~Fulvio, Di~Marco, Espinoza, Ferrier, Fujimori, Gonzalez, Gueguen, Guerra,
-  Harfoot, Harwood, Hasegawa, Haverd, Havlík, Hellweg, Hill, Hirata, Hoskins,
-  Janse, Jetz, Johnson, Krause, Leclère, Martins, Matsui, Merow, Obersteiner,
-  Ohashi, Poulter, Purvis, Quesada, Rondinini, Schipper, Sharp, Takahashi,
-  Thuiller, Titeux, Visconti, Ware, Wolf \& Pereira}]{kim_protocol_2018}
-Kim, H., Rosa, I.M.D., Alkemade, R., Leadley, P., Hurtt, G., Popp, A., van
-  Vuuren, D.P., Anthoni, P., Arneth, A., Baisero, D., Caton, E.,
-  Chaplin-Kramer, R., Chini, L., De~Palma, A., Di~Fulvio, F., Di~Marco, M.,
+  Harfoot, Harwood, Hasegawa, Haverd, Havl{\'i}k, Hellweg, Hill, Hirata,
+  Hoskins, Janse, Jetz, Johnson, Krause, Lecl{\`e}re, Martins, Matsui, Merow,
+  Obersteiner, Ohashi, Poulter, Purvis, Quesada, Rondinini, Schipper, Sharp,
+  Takahashi, Thuiller, Titeux, Visconti, Ware, Wolf \&
+  Pereira}]{kim_protocol_2018}
+Kim, H., Rosa, I.M.D., Alkemade, R., Leadley, P., Hurtt, G., Popp, A., {van
+  Vuuren}, D.P., Anthoni, P., Arneth, A., Baisero, D., Caton, E.,
+  {Chaplin-Kramer}, R., Chini, L., De~Palma, A., Di~Fulvio, F., Di~Marco, M.,
   Espinoza, F., Ferrier, S., Fujimori, S., Gonzalez, R.E., Gueguen, M., Guerra,
-  C., Harfoot, M., Harwood, T.D., Hasegawa, T., Haverd, V., Havlík, P.,
+  C., Harfoot, M., Harwood, T.D., Hasegawa, T., Haverd, V., Havl{\'i}k, P.,
   Hellweg, S., Hill, S.L.L., Hirata, A., Hoskins, A.J., Janse, J.H., Jetz, W.,
-  Johnson, J.A., Krause, A., Leclère, D., Martins, I.S., Matsui, T., Merow,
+  Johnson, J.A., Krause, A., Lecl{\`e}re, D., Martins, I.S., Matsui, T., Merow,
   C., Obersteiner, M., Ohashi, H., Poulter, B., Purvis, A., Quesada, B.,
   Rondinini, C., Schipper, A.M., Sharp, R., Takahashi, K., Thuiller, W.,
   Titeux, N., Visconti, P., Ware, C., Wolf, F. \& Pereira, H.M. (2018) A
@@ -604,63 +892,87 @@ Kim, H., Rosa, I.M.D., Alkemade, R., Leadley, P., Hurtt, G., Popp, A., van
   using harmonized land-use and climate scenarios. \emph{Geoscientific Model
   Development} \textbf{11}, 4537--4562.
 
-\bibitem[{Kissling et~al.(2017)Kissling, Ahumada, Bowser, Fernandez,
-  Fernández, García, Guralnick, Isaac, Kelling, Los, McRae, Mihoub, Obst, Wee
-  \& Hardisty}]{kissling_building_2017}
-Kissling, W.D., Ahumada, J.A., Bowser, A., Fernandez, M., Fernández, N.,
-  García, E.A., Guralnick, R.P., Isaac, N.J.B., Kelling, S., Los, W., McRae,
-  L., Mihoub, J.B., Obst, M., Wee, B. \& Hardisty, A.R. (2017) Building
-  essential biodiversity variables ({EBVs}) of species distribution and
-  abundance at a global scale. \emph{Biological Reviews} pp. in press--in
-  press.
-
-\bibitem[{Kompas  \&  Ha(2018)Kompas \& Ha}]{kompas_curse_2018}
-Kompas, T. \& Ha, P.V. (2018) The ‘curse of dimensionality’ resolved: {The}
-  effects of climate change and trade barriers in large dimensional modelling.
-  \emph{Economic Modelling} p.~24.
+\bibitem[{Kissling et~al.(2018)Kissling, Ahumada, Bowser, Fernandez,
+  Fern{\'a}ndez, Garc{\'i}a, Guralnick, Isaac, Kelling, Los, McRae, Mihoub,
+  Obst, Santamaria, Skidmore, Williams, Agosti, Amariles, Arvanitidis, Bastin,
+  De~Leo, Egloff, Elith, Hobern, Martin, Pereira, Pesole, Peterseil, Saarenmaa,
+  Schigel, Schmeller, Segata, Turak, Uhlir, Wee \&
+  Hardisty}]{kissling_building_2017}
+Kissling, W.D., Ahumada, J.A., Bowser, A., Fernandez, M., Fern{\'a}ndez, N.,
+  Garc{\'i}a, E.A., Guralnick, R.P., Isaac, N.J.B., Kelling, S., Los, W.,
+  McRae, L., Mihoub, J.B., Obst, M., Santamaria, M., Skidmore, A.K., Williams,
+  K.J., Agosti, D., Amariles, D., Arvanitidis, C., Bastin, L., De~Leo, F.,
+  Egloff, W., Elith, J., Hobern, D., Martin, D., Pereira, H.M., Pesole, G.,
+  Peterseil, J., Saarenmaa, H., Schigel, D., Schmeller, D.S., Segata, N.,
+  Turak, E., Uhlir, P.F., Wee, B. \& Hardisty, A.R. (2018) Building essential
+  biodiversity variables ({{EBVs}}) of species distribution and abundance at a
+  global scale. \emph{Biological Reviews} \textbf{93}, 600--625.
 
 \bibitem[{Kompas, Pham  \&  Che(2018)Kompas, Pham \& Che}]{kompas_effects_2018}
-Kompas, T., Pham, V.H. \& Che, T.N. (2018) The {Effects} of {Climate} {Change}
-  on {GDP} by {Country} and the {Global} {Economic} {Gains} {From} {Complying}
-  {With} the {Paris} {Climate} {Accord}. \emph{Earth's Future} Tex.ids:
-  kompasEffectsClimateChange2018a, kompasEffectsClimateChange2018b,
-  kompas\_effects\_2018-1.
+Kompas, T., Pham, V.H. \& Che, T.N. (2018) The {{Effects}} of {{Climate
+  Change}} on {{GDP}} by {{Country}} and the {{Global Economic Gains From
+  Complying With}} the {{Paris Climate Accord}}. \emph{Earth's Future}
+  \textbf{6}, 1153--1173.
 
-\bibitem[{Kriegler et~al.(2017)Kriegler, Bauer, Popp, Humpenöder, Leimbach,
+\bibitem[{Kompas  \&  Van~Ha(2019)Kompas \& Van~Ha}]{kompas_curse_2018}
+Kompas, T. \& Van~Ha, P. (2019) The `curse of dimensionality' resolved: {{The}}
+  effects of climate change and trade barriers in large dimensional modelling.
+  \emph{Economic Modelling} \textbf{80}, 103--110.
+
+\bibitem[{{Kramer-Schadt} et~al.(2013){Kramer-Schadt}, Niedballa, Pilgrim,
+  Schr{\"o}der, Lindenborn, Reinfelder, Stillfried, Heckmann, Scharf, Augeri,
+  Cheyne, Hearn, Ross, Macdonald, Mathai, Eaton, Marshall, Semiadi, Rustam,
+  Bernard, Alfred, Samejima, Duckworth, {Breitenmoser-Wuersten}, Belant, Hofer
+  \& Wilting}]{kramer-schadt_importance_2013}
+{Kramer-Schadt}, S., Niedballa, J., Pilgrim, J.D., Schr{\"o}der, B.,
+  Lindenborn, J., Reinfelder, V., Stillfried, M., Heckmann, I., Scharf, A.K.,
+  Augeri, D.M., Cheyne, S.M., Hearn, A.J., Ross, J., Macdonald, D.W., Mathai,
+  J., Eaton, J., Marshall, A.J., Semiadi, G., Rustam, R., Bernard, H., Alfred,
+  R., Samejima, H., Duckworth, J.W., {Breitenmoser-Wuersten}, C., Belant, J.L.,
+  Hofer, H. \& Wilting, A. (2013) The importance of correcting for sampling
+  bias in {{MaxEnt}} species distribution models. \emph{Diversity and
+  Distributions} \textbf{19}, 1366--1379.
+
+\bibitem[{Kriegler et~al.(2017)Kriegler, Bauer, Popp, Humpen{\"o}der, Leimbach,
   Strefler, Baumstark, Bodirsky, Hilaire, Klein, Mouratiadou, Weindl, Bertram,
-  Dietrich, Luderer, Pehl, Pietzcker, Piontek, Lotze-Campen, Biewald, Bonsch,
-  Giannousakis, Kreidenweis, Müller, Rolinski, Schultes, Schwanitz,
+  Dietrich, Luderer, Pehl, Pietzcker, Piontek, {Lotze-Campen}, Biewald, Bonsch,
+  Giannousakis, Kreidenweis, M{\"u}ller, Rolinski, Schultes, Schwanitz,
   Stevanovic, Calvin, Emmerling, Fujimori \&
   Edenhofer}]{kriegler_fossil-fueled_2017}
-Kriegler, E., Bauer, N., Popp, A., Humpenöder, F., Leimbach, M., Strefler, J.,
-  Baumstark, L., Bodirsky, B.L., Hilaire, J., Klein, D., Mouratiadou, I.,
+Kriegler, E., Bauer, N., Popp, A., Humpen{\"o}der, F., Leimbach, M., Strefler,
+  J., Baumstark, L., Bodirsky, B.L., Hilaire, J., Klein, D., Mouratiadou, I.,
   Weindl, I., Bertram, C., Dietrich, J.P., Luderer, G., Pehl, M., Pietzcker,
-  R., Piontek, F., Lotze-Campen, H., Biewald, A., Bonsch, M., Giannousakis, A.,
-  Kreidenweis, U., Müller, C., Rolinski, S., Schultes, A., Schwanitz, J.,
-  Stevanovic, M., Calvin, K., Emmerling, J., Fujimori, S. \& Edenhofer, O.
-  (2017) Fossil-fueled development ({SSP5}): {An} energy and resource intensive
-  scenario for the 21st century. \emph{Global Environmental Change}
+  R., Piontek, F., {Lotze-Campen}, H., Biewald, A., Bonsch, M., Giannousakis,
+  A., Kreidenweis, U., M{\"u}ller, C., Rolinski, S., Schultes, A., Schwanitz,
+  J., Stevanovic, M., Calvin, K., Emmerling, J., Fujimori, S. \& Edenhofer, O.
+  (2017) Fossil-fueled development ({{SSP5}}): {{An}} energy and resource
+  intensive scenario for the 21st century. \emph{Global Environmental Change}
   \textbf{42}, 297--315.
 
 \bibitem[{Kriegler et~al.(2014)Kriegler, Edmonds, Hallegatte, Ebi, Kram, Riahi,
-  Winkler \& van Vuuren}]{kriegler_new_2014}
+  Winkler \& {van Vuuren}}]{kriegler_new_2014}
 Kriegler, E., Edmonds, J., Hallegatte, S., Ebi, K.L., Kram, T., Riahi, K.,
-  Winkler, H. \& van Vuuren, D.P. (2014) A new scenario framework for climate
-  change research: the concept of shared climate policy assumptions.
+  Winkler, H. \& {van Vuuren}, D.P. (2014) A new scenario framework for climate
+  change research: The concept of shared climate policy assumptions.
   \emph{Climatic Change} \textbf{122}, 401--414.
 
 \bibitem[{Kunin(1995)}]{kunin_towards_1995}
-Kunin, W.E. (1995) Towards an {Asymmetric} {Index} of {Community} {Similarity}.
+Kunin, W.E. (1995) Towards an {{Asymmetric Index}} of {{Community Similarity}}.
   \emph{Oikos} \textbf{73}, 442.
 
 \bibitem[{Kuussaari et~al.(2009)Kuussaari, Bommarco, Heikkinen, Helm, Krauss,
-  Lindborg, Öckinger, Pärtel, Pino, Rodà, Stefanescu, Teder, Zobel \&
-  Steffan-Dewenter}]{kuussaari_extinction_2009}
+  Lindborg, {\"O}ckinger, P{\"a}rtel, Pino, Rod{\`a}, Stefanescu, Teder, Zobel
+  \& {Steffan-Dewenter}}]{kuussaari_extinction_2009}
 Kuussaari, M., Bommarco, R., Heikkinen, R.K., Helm, A., Krauss, J., Lindborg,
-  R., Öckinger, E., Pärtel, M., Pino, J., Rodà, F., Stefanescu, C., Teder,
-  T., Zobel, M. \& Steffan-Dewenter, I. (2009) Extinction debt: a challenge for
-  biodiversity conservation. \emph{Trends in Ecology \& Evolution} \textbf{24},
-  564--571, citation Key Alias: kuussaariExtinctionDebtChallenge2009a.
+  R., {\"O}ckinger, E., P{\"a}rtel, M., Pino, J., Rod{\`a}, F., Stefanescu, C.,
+  Teder, T., Zobel, M. \& {Steffan-Dewenter}, I. (2009) Extinction debt: A
+  challenge for biodiversity conservation. \emph{Trends in Ecology \&
+  Evolution} \textbf{24}, 564--571.
+
+\bibitem[{Lai et~al.(2019)Lai, Lortie, Muenchen, Yang \&
+  Ma}]{lai_evaluating_2019}
+Lai, J., Lortie, C.J., Muenchen, R.A., Yang, J. \& Ma, K. (2019) Evaluating the
+  popularity of {{R}} in ecology. \emph{Ecosphere} \textbf{10}.
 
 \bibitem[{Lambin et~al.(2011)Lambin, Meyfroidt, {E. F. Lambin} \& {P.
   Meyfroidt}}]{lambin_global_2011}
@@ -675,27 +987,28 @@ Lawson, C.R., Hodgson, J.A., Wilson, R.J. \& Richards, S.A. (2014) Prevalence,
   thresholds and the performance of presence-absence models. \emph{Methods in
   Ecology and Evolution} \textbf{5}, 54--64.
 
-\bibitem[{Leclère et~al.(2020)Leclère, Obersteiner, Barrett, Butchart,
-  Chaudhary, De~Palma, DeClerck, Di~Marco, Doelman, Dürauer, Freeman, Harfoot,
-  Hasegawa, Hellweg, Hilbers, Hill, Humpenöder, Jennings, Krisztin, Mace,
-  Ohashi, Popp, Purvis, Schipper, Tabeau, Valin, van Meijl, van Zeist,
-  Visconti, Alkemade, Almond, Bunting, Burgess, Cornell, Di~Fulvio, Ferrier,
-  Fritz, Fujimori, Grooten, Harwood, Havlík, Herrero, Hoskins, Jung, Kram,
-  Lotze-Campen, Matsui, Meyer, Nel, Newbold, Schmidt-Traub, Stehfest,
-  Strassburg, van Vuuren, Ware, Watson, Wu \& Young}]{leclere_bending_2020}
-Leclère, D., Obersteiner, M., Barrett, M., Butchart, S.H.M., Chaudhary, A.,
-  De~Palma, A., DeClerck, F.A.J., Di~Marco, M., Doelman, J.C., Dürauer, M.,
+\bibitem[{Lecl{\`e}re et~al.(2020)Lecl{\`e}re, Obersteiner, Barrett, Butchart,
+  Chaudhary, De~Palma, DeClerck, Di~Marco, Doelman, D{\"u}rauer, Freeman,
+  Harfoot, Hasegawa, Hellweg, Hilbers, Hill, Humpen{\"o}der, Jennings,
+  Krisztin, Mace, Ohashi, Popp, Purvis, Schipper, Tabeau, Valin, {van Meijl},
+  {van Zeist}, Visconti, Alkemade, Almond, Bunting, Burgess, Cornell,
+  Di~Fulvio, Ferrier, Fritz, Fujimori, Grooten, Harwood, Havl{\'i}k, Herrero,
+  Hoskins, Jung, Kram, {Lotze-Campen}, Matsui, Meyer, Nel, Newbold,
+  {Schmidt-Traub}, Stehfest, Strassburg, {van Vuuren}, Ware, Watson, Wu \&
+  Young}]{leclere_bending_2020}
+Lecl{\`e}re, D., Obersteiner, M., Barrett, M., Butchart, S.H.M., Chaudhary, A.,
+  De~Palma, A., DeClerck, F.A.J., Di~Marco, M., Doelman, J.C., D{\"u}rauer, M.,
   Freeman, R., Harfoot, M., Hasegawa, T., Hellweg, S., Hilbers, J.P., Hill,
-  S.L.L., Humpenöder, F., Jennings, N., Krisztin, T., Mace, G.M., Ohashi, H.,
-  Popp, A., Purvis, A., Schipper, A.M., Tabeau, A., Valin, H., van Meijl, H.,
-  van Zeist, W.J., Visconti, P., Alkemade, R., Almond, R., Bunting, G.,
+  S.L.L., Humpen{\"o}der, F., Jennings, N., Krisztin, T., Mace, G.M., Ohashi,
+  H., Popp, A., Purvis, A., Schipper, A.M., Tabeau, A., Valin, H., {van Meijl},
+  H., {van Zeist}, W.J., Visconti, P., Alkemade, R., Almond, R., Bunting, G.,
   Burgess, N.D., Cornell, S.E., Di~Fulvio, F., Ferrier, S., Fritz, S.,
-  Fujimori, S., Grooten, M., Harwood, T., Havlík, P., Herrero, M., Hoskins,
-  A.J., Jung, M., Kram, T., Lotze-Campen, H., Matsui, T., Meyer, C., Nel, D.,
-  Newbold, T., Schmidt-Traub, G., Stehfest, E., Strassburg, B.B.N., van Vuuren,
-  D.P., Ware, C., Watson, J.E.M., Wu, W. \& Young, L. (2020) Bending the curve
-  of terrestrial biodiversity needs an integrated strategy. \emph{Nature} pp.
-  551--556.
+  Fujimori, S., Grooten, M., Harwood, T., Havl{\'i}k, P., Herrero, M., Hoskins,
+  A.J., Jung, M., Kram, T., {Lotze-Campen}, H., Matsui, T., Meyer, C., Nel, D.,
+  Newbold, T., {Schmidt-Traub}, G., Stehfest, E., Strassburg, B.B.N., {van
+  Vuuren}, D.P., Ware, C., Watson, J.E.M., Wu, W. \& Young, L. (2020) Bending
+  the curve of terrestrial biodiversity needs an integrated strategy.
+  \emph{Nature} \textbf{585}, 551--556.
 
 \bibitem[{Lenzen et~al.(2012)Lenzen, Moran, Kanemoto, Foran, Lobefaro \&
   Geschke}]{lenzen_international_2012}
@@ -703,18 +1016,18 @@ Lenzen, M., Moran, D., Kanemoto, K., Foran, B., Lobefaro, L. \& Geschke, A.
   (2012) International trade drives biodiversity threats in developing nations.
   \emph{Nature} \textbf{486}, 109--112.
 
-\bibitem[{Levers et~al.(2016)Levers, Butsic, Verburg, Müller \&
+\bibitem[{Levers et~al.(2016)Levers, Butsic, Verburg, M{\"u}ller \&
   Kuemmerle}]{levers_drivers_2016}
-Levers, C., Butsic, V., Verburg, P.H., Müller, D. \& Kuemmerle, T. (2016)
-  Drivers of changes in agricultural intensity in {Europe}. \emph{Land Use
+Levers, C., Butsic, V., Verburg, P.H., M{\"u}ller, D. \& Kuemmerle, T. (2016)
+  Drivers of changes in agricultural intensity in {{Europe}}. \emph{Land Use
   Policy} \textbf{58}, 380--393.
 
-\bibitem[{Levers et~al.(2014)Levers, Verkerk, Müller, Verburg, Butsic,
-  Leitão, Lindner \& Kuemmerle}]{levers_drivers_2014}
-Levers, C., Verkerk, P.J., Müller, D., Verburg, P.H., Butsic, V., Leitão,
-  P.J., Lindner, M. \& Kuemmerle, T. (2014) Drivers of forest harvesting
-  intensity patterns in {Europe}. \emph{Forest Ecology and Management}
-  \textbf{315}, 160--172.
+\bibitem[{Levers et~al.(2014)Levers, Verkerk, M{\"u}ller, Verburg, Butsic,
+  Leit{\~a}o, Lindner \& Kuemmerle}]{levers_drivers_2014}
+Levers, C., Verkerk, P.J., M{\"u}ller, D., Verburg, P.H., Butsic, V.,
+  Leit{\~a}o, P.J., Lindner, M. \& Kuemmerle, T. (2014) Drivers of forest
+  harvesting intensity patterns in {{Europe}}. \emph{Forest Ecology and
+  Management} \textbf{315}, 160--172.
 
 \bibitem[{Liu, Newell  \&  White(2016)Liu, Newell \&
   White}]{liu_selection_2016}
@@ -725,20 +1038,21 @@ Liu, C., Newell, G. \& White, M. (2016) On the selection of thresholds for
 \bibitem[{Liu et~al.(2017)Liu, Liang, Li, Xu, Ou, Chen, Li, Wang \&
   Pei}]{liu_future_2017}
 Liu, X., Liang, X., Li, X., Xu, X., Ou, J., Chen, Y., Li, S., Wang, S. \& Pei,
-  F. (2017) A future land use simulation model ({FLUS}) for simulating multiple
-  land use scenarios by coupling human and natural effects. \emph{Landscape and
-  Urban Planning} \textbf{168}, 94--116.
+  F. (2017) A future land use simulation model ({{FLUS}}) for simulating
+  multiple land use scenarios by coupling human and natural effects.
+  \emph{Landscape and Urban Planning} \textbf{168}, 94--116.
 
 \bibitem[{Maggini et~al.(2014)Maggini, Lehmann, Zbinden, Zimmermann, Bolliger,
-  Schröder, Foppen, Schmid, Beniston \& Jenni}]{maggini_assessing_2014}
+  Schr{\"o}der, Foppen, Schmid, Beniston \& Jenni}]{maggini_assessing_2014}
 Maggini, R., Lehmann, A., Zbinden, N., Zimmermann, N.E., Bolliger, J.,
-  Schröder, B., Foppen, R., Schmid, H., Beniston, M. \& Jenni, L. (2014)
-  Assessing species vulnerability to climate and land use change: {The} case of
-  the {Swiss} breeding birds. \emph{Diversity and Distributions} \textbf{20}.
+  Schr{\"o}der, B., Foppen, R., Schmid, H., Beniston, M. \& Jenni, L. (2014)
+  Assessing species vulnerability to climate and land use change: {{The}} case
+  of the {{Swiss}} breeding birds. \emph{Diversity and Distributions}
+  \textbf{20}.
 
-\bibitem[{Mantyka-pringle et~al.(2015)Mantyka-pringle, Visconti, Di, Martin,
-  Rondinini \& Rhodes}]{mantyka-pringle_climate_2015}
-Mantyka-pringle, C.S., Visconti, P., Di, M., Martin, T.G., Rondinini, C. \&
+\bibitem[{{Mantyka-pringle} et~al.(2015){Mantyka-pringle}, Visconti, Di,
+  Martin, Rondinini \& Rhodes}]{mantyka-pringle_climate_2015}
+{Mantyka-pringle}, C.S., Visconti, P., Di, M., Martin, T.G., Rondinini, C. \&
   Rhodes, J.R. (2015) Climate change modifies risk of global biodiversity loss
   due to land-cover change. \emph{Biological Conservation} \textbf{187},
   103--111.
@@ -746,8 +1060,16 @@ Mantyka-pringle, C.S., Visconti, P., Di, M., Martin, T.G., Rondinini, C. \&
 \bibitem[{Margono et~al.(2014)Margono, Potapov, Turubanova, Stolle \&
   Hansen}]{margono_primary_2014}
 Margono, B.A., Potapov, P.V., Turubanova, S., Stolle, F. \& Hansen, M.C. (2014)
-  Primary forest cover loss in {Indonesia} over 2000–2012. \emph{Nature
-  Climate Change} \textbf{4}, 730--735.
+  Primary forest cover loss in {{Indonesia}} over 2000\textendash 2012.
+  \emph{Nature Climate Change} \textbf{4}, 730--735.
+
+\bibitem[{Marquardt et~al.(2021)Marquardt, Doelman, Daioglou, Tabeau, Schipper,
+  Sim, Kulak, Steinmann, Stehfest, Wilting \&
+  Huijbregts}]{marquardt_identifying_2021}
+Marquardt, S.G., Doelman, J.C., Daioglou, V., Tabeau, A., Schipper, A.M., Sim,
+  S., Kulak, M., Steinmann, Z.J., Stehfest, E., Wilting, H.C. \& Huijbregts,
+  M.A. (2021) Identifying regional drivers of future land-based biodiversity
+  footprints. \emph{Global Environmental Change} \textbf{69}, 102304.
 
 \bibitem[{Marques et~al.(2019)Marques, Martins, Kastner, Plutzar, Theurl,
   Eisenmenger, Huijbregts, Wood, Stadler, Bruckner, Canelas, Hilbers, Tukker,
@@ -757,36 +1079,51 @@ Marques, A., Martins, I.S., Kastner, T., Plutzar, C., Theurl, M.C.,
   Canelas, J., Hilbers, J.P., Tukker, A., Erb, K. \& Pereira, H.M. (2019)
   Increasing impacts of land use on biodiversity and carbon sequestration
   driven by population and economic growth. \emph{Nature Ecology \& Evolution}
-  .
+  \textbf{3}, 628--637.
 
 \bibitem[{Marshall et~al.(2021)Marshall, Valavi, Connor, Cadenhead, Southwell,
   Wintle \& Kujala}]{marshall_quantifying_2021}
 Marshall, E., Valavi, R., Connor, L.O., Cadenhead, N., Southwell, D., Wintle,
-  B.A. \& Kujala, H. (2021) Quantifying the impact of vegetation‐based
-  metrics on species persistence when choosing offsets for habitat destruction.
+  B.A. \& Kujala, H. (2021) Quantifying the impact of vegetation-based metrics
+  on species persistence when choosing offsets for habitat destruction.
   \emph{Conservation Biology} \textbf{35}, 567--577.
+
+\bibitem[{Martin, Green  \&  Balmford(2019)Martin, Green \&
+  Balmford}]{martin_biodiversity_2019}
+Martin, P.A., Green, R.E. \& Balmford, A. (2019) The biodiversity intactness
+  index may underestimate losses. \emph{Nature Ecology \& Evolution}
+  \textbf{3}, 862--863.
+
+\bibitem[{McGowan et~al.(2020)McGowan, Beaumont, Smith, Chauvenet, Harcourt,
+  Atkinson, Mittermeier, {Esperon-Rodriguez}, Baumgartner, Beattie, Dudaniec,
+  Grenyer, Nipperess, Stow \& Possingham}]{mcgowan_conservation_2020}
+McGowan, J., Beaumont, L.J., Smith, R.J., Chauvenet, A.L.M., Harcourt, R.,
+  Atkinson, S.C., Mittermeier, J.C., {Esperon-Rodriguez}, M., Baumgartner,
+  J.B., Beattie, A., Dudaniec, R.Y., Grenyer, R., Nipperess, D.A., Stow, A. \&
+  Possingham, H.P. (2020) Conservation prioritization can resolve the flagship
+  species conundrum. \emph{Nature Communications} \textbf{11}, 994.
 
 \bibitem[{McMichael, Woodruff  \&  Hales(2006)McMichael, Woodruff \&
   Hales}]{mcmichael_climate_2006}
 McMichael, A.J., Woodruff, R.E. \& Hales, S. (2006) Climate change and human
-  health: present and future risks. \emph{The Lancet} \textbf{367}, 859--869.
+  health: Present and future risks. \emph{The Lancet} \textbf{367}, 859--869.
 
 \bibitem[{McNeely(1992)}]{mcneely_sinking_1992}
-McNeely, J.A. (1992) The sinking ark: pollution and the worldwide loss of
+McNeely, J.A. (1992) The sinking ark: Pollution and the worldwide loss of
   biodiversity. \emph{Biodiversity and Conservation} \textbf{1}, 2--18.
 
 \bibitem[{Meinshausen, Raper  \&  Wigley(2011)Meinshausen, Raper \&
   Wigley}]{meinshausen_emulating_2011}
 Meinshausen, M., Raper, S.C.B. \& Wigley, T.M.L. (2011) Emulating coupled
-  atmosphere-ocean and carbon cycle models with a simpler model, {MAGICC6} –
-  {Part} 1: {Model} description and calibration. \emph{Atmospheric Chemistry
-  and Physics} \textbf{11}, 1417--1456.
+  atmosphere-ocean and carbon cycle models with a simpler model, {{MAGICC6}}
+  \textendash{} {{Part}} 1: {{Model}} description and calibration.
+  \emph{Atmospheric Chemistry and Physics} \textbf{11}, 1417--1456.
 
 \bibitem[{Meiyappan et~al.(2014)Meiyappan, Dalton, O'Neill \&
   Jain}]{meiyappan_spatial_2014}
 Meiyappan, P., Dalton, M., O'Neill, B.C. \& Jain, A.K. (2014) Spatial modeling
   of agricultural land use change at global scale. \emph{Ecological Modelling}
-  \textbf{291}, 152--174, tex.ids: meiyappan\_spatial\_2014-1.
+  \textbf{291}, 152--174.
 
 \bibitem[{Mooney  \&  Cleland(2001)Mooney \&
   Cleland}]{mooney_evolutionary_2001}
@@ -794,46 +1131,41 @@ Mooney, H.A. \& Cleland, E.E. (2001) The evolutionary impact of invasive
   species. \emph{Proceedings of the National Academy of Sciences} \textbf{98},
   5446--5451.
 
-\bibitem[{Morán-Ordóñez et~al.(2016)Morán-Ordóñez, Lahoz-Monfort, Elith
-  \& Wintle}]{moran-ordonez_evaluating_2016}
-Morán-Ordóñez, A., Lahoz-Monfort, J.J., Elith, J. \& Wintle, B.A. (2016)
-  Evaluating 318 continental-scale species distribution models over a 60-year
-  prediction horizon: what factors influence the reliability of predictions?
-  \emph{Global Ecology and Biogeography} pp. 1--14.
+\bibitem[{{Mor{\'a}n-Ord{\'o}{\~n}ez} et~al.(2017){Mor{\'a}n-Ord{\'o}{\~n}ez},
+  {Lahoz-Monfort}, Elith \& Wintle}]{moran-ordonez_evaluating_2016}
+{Mor{\'a}n-Ord{\'o}{\~n}ez}, A., {Lahoz-Monfort}, J.J., Elith, J. \& Wintle,
+  B.A. (2017) Evaluating 318 continental-scale species distribution models over
+  a 60-year prediction horizon: What factors influence the reliability of
+  predictions? \emph{Global Ecology and Biogeography} \textbf{26}, 371--384.
 
 \bibitem[{Mouchet et~al.(2015)Mouchet, Levers, Zupan, Kuemmerle, Plutzar, Erb,
   Lavorel, Thuiller \& Haberl}]{mouchet_testing_2015}
 Mouchet, M., Levers, C., Zupan, L., Kuemmerle, T., Plutzar, C., Erb, K.,
-  Lavorel, S., Thuiller, W. \& Haberl, H. (2015) Testing the {Effectiveness} of
-  {Environmental} {Variables} to {Explain} {European} {Terrestrial}
-  {Vertebrate} {Species} {Richness} across {Biogeographical} {Scales}.
-  \emph{PLOS ONE} \textbf{10}, e0131924.
+  Lavorel, S., Thuiller, W. \& Haberl, H. (2015) Testing the {{Effectiveness}}
+  of {{Environmental Variables}} to {{Explain European Terrestrial Vertebrate
+  Species Richness}} across {{Biogeographical Scales}}. \emph{PLOS ONE}
+  \textbf{10}, e0131924.
 
 \bibitem[{Moulds, Buytaert  \&  Mijic(2015)Moulds, Buytaert \&
   Mijic}]{moulds_open_2015}
 Moulds, S., Buytaert, W. \& Mijic, A. (2015) An open and extensible framework
-  for spatially explicit land use change modelling: {The} lulcc {R} package.
-  \emph{Geoscientific Model Development} \textbf{8}, 3215--3229.
+  for spatially explicit land use change modelling: {{The}} lulcc {{R}}
+  package. \emph{Geoscientific Model Development} \textbf{8}, 3215--3229.
 
 \bibitem[{Mustafa et~al.(2018)Mustafa, Heppenstall, Omrani, Saadi, Cools \&
   Teller}]{mustafa_modelling_2018}
 Mustafa, A., Heppenstall, A., Omrani, H., Saadi, I., Cools, M. \& Teller, J.
   (2018) Modelling built-up expansion and densification with multinomial
   logistic regression, cellular automata and genetic algorithm.
-  \emph{Computers, Environment and Urban Systems} \textbf{67}, 147--156,
-  tex.ids: mustafa\_modelling\_2018-1.
-
-\bibitem[{{NASA}(2000)}]{nasa_shuttle_2000}
-{NASA} (2000) Shuttle {Radar} {Topography} {Mission} ({SRTM}) 1 {Arc}-{Second}
-  {Global}. Tech. rep., Land Processes Distributed Active Archive Center.
+  \emph{Computers, Environment and Urban Systems} \textbf{67}, 147--156.
 
 \bibitem[{Nepstad et~al.(2014)Nepstad, McGrath, Stickler, Alencar, Azevedo,
-  Swette, Bezerra, DiGiano, Shimada, Seroa~da Motta, Armijo, Castello, Brando,
-  Hansen, McGrath-Horn, Carvalho \& Hess}]{nepstad_slowing_2014}
+  Swette, Bezerra, DiGiano, Shimada, {Seroa da Motta}, Armijo, Castello,
+  Brando, Hansen, {McGrath-Horn}, Carvalho \& Hess}]{nepstad_slowing_2014}
 Nepstad, D., McGrath, D., Stickler, C., Alencar, A., Azevedo, A., Swette, B.,
-  Bezerra, T., DiGiano, M., Shimada, J., Seroa~da Motta, R., Armijo, E.,
-  Castello, L., Brando, P., Hansen, M.C., McGrath-Horn, M., Carvalho, O. \&
-  Hess, L. (2014) Slowing {Amazon} deforestation through public policy and
+  Bezerra, T., DiGiano, M., Shimada, J., {Seroa da Motta}, R., Armijo, E.,
+  Castello, L., Brando, P., Hansen, M.C., {McGrath-Horn}, M., Carvalho, O. \&
+  Hess, L. (2014) Slowing {{Amazon}} deforestation through public policy and
   interventions in beef and soy supply chains. \emph{Science} \textbf{344},
   1118--1123.
 
@@ -843,45 +1175,62 @@ Newbold, T. (2018) Future effects of climate and land-use change on terrestrial
   of the Royal Society B: Biological Sciences} \textbf{285}, 20180792.
 
 \bibitem[{Newbold(2019)}]{newbold_trouble_2019}
-Newbold, T. (2019) The trouble with trade. \emph{Nature Ecology \& Evolution} .
+Newbold, T. (2019) The trouble with trade. \emph{Nature Ecology \& Evolution}
+  \textbf{3}, 522--523.
 
-\bibitem[{Newbold et~al.(2019)Newbold, Adams, Albaladejo~Robles, Boakes,
-  Braga~Ferreira, Chapman, Etard, Gibb, Millard, Outhwaite \&
-  {others}}]{newbold2019climate}
+\bibitem[{Newbold et~al.(2019{\natexlab{a}})Newbold, Adams, Albaladejo~Robles,
+  Boakes, Braga~Ferreira, Chapman, Etard, Gibb, Millard, Outhwaite
+  \emph{et~al.}}]{newbold2019climate}
 Newbold, T., Adams, G.L., Albaladejo~Robles, G., Boakes, E.H., Braga~Ferreira,
-  G., Chapman, A.S., Etard, A., Gibb, R., Millard, J., Outhwaite, C.L. \&
-  {others} (2019) Climate and land-use change homogenise terrestrial
-  biodiversity, with consequences for ecosystem functioning and human
-  well-being. \emph{Emerging Topics in Life Sciences} \textbf{3}, 207--219,
-  publisher: Portland Press Ltd.
+  G., Chapman, A.S., Etard, A., Gibb, R., Millard, J., Outhwaite, C.L.
+  \emph{et~al.} (2019{\natexlab{a}}) Climate and land-use change homogenise
+  terrestrial biodiversity, with consequences for ecosystem functioning and
+  human well-being. \emph{Emerging Topics in Life Sciences} \textbf{3},
+  207--219.
 
-\bibitem[{Newbold et~al.(2015)Newbold, Hudson, Hill, Contu, Lysenko, Senior,
-  Börger, Bennett, Choimes, Collen, Day, De~Palma, Dıáz,
-  Echeverria-Londoño, Edgar, Feldman, Garon, Harrison, Alhusseini, Ingram,
-  Itescu, Kattge, Kemp, Kirkpatrick, Kleyer, Laginha Pinto~Correia, Martin,
-  Meiri, Novosolov, Pan, Phillips, Purves, Robinson, Simpson, Tuck, Weiher,
-  White, Ewers, Mace, Scharlemann \& Purvis}]{newbold_global_2015}
-Newbold, T., Hudson, L.N., Hill, S.L., Contu, S., Lysenko, I., Senior, R.a.,
-  Börger, L., Bennett, D.J., Choimes, A., Collen, B., Day, J., De~Palma, A.,
-  Dıáz, S., Echeverria-Londoño, S., Edgar, M.J., Feldman, A., Garon, M.,
-  Harrison, M.L.K., Alhusseini, T., Ingram, D.J., Itescu, Y., Kattge, J., Kemp,
-  V., Kirkpatrick, L., Kleyer, M., Laginha Pinto~Correia, D., Martin, C.D.,
-  Meiri, S., Novosolov, M., Pan, Y., Phillips, H.R.P., Purves, D.W., Robinson,
-  A., Simpson, J., Tuck, S.L., Weiher, E., White, H.J., Ewers, R.M., Mace,
-  G.M., Scharlemann, J.P. \& Purvis, A. (2015) Global effects of land use on
-  local terrestrial biodiversity. \emph{Nature} \textbf{520}, 45--.
+\bibitem[{Newbold et~al.(2015)Newbold, Hudson, Hill, Contu, Lysenko, a~Senior,
+  B{\"o}rger, Bennett, Choimes, Collen, Day, De~Palma, D{\i}{\'a}z,
+  {Echeverria-Londo{\~n}o}, Edgar, Feldman, Garon, Harrison, Alhusseini,
+  Ingram, Itescu, Kattge, Kemp, Kirkpatrick, Kleyer, Laginha Pinto~Correia,
+  Martin, Meiri, Novosolov, Pan, Phillips, Purves, Robinson, Simpson, Tuck,
+  Weiher, White, Ewers, Mace, Scharlemann \& Purvis}]{newbold_global_2015}
+Newbold, T., Hudson, L.N., Hill, S.L., Contu, S., Lysenko, I., a~Senior, R.,
+  B{\"o}rger, L., Bennett, D.J., Choimes, A., Collen, B., Day, J., De~Palma,
+  A., D{\i}{\'a}z, S., {Echeverria-Londo{\~n}o}, S., Edgar, M.J., Feldman, A.,
+  Garon, M., Harrison, M.L.K., Alhusseini, T., Ingram, D.J., Itescu, Y.,
+  Kattge, J., Kemp, V., Kirkpatrick, L., Kleyer, M., Laginha Pinto~Correia, D.,
+  Martin, C.D., Meiri, S., Novosolov, M., Pan, Y., Phillips, H.R.P., Purves,
+  D.W., Robinson, A., Simpson, J., Tuck, S.L., Weiher, E., White, H.J., Ewers,
+  R.M., Mace, G.M., Scharlemann, J.P. \& Purvis, A. (2015) Global effects of
+  land use on local terrestrial biodiversity. \emph{Nature} \textbf{520},
+  45--50.
 
-\bibitem[{Newbold et~al.(2016)Newbold, Hudson, Arnell, Contu, De~Palma,
-  Ferrier, Hill, Hoskins, Lysenko, Phillips, Burton, Chng, Emerson, Gao,
-  Pask-Hale, Hutton, Jung, Sanchez-Ortiz, Simmons, Whitmee, Zhang, Scharlemann
-  \& Purvis}]{newbold_has_2016}
+\bibitem[{Newbold et~al.(2016{\natexlab{a}})Newbold, Hudson, Arnell, Contu,
+  De~Palma, Ferrier, Hill, Hoskins, Lysenko, Phillips, Burton, Chng, Emerson,
+  Gao, {Pask-Hale}, Hutton, Jung, {Sanchez-Ortiz}, Simmons, Whitmee, Zhang,
+  Scharlemann \& Purvis}]{newbold_has_2016}
 Newbold, T., Hudson, L.N., Arnell, A.P., Contu, S., De~Palma, A., Ferrier, S.,
   Hill, S.L.L., Hoskins, A.J., Lysenko, I., Phillips, H.R.P., Burton, V.J.,
-  Chng, C.W.T., Emerson, S., Gao, D., Pask-Hale, G., Hutton, J., Jung, M.,
-  Sanchez-Ortiz, K., Simmons, B.I., Whitmee, S., Zhang, H., Scharlemann, J.P.W.
-  \& Purvis, A. (2016) Has land use pushed terrestrial biodiversity beyond the
-  planetary boundary? {A} global assessment. \emph{Science} \textbf{353},
-  288--291.
+  Chng, C.W.T., Emerson, S., Gao, D., {Pask-Hale}, G., Hutton, J., Jung, M.,
+  {Sanchez-Ortiz}, K., Simmons, B.I., Whitmee, S., Zhang, H., Scharlemann,
+  J.P.W. \& Purvis, A. (2016{\natexlab{a}}) Has land use pushed terrestrial
+  biodiversity beyond the planetary boundary? {{A}} global assessment.
+  \emph{Science} \textbf{353}, 288--291.
+
+\bibitem[{Newbold et~al.(2016{\natexlab{b}})Newbold, Hudson, Hill, Contu, Gray,
+  Scharlemann, B{\"o}rger, Phillips, Sheil, Lysenko \&
+  Purvis}]{newbold_global_2016}
+Newbold, T., Hudson, L.N., Hill, S.L.L., Contu, S., Gray, C.L., Scharlemann,
+  J.P.W., B{\"o}rger, L., Phillips, H.R.P., Sheil, D., Lysenko, I. \& Purvis,
+  A. (2016{\natexlab{b}}) Global patterns of terrestrial assemblage turnover
+  within and among land uses. \emph{Ecography} \textbf{39}, 1151--1163.
+
+\bibitem[{Newbold et~al.(2019{\natexlab{b}})Newbold, {Sanchez-Ortiz}, De~Palma,
+  Hill \& Purvis}]{newbold_reply_2019}
+Newbold, T., {Sanchez-Ortiz}, K., De~Palma, A., Hill, S.L.L. \& Purvis, A.
+  (2019{\natexlab{b}}) Reply to `{{The}} biodiversity intactness index may
+  underestimate losses'. \emph{Nature Ecology \& Evolution} \textbf{3},
+  864--865.
 
 \bibitem[{Noszczyk(2019)}]{noszczyk_review_2019}
 Noszczyk, T. (2019) A review of approaches to land use changes modeling.
@@ -891,40 +1240,45 @@ Noszczyk, T. (2019) A review of approaches to land use changes modeling.
 \bibitem[{Oliver  \&  Morecroft(2014)Oliver \&
   Morecroft}]{oliver_interactions_2014}
 Oliver, T.H. \& Morecroft, M.D. (2014) Interactions between climate change and
-  land use change on biodiversity: {Attribution} problems, risks, and
+  land use change on~biodiversity: {{Attribution}} problems, risks, and
   opportunities. \emph{Wiley Interdisciplinary Reviews: Climate Change}
   \textbf{5}, 317--335.
 
 \bibitem[{Olson et~al.(2001)Olson, Dinerstein, Wikramanayake, Burgess, Powell,
-  Underwood, D'amico, Itoua, Strand, Morrison \&
-  {others}}]{olson2001terrestrial}
+  Underwood, D'amico, Itoua, Strand, Morrison
+  \emph{et~al.}}]{olson2001terrestrial}
 Olson, D.M., Dinerstein, E., Wikramanayake, E.D., Burgess, N.D., Powell, G.V.,
-  Underwood, E.C., D'amico, J.A., Itoua, I., Strand, H.E., Morrison, J.C. \&
-  {others} (2001) Terrestrial {Ecoregions} of the {World}: {A} {New} {Map} of
-  {Life} on {EarthA} new global map of terrestrial ecoregions provides an
-  innovative tool for conserving biodiversity. \emph{BioScience} \textbf{51},
-  933--938, publisher: Oxford University Press.
+  Underwood, E.C., D'amico, J.A., Itoua, I., Strand, H.E., Morrison, J.C.
+  \emph{et~al.} (2001) Terrestrial {{Ecoregions}} of the {{World}}: {{A New
+  Map}} of {{Life}} on {{EarthA}} new global map of terrestrial ecoregions
+  provides an innovative tool for conserving biodiversity. \emph{BioScience}
+  \textbf{51}, 933--938.
 
-\bibitem[{O'Neill et~al.(2017)O'Neill, Kriegler, Ebi, Kemp-Benedict, Riahi,
-  Rothman, van Ruijven, van Vuuren, Birkmann, Kok, Levy \&
+\bibitem[{O'Neill et~al.(2017)O'Neill, Kriegler, Ebi, {Kemp-Benedict}, Riahi,
+  Rothman, {van Ruijven}, {van Vuuren}, Birkmann, Kok, Levy \&
   Solecki}]{oneill_roads_2017}
-O'Neill, B.C., Kriegler, E., Ebi, K.L., Kemp-Benedict, E., Riahi, K., Rothman,
-  D.S., van Ruijven, B.J., van Vuuren, D.P., Birkmann, J., Kok, K., Levy, M. \&
-  Solecki, W. (2017) The roads ahead: {Narratives} for shared socioeconomic
-  pathways describing world futures in the 21st century. \emph{Global
-  Environmental Change} \textbf{42}, 169--180.
+O'Neill, B.C., Kriegler, E., Ebi, K.L., {Kemp-Benedict}, E., Riahi, K.,
+  Rothman, D.S., {van Ruijven}, B.J., {van Vuuren}, D.P., Birkmann, J., Kok,
+  K., Levy, M. \& Solecki, W. (2017) The roads ahead: {{Narratives}} for shared
+  socioeconomic pathways describing world futures in the 21st century.
+  \emph{Global Environmental Change} \textbf{42}, 169--180.
 
 \bibitem[{O'Neill et~al.(2014)O'Neill, Kriegler, Riahi, Ebi, Hallegatte,
-  Carter, Mathur \& van Vuuren}]{oneill_new_2014}
+  Carter, Mathur \& {van Vuuren}}]{oneill_new_2014}
 O'Neill, B.C., Kriegler, E., Riahi, K., Ebi, K.L., Hallegatte, S., Carter,
-  T.R., Mathur, R. \& van Vuuren, D.P. (2014) A new scenario framework for
-  climate change research: {The} concept of shared socioeconomic pathways.
+  T.R., Mathur, R. \& {van Vuuren}, D.P. (2014) A new scenario framework for
+  climate change research: {{The}} concept of shared socioeconomic pathways.
   \emph{Climatic Change} \textbf{122}, 387--400.
 
 \bibitem[{O'Neill  \&  Schweizer(2011)O'Neill \&
   Schweizer}]{oneill_mapping_2011}
 O'Neill, B.C. \& Schweizer, V. (2011) Mapping the road ahead. \emph{Nature
   Climate Change} \textbf{1}, 352--353.
+
+\bibitem[{{Open Science
+  Collaboration}(2015)}]{open_science_collaboration_estimating_2015}
+{Open Science Collaboration} (2015) Estimating the reproducibility of
+  psychological science. \emph{Science} \textbf{349}, 1--8.
 
 \bibitem[{Overmars, Verburg  \&  Veldkamp(2007)Overmars, Verburg \&
   Veldkamp}]{overmars_comparison_2007}
@@ -934,13 +1288,13 @@ Overmars, K.P., Verburg, P.H. \& Veldkamp, T.A. (2007) Comparison of a
   584--599.
 
 \bibitem[{Pearson(2020)}]{pearson_biodiversity_2020}
-Pearson, D.L. (2020) Biodiversity in the {Anthropocene}. \emph{Journal of
+Pearson, D.L. (2020) Biodiversity in the {{Anthropocene}}. \emph{Journal of
   Insect Conservation} \textbf{24}, 1--3.
 
 \bibitem[{Pearson(1991)}]{pearson_solving_1991}
 Pearson, K.R. (1991) Solving nonlinear economic models accurately via a linear
-  representation, {Working} paper {No}. {IP}-55. \emph{Victoria University,
-  Centre of Policy Studies} .
+  representation, {{Working}} paper {{No}}. {{IP}}-55. {{Victoria University}},
+  {{Centre}} of {{Policy Studies}}.
 
 \bibitem[{Pereira et~al.(2013)Pereira, Ferrier, Walters, Geller, Jongman,
   Scholes, Bruford, Brummitt, Butchart, Cardoso, Coops, Dulloo, Faith, Freyhof,
@@ -952,62 +1306,64 @@ Pereira, H.M., Ferrier, S., Walters, M., Geller, G.N., Jongman, R.H.G.,
   Coops, N.C., Dulloo, E., Faith, D.P., Freyhof, J., Gregory, R.D., Heip, C.,
   Hoft, R., Hurtt, G., Jetz, W., Karp, D.S., McGeoch, M.A., Obura, D., Onoda,
   Y., Pettorelli, N., Reyers, B., Sayre, R., Scharlemann, J.P.W., Stuart, S.N.,
-  Turak, E., Walpole, M. \& Wegmann, M. (2013) Essential {Biodiversity}
-  {Variables}. \emph{Science} \textbf{339}, 277--278, tex.ids:
-  pereira\_essential\_2013.
+  Turak, E., Walpole, M. \& Wegmann, M. (2013) Essential {{Biodiversity
+  Variables}}. \emph{Science} \textbf{339}, 277--278.
 
-\bibitem[{Phillips et~al.(2009)Phillips, Dudík, Elith, Graham, Lehmann,
+\bibitem[{{P{\'e}rez-Vega}(2012)}]{perez-vega_comparing_2012}
+{P{\'e}rez-Vega}, A. (2012) Comparing two approaches to land use/cover change
+  modeling and their implications for the assessment of biodiversity loss in a
+  deciduous tropical forest. \emph{Environmental Modelling and Software}
+  \textbf{29}, 11--23.
+
+\bibitem[{Phillips et~al.(2009)Phillips, Dud{\'i}k, Elith, Graham, Lehmann,
   Leathwick \& Ferrier}]{phillips_sample_2009}
-Phillips, S.J., Dudík, M., Elith, J., Graham, C.H., Lehmann, A., Leathwick, J.
-  \& Ferrier, S. (2009) Sample selection bias and presence-only distribution
-  models: {Implications} for background and pseudo-absence data.
+Phillips, S.J., Dud{\'i}k, M., Elith, J., Graham, C.H., Lehmann, A., Leathwick,
+  J. \& Ferrier, S. (2009) Sample selection bias and presence-only distribution
+  models: {{Implications}} for background and pseudo-absence data.
   \emph{Ecological Applications} \textbf{19}, 181--197.
 
-\bibitem[{Phillips, Dudık  \&  Schapire()Phillips, Dudık \&
+\bibitem[{Phillips, Dud{\i}k  \&  Schapire(2018)Phillips, Dud{\i}k \&
   Schapire}]{phillips_internet_nodate}
-Phillips, S.J., Dudık, M. \& Schapire, R.E. (????) [{Internet}] {Maxent}
-  software for modeling species niches and distributons ({Version} 3.3.3k).
-  Tech. rep., Available from url:
-  http://biodiversityinformatics.amnh.org/open\_source/maxent/. Accessed on
-  2018-12.
+Phillips, S.J., Dud{\i}k, M. \& Schapire, R.E. (2018) [{{Internet}}] {{Maxent}}
+  software for modeling species niches and distributions ({{Version}} 3.3.3k).
+  {{http://biodiversityinformatics.amnh.org/open\_source/maxent/}}.
 
 \bibitem[{Pijanowski et~al.(2002)Pijanowski, Brown, Shellito \&
   Manik}]{pijanowski_using_2002}
 Pijanowski, B.C., Brown, D.G., Shellito, B.A. \& Manik, G.A. (2002) Using
-  neural networks and {GIS} to forecast land use changes: a {Land}
-  {Transformation} {Model}. \emph{Computers, Environment and Urban Systems}
+  neural networks and {{GIS}} to forecast land use changes: A {{Land
+  Transformation Model}}. \emph{Computers, Environment and Urban Systems}
   \textbf{26}, 553--575.
 
 \bibitem[{Plutzar et~al.(2016)Plutzar, Kroisleitner, Haberl, Fetzel,
   Bulgheroni, Beringer, Hostert, Kastner, Kuemmerle, Lauk, Levers, Lindner,
-  Moser, Müller, Niedertscheider, Paracchini, Schaphoff, Verburg, Verkerk \&
-  Erb}]{plutzar_changes_2016}
+  Moser, M{\"u}ller, Niedertscheider, Paracchini, Schaphoff, Verburg, Verkerk
+  \& Erb}]{plutzar_changes_2016}
 Plutzar, C., Kroisleitner, C., Haberl, H., Fetzel, T., Bulgheroni, C.,
   Beringer, T., Hostert, P., Kastner, T., Kuemmerle, T., Lauk, C., Levers, C.,
-  Lindner, M., Moser, D., Müller, D., Niedertscheider, M., Paracchini, M.L.,
-  Schaphoff, S., Verburg, P.H., Verkerk, P.J. \& Erb, K.H. (2016) Changes in
-  the spatial patterns of human appropriation of net primary production
-  ({HANPP}) in {Europe} 1990–2006. \emph{Regional Environmental Change}
-  \textbf{16}, 1225--1238.
+  Lindner, M., Moser, D., M{\"u}ller, D., Niedertscheider, M., Paracchini,
+  M.L., Schaphoff, S., Verburg, P.H., Verkerk, P.J. \& Erb, K.H. (2016) Changes
+  in the spatial patterns of human appropriation of net primary production
+  ({{HANPP}}) in {{Europe}} 1990\textendash 2006. \emph{Regional Environmental
+  Change} \textbf{16}, 1225--1238.
 
 \bibitem[{Pollock et~al.(2014)Pollock, Tingley, Morris, Golding, O'Hara,
   Parris, Vesk \& Mccarthy}]{pollock_understanding_2014}
 Pollock, L.J., Tingley, R., Morris, W.K., Golding, N., O'Hara, R.B., Parris,
   K.M., Vesk, P.A. \& Mccarthy, M.A. (2014) Understanding co-occurrence by
-  modelling species simultaneously with a {Joint} {Species} {Distribution}
-  {Model} ({JSDM}). \emph{Methods in Ecology and Evolution} \textbf{5},
-  397--406.
+  modelling species simultaneously with a {{Joint Species Distribution Model}}
+  ({{JSDM}}). \emph{Methods in Ecology and Evolution} \textbf{5}, 397--406.
 
 \bibitem[{Pontius  \&  Millones(2011)Pontius \& Millones}]{pontius_death_2011}
-Pontius, R.G. \& Millones, M. (2011) Death to {Kappa}: birth of quantity
+Pontius, R.G. \& Millones, M. (2011) Death to {{Kappa}}: Birth of quantity
   disagreement and allocation disagreement for accuracy assessment.
   \emph{International Journal of Remote Sensing} \textbf{32}, 4407--4429.
 
 \bibitem[{Pontius, Peethambaram  \&  Castella(2011)Pontius, Peethambaram \&
   Castella}]{pontius_comparison_2011}
-Pontius, R.G., Peethambaram, S. \& Castella, J.C. (2011) Comparison of {Three}
-  {Maps} at {Multiple} {Resolutions}: {A} {Case} {Study} of {Land} {Change}
-  {Simulation} in {Cho} {Don} {District}, {Vietnam}. \emph{Annals of the
+Pontius, R.G., Peethambaram, S. \& Castella, J.C. (2011) Comparison of {{Three
+  Maps}} at {{Multiple Resolutions}}: {{A Case Study}} of {{Land Change
+  Simulation}} in {{Cho Don District}}, {{Vietnam}}. \emph{Annals of the
   Association of American Geographers} \textbf{101}, 45--62.
 
 \bibitem[{Pontius  \&  Santacruz(2014)Pontius \&
@@ -1019,90 +1375,93 @@ Pontius, R.G. \& Santacruz, A. (2014) Quantity, exchange, and shift components
 \bibitem[{Powers  \&  Jetz(2019)Powers \& Jetz}]{powers_global_2019}
 Powers, R.P. \& Jetz, W. (2019) Global habitat loss and extinction risk of
   terrestrial vertebrates under future land-use-change scenarios. \emph{Nature
-  Climate Change} .
+  Climate Change} \textbf{9}, 323--329.
 
-\bibitem[{Prüssmann et~al.(2016)Prüssmann, Suárez, Guevara \&
+\bibitem[{Pr{\"u}ssmann et~al.(2016)Pr{\"u}ssmann, Su{\'a}rez, Guevara \&
   Vergara}]{prussmann_vulnerability_2016}
-Prüssmann, J., Suárez, C., Guevara, O. \& Vergara, A. (2016) Vulnerability
-  and climate risk analysis of the {Amazon} biome and its protected areas.
-  Tech. rep., Amazon Vision, REDPARQUES, WWF, UICN, FAO, PNUMA, Cali.
-
-\bibitem[{Pérez-Vega(2012)}]{perez-vega_comparing_2012}
-Pérez-Vega, A. (2012) Comparing two approaches to land use/cover change
-  modeling and their implications for the assessment of biodiversity loss in a
-  deciduous tropical forest. \emph{Environmental Modelling} p.~13.
+Pr{\"u}ssmann, J., Su{\'a}rez, C., Guevara, O. \& Vergara, A. (2016)
+  Vulnerability and climate risk analysis of the {{Amazon}} biome and its
+  protected areas. {{Amazon Vision}}, {{REDPARQUES}}, {{WWF}}, {{UICN}},
+  {{FAO}}, {{PNUMA}}.
 
 \bibitem[{{R Development Core Team}(2008)}]{r_development_core_team_r_2008}
-{R Development Core Team} (2008) R: {A} language and environment for
-  statistical computing. Tex.ids: r\_development\_core\_team\_r\_2008-1.
+{R Development Core Team} (2008) R: {{A}} language and environment for
+  statistical computing. Foundation for Statistical Computing.
 
-\bibitem[{Riahi, Grübler  \&  Nakicenovic(2007)Riahi, Grübler \&
+\bibitem[{Riahi, Gr{\"u}bler  \&  Nakicenovic(2007)Riahi, Gr{\"u}bler \&
   Nakicenovic}]{riahi_scenarios_2007}
-Riahi, K., Grübler, A. \& Nakicenovic, N. (2007) Scenarios of long-term
+Riahi, K., Gr{\"u}bler, A. \& Nakicenovic, N. (2007) Scenarios of long-term
   socio-economic and environmental development under climate stabilization.
   \emph{Technological Forecasting and Social Change} \textbf{74}, 887--935.
 
 \bibitem[{Riahi et~al.(2011)Riahi, Rao, Krey, Cho, Chirkov, Fischer,
   Kindermann, Nakicenovic \& Rafaj}]{riahi_rcp_2011}
 Riahi, K., Rao, S., Krey, V., Cho, C., Chirkov, V., Fischer, G., Kindermann,
-  G., Nakicenovic, N. \& Rafaj, P. (2011) {RCP} 8.5-{A} scenario of
+  G., Nakicenovic, N. \& Rafaj, P. (2011) {{RCP}} 8.5-{{A}} scenario of
   comparatively high greenhouse gas emissions. \emph{Climatic Change}
-  \textbf{109}, 33--57, tex.ids= riahi\_rcp\_2011-1.
+  \textbf{109}, 33--57.
 
-\bibitem[{Riahi et~al.(2017)Riahi, van Vuuren, Kriegler, Edmonds, O'Neill,
+\bibitem[{Riahi et~al.(2017)Riahi, {van Vuuren}, Kriegler, Edmonds, O'Neill,
   Fujimori, Bauer, Calvin, Dellink, Fricko, Lutz, Popp, Cuaresma, KC, Leimbach,
-  Jiang, Kram, Rao, Emmerling, Ebi, Hasegawa, Havlik, Humpenöder, Da~Silva,
+  Jiang, Kram, Rao, Emmerling, Ebi, Hasegawa, Havlik, Humpen{\"o}der, Da~Silva,
   Smith, Stehfest, Bosetti, Eom, Gernaat, Masui, Rogelj, Strefler, Drouet,
   Krey, Luderer, Harmsen, Takahashi, Baumstark, Doelman, Kainuma, Klimont,
-  Marangoni, Lotze-Campen, Obersteiner, Tabeau \& Tavoni}]{riahi_shared_2017}
-Riahi, K., van Vuuren, D.P., Kriegler, E., Edmonds, J., O'Neill, B.C.,
+  Marangoni, {Lotze-Campen}, Obersteiner, Tabeau \& Tavoni}]{riahi_shared_2017}
+Riahi, K., {van Vuuren}, D.P., Kriegler, E., Edmonds, J., O'Neill, B.C.,
   Fujimori, S., Bauer, N., Calvin, K., Dellink, R., Fricko, O., Lutz, W., Popp,
   A., Cuaresma, J.C., KC, S., Leimbach, M., Jiang, L., Kram, T., Rao, S.,
-  Emmerling, J., Ebi, K., Hasegawa, T., Havlik, P., Humpenöder, F., Da~Silva,
-  L.A., Smith, S., Stehfest, E., Bosetti, V., Eom, J., Gernaat, D., Masui, T.,
-  Rogelj, J., Strefler, J., Drouet, L., Krey, V., Luderer, G., Harmsen, M.,
-  Takahashi, K., Baumstark, L., Doelman, J.C., Kainuma, M., Klimont, Z.,
-  Marangoni, G., Lotze-Campen, H., Obersteiner, M., Tabeau, A. \& Tavoni, M.
-  (2017) The {Shared} {Socioeconomic} {Pathways} and their energy, land use,
-  and greenhouse gas emissions implications: {An} overview. \emph{Global
-  Environmental Change} \textbf{42}, 153--168.
+  Emmerling, J., Ebi, K., Hasegawa, T., Havlik, P., Humpen{\"o}der, F.,
+  Da~Silva, L.A., Smith, S., Stehfest, E., Bosetti, V., Eom, J., Gernaat, D.,
+  Masui, T., Rogelj, J., Strefler, J., Drouet, L., Krey, V., Luderer, G.,
+  Harmsen, M., Takahashi, K., Baumstark, L., Doelman, J.C., Kainuma, M.,
+  Klimont, Z., Marangoni, G., {Lotze-Campen}, H., Obersteiner, M., Tabeau, A.
+  \& Tavoni, M. (2017) The {{Shared Socioeconomic Pathways}} and their energy,
+  land use, and greenhouse gas emissions implications: {{An}} overview.
+  \emph{Global Environmental Change} \textbf{42}, 153--168.
 
-\bibitem[{Rokityanskiy et~al.(2007)Rokityanskiy, Benítez, Kraxner, McCallum,
-  Obersteiner, Rametsteiner \& Yamagata}]{rokityanskiy_geographically_2007}
-Rokityanskiy, D., Benítez, P.C., Kraxner, F., McCallum, I., Obersteiner, M.,
-  Rametsteiner, E. \& Yamagata, Y. (2007) Geographically explicit global
+\bibitem[{Rokityanskiy et~al.(2007)Rokityanskiy, Ben{\'i}tez, Kraxner,
+  McCallum, Obersteiner, Rametsteiner \&
+  Yamagata}]{rokityanskiy_geographically_2007}
+Rokityanskiy, D., Ben{\'i}tez, P.C., Kraxner, F., McCallum, I., Obersteiner,
+  M., Rametsteiner, E. \& Yamagata, Y. (2007) Geographically explicit global
   modeling of land-use change, carbon sequestration, and biomass supply.
   \emph{Technological Forecasting and Social Change} \textbf{74}, 1057--1082.
 
-\bibitem[{Romero‐Muñoz et~al.(2021)Romero‐Muñoz, Fandos,
-  Benítez‐López \& Kuemmerle}]{romeromunoz_habitat_2021}
-Romero‐Muñoz, A., Fandos, G., Benítez‐López, A. \& Kuemmerle, T. (2021)
-  Habitat destruction and overexploitation drive widespread declines in all
-  facets of mammalian diversity in the {Gran} {Chaco}. \emph{Global Change
+\bibitem[{Romero-Mu{\~n}oz et~al.(2021)Romero-Mu{\~n}oz, Fandos,
+  Ben{\'i}tez-L{\'o}pez \& Kuemmerle}]{romeromunoz_habitat_2021}
+Romero-Mu{\~n}oz, A., Fandos, G., Ben{\'i}tez-L{\'o}pez, A. \& Kuemmerle, T.
+  (2021) Habitat destruction and overexploitation drive widespread declines in
+  all facets of mammalian diversity in the {{Gran Chaco}}. \emph{Global Change
   Biology} \textbf{27}, 755--767.
 
 \bibitem[{Roson  \&  Sartori(2016)Roson \& Sartori}]{roson_estimation_2016}
-Roson, R. \& Sartori, M. (2016) Estimation of {Climate} {Change} {Damage}
-  {Functions} for 140 {Regions} in the {GTAP} 9 {Database}. \emph{Journal of
-  Global Economic Analysis} \textbf{1}, 78--115.
+Roson, R. \& Sartori, M. (2016) Estimation of {{Climate Change Damage
+  Functions}} for 140 {{Regions}} in the {{GTAP}} 9 {{Database}}. \emph{Journal
+  of Global Economic Analysis} \textbf{1}, 78--115.
+
+\bibitem[{{sCBD}(2010)}]{scbd_global_2010}
+{sCBD} (2010) Global {{Biodiversity Outlook}} 3. {{sCBD}}. {{Montreal}}.
+
+\bibitem[{{sCBD}(2020)}]{scbd_global_2020}
+{sCBD} (2020) Global {{Biodiversity Outlook}} 5. {{sCBD}}. {{Montreal}}.
 
 \bibitem[{Scholes  \&  Biggs(2005)Scholes \& Biggs}]{scholes_biodiversity_2005}
 Scholes, R.J. \& Biggs, R. (2005) A biodiversity intactness index.
-  \emph{Nature} \textbf{434}, 45--49, tex.ids: scholes\_biodiversity\_2005-1.
+  \emph{Nature} \textbf{434}, 45--49.
 
 \bibitem[{Seddon et~al.(2016)Seddon, Mace, Naeem, Tobias, Pigot, Cavanagh,
   Mouillot, Vause \& Walpole}]{seddon_biodiversity_2016}
 Seddon, N., Mace, G.M., Naeem, S., Tobias, J.A., Pigot, A.L., Cavanagh, R.,
   Mouillot, D., Vause, J. \& Walpole, M. (2016) Biodiversity in the
-  {Anthropocene}: prospects and policy. \emph{Proceedings of the Royal Society
-  B: Biological Sciences} \textbf{283}, 20162094.
+  {{Anthropocene}}: Prospects and policy. \emph{Proceedings of the Royal
+  Society B: Biological Sciences} \textbf{283}, 20162094.
 
 \bibitem[{Seo et~al.(2016)Seo, Bogner, Koellner \&
   Reineking}]{seo_mapping_2016}
-Seo, B., Bogner, C., Koellner, T. \& Reineking, B. (2016) Mapping {Fractional}
-  {Land} {Use} and {Land} {Cover} in a {Monsoon} {Region}: {The} {Effects} of
-  {Data} {Processing} {Options}. \emph{IEEE Journal of Selected Topics in
-  Applied Earth Observations and Remote Sensing} \textbf{9}, 3941--3956.
+Seo, B., Bogner, C., Koellner, T. \& Reineking, B. (2016) Mapping {{Fractional
+  Land Use}} and {{Land Cover}} in a {{Monsoon Region}}: {{The Effects}} of
+  {{Data Processing Options}}. \emph{IEEE Journal of Selected Topics in Applied
+  Earth Observations and Remote Sensing} \textbf{9}, 3941--3956.
 
 \bibitem[{Seto, Guneralp  \&  Hutyra(2012)Seto, Guneralp \&
   Hutyra}]{seto_global_2012}
@@ -1114,13 +1473,14 @@ Seto, K.C., Guneralp, B. \& Hutyra, L.R. (2012) Global forecasts of urban
 \bibitem[{Shafizadeh~Moghadam  \&  Helbich(2013)Shafizadeh~Moghadam \&
   Helbich}]{shafizadeh_moghadam_spatiotemporal_2013}
 Shafizadeh~Moghadam, H. \& Helbich, M. (2013) Spatiotemporal urbanization
-  processes in the megacity of {Mumbai}, {India}: {A} {Markov} chains-cellular
-  automata urban growth model. \emph{Applied Geography} \textbf{40}, 140--149.
+  processes in the megacity of {{Mumbai}}, {{India}}: {{A Markov}}
+  chains-cellular automata urban growth model. \emph{Applied Geography}
+  \textbf{40}, 140--149.
 
 \bibitem[{Sillero et~al.(2020)Sillero, Huey, Gilchrist, Rissler \&
   Pascual}]{sillero_distribution_2020}
 Sillero, N., Huey, R.B., Gilchrist, G., Rissler, L. \& Pascual, M. (2020)
-  Distribution modelling of an introduced species: do adaptive genetic markers
+  Distribution modelling of an introduced species: Do adaptive genetic markers
   affect potential range? \emph{Proceedings of the Royal Society B: Biological
   Sciences} \textbf{287}, 20201791.
 
@@ -1129,27 +1489,26 @@ Sillero, N., Huey, R.B., Gilchrist, G., Rissler, L. \& Pascual, M. (2020)
 Sitch, S., Smith, B., Prentice, I.C., Arneth, A., Bondeau, A., Cramer, W.,
   Kaplan, J.O., Levis, S., Lucht, W., Sykes, M.T., Thonicke, K. \& Venevsky, S.
   (2003) Evaluation of ecosystem dynamics, plant geography and terrestrial
-  carbon cycling in the {LPJ} dynamic global vegetation model: {LPJ} {DYNAMIC}
-  {GLOBAL} {VEGETATION} {MODEL}. \emph{Global Change Biology} \textbf{9},
-  161--185.
+  carbon cycling in the {{LPJ}} dynamic global vegetation model. \emph{Global
+  Change Biology} \textbf{9}, 161--185.
 
-\bibitem[{Soares-Filho, Rodrigues  \&  Costa(2009)Soares-Filho, Rodrigues \&
-  Costa}]{soares-filho_modeling_2009}
-Soares-Filho, B., Rodrigues, H. \& Costa, W. (2009) Modeling environmental
-  dynamics with {Dinamica} {EGO}. \emph{Instituto de Geociências - Centro de
-  Sensoriamento Remoto} pp. 114--114.
+\bibitem[{{Soares-Filho}, Rodrigues  \&  Costa(2009){Soares-Filho}, Rodrigues
+  \& Costa}]{soares-filho_modeling_2009}
+{Soares-Filho}, B., Rodrigues, H. \& Costa, W. (2009) Modeling environmental
+  dynamics with {{Dinamica EGO}}. {{Instituto}} de {{Geoci\^encias}} -
+  {{Centro}} de {{Sensoriamento Remoto}}. 114-114.
 
 \bibitem[{Stephens et~al.(2016)Stephens, Mason, Green, Gregory, Sauer, Alison,
   Aunins, Brotons, Butchart, Campedelli, Chodkiewicz, Chylarecki, Crowe, Elts,
   Escandell, Foppen, Heldbjerg, Herrando, Husby, Jiguet, Lehikoinen, Lindstrom,
-  Noble, Paquet, Reif, Sattler, Szep, Teufelbauer, Trautmann, van Strien, van
-  Turnhout, Vorisek \& Willis}]{stephens_consistent_2016}
+  Noble, Paquet, Reif, Sattler, Szep, Teufelbauer, Trautmann, {van Strien},
+  {van Turnhout}, Vorisek \& Willis}]{stephens_consistent_2016}
 Stephens, P.A., Mason, L.R., Green, R.E., Gregory, R.D., Sauer, J.R., Alison,
   J., Aunins, A., Brotons, L., Butchart, S.H.M., Campedelli, T., Chodkiewicz,
   T., Chylarecki, P., Crowe, O., Elts, J., Escandell, V., Foppen, R.P.B.,
   Heldbjerg, H., Herrando, S., Husby, M., Jiguet, F., Lehikoinen, A.,
   Lindstrom, A., Noble, D.G., Paquet, J.Y., Reif, J., Sattler, T., Szep, T.,
-  Teufelbauer, N., Trautmann, S., van Strien, A.J., van Turnhout, C.A.M.,
+  Teufelbauer, N., Trautmann, S., {van Strien}, A.J., {van Turnhout}, C.A.M.,
   Vorisek, P. \& Willis, S.G. (2016) Consistent response of bird populations to
   climate change on two continents. \emph{Science} \textbf{352}, 84--87.
 
@@ -1160,66 +1519,67 @@ Stolar, J. \& Nielsen, S.E. (2015) Accounting for spatially biased sampling
 
 \bibitem[{Struebig et~al.(2015{\natexlab{a}})Struebig, Fischer, Gaveau,
   Meijaard, Wich, Gonner, Sykes, Wilting \&
-  Kramer-Schadt}]{struebig_anticipated_2015}
+  {Kramer-Schadt}}]{struebig_anticipated_2015}
 Struebig, M.J., Fischer, M., Gaveau, D.L.A., Meijaard, E., Wich, S.A., Gonner,
-  C., Sykes, R., Wilting, A. \& Kramer-Schadt, S. (2015{\natexlab{a}})
-  Anticipated climate and land-cover changes reveal refuge areas for {Borneo}'s
-  orang-utans. \emph{Global Change Biology} \textbf{21}, 2891--2904.
+  C., Sykes, R., Wilting, A. \& {Kramer-Schadt}, S. (2015{\natexlab{a}})
+  Anticipated climate and land-cover changes reveal refuge areas for
+  {{Borneo}}'s orang-utans. \emph{Global Change Biology} \textbf{21},
+  2891--2904.
 
 \bibitem[{Struebig et~al.(2015{\natexlab{b}})Struebig, Wilting, Gaveau,
-  Meijaard, Smith, Fischer, Metcalfe, Kramer-Schadt, Abdullah, Abram, Alfred,
+  Meijaard, Smith, Fischer, Metcalfe, {Kramer-Schadt}, Abdullah, Abram, Alfred,
   Ancrenaz, Augeri, Belant, Bernard, Bezuijen, Boonman, Boonratana, Boorsma,
-  Breitenmoser-Würsten, Brodie, Cheyne, Devens, Duckworth, Duplaix, Eaton,
-  Francis, Fredriksson, Giordano, Gonner, Hall, Harrison, Hearn, Heckmann,
-  Heydon, Hofer, Hon, Husson, Anwarali Khan, Kingston, Kreb, Lammertink, Lane,
-  Lasmana, Liat, Lim, Lindenborn, Loken, Macdonald, Marshall, Maryanto, Mathai,
-  McShea, Mohamed, Nakabayashi, Nakashima, Niedballa, Noerfahmy, Persey, Peter,
-  Pieterse, Pilgrim, Pollard, Purnama, Rafiastanto, Reinfelder, Reusch, Robson,
-  Ross, Rustam, Sadikin, Samejima, Santosa, Sapari, Sasaki, Scharf, Semiadi,
-  Shepherd, Sykes, van Berkel, Wells, Wielstra \&
+  {Breitenmoser-W{\"u}rsten}, Brodie, Cheyne, Devens, Duckworth, Duplaix,
+  Eaton, Francis, Fredriksson, Giordano, Gonner, Hall, Harrison, Hearn,
+  Heckmann, Heydon, Hofer, Hon, Husson, Anwarali~Khan, Kingston, Kreb,
+  Lammertink, Lane, Lasmana, Liat, Lim, Lindenborn, Loken, Macdonald, Marshall,
+  Maryanto, Mathai, McShea, Mohamed, Nakabayashi, Nakashima, Niedballa,
+  Noerfahmy, Persey, Peter, Pieterse, Pilgrim, Pollard, Purnama, Rafiastanto,
+  Reinfelder, Reusch, Robson, Ross, Rustam, Sadikin, Samejima, Santosa, Sapari,
+  Sasaki, Scharf, Semiadi, Shepherd, Sykes, {van Berkel}, Wells, Wielstra \&
   Wong}]{struebig_targeted_2015}
-Struebig, M., Wilting, A., Gaveau, D.L., Meijaard, E., Smith, R., Fischer, M.,
-  Metcalfe, K., Kramer-Schadt, S., Abdullah, T., Abram, N., Alfred, R.,
-  Ancrenaz, M., Augeri, D., Belant, J., Bernard, H., Bezuijen, M., Boonman, A.,
-  Boonratana, R., Boorsma, T., Breitenmoser-Würsten, C., Brodie, J., Cheyne,
-  S., Devens, C., Duckworth, J., Duplaix, N., Eaton, J., Francis, C.,
-  Fredriksson, G., Giordano, A., Gonner, C., Hall, J., Harrison, M., Hearn, A.,
-  Heckmann, I., Heydon, M., Hofer, H., Hon, J., Husson, S., Anwarali Khan, F.,
-  Kingston, T., Kreb, D., Lammertink, M., Lane, D., Lasmana, F., Liat, L., Lim,
-  N.L., Lindenborn, J., Loken, B., Macdonald, D., Marshall, A., Maryanto, I.,
-  Mathai, J., McShea, W., Mohamed, A., Nakabayashi, M., Nakashima, Y.,
-  Niedballa, J., Noerfahmy, S., Persey, S., Peter, A., Pieterse, S., Pilgrim,
-  J., Pollard, E., Purnama, S., Rafiastanto, A., Reinfelder, V., Reusch, C.,
-  Robson, C., Ross, J., Rustam, R., Sadikin, L., Samejima, H., Santosa, E.,
-  Sapari, I., Sasaki, H., Scharf, A., Semiadi, G., Shepherd, C., Sykes, R.,
-  van Berkel, T., Wells, K., Wielstra, B. \& Wong, A. (2015{\natexlab{b}})
-  Targeted {Conservation} to {Safeguard} a {Biodiversity} {Hotspot} from
-  {Climate} and {Land}-{Cover} {Change}. \emph{Current Biology} \textbf{25},
-  372--378.
+Struebig, M.J., Wilting, A., Gaveau, D.L., Meijaard, E., Smith, R.J., Fischer,
+  M., Metcalfe, K., {Kramer-Schadt}, S., Abdullah, T., Abram, N., Alfred, R.,
+  Ancrenaz, M., Augeri, D.M., Belant, J.L., Bernard, H., Bezuijen, M., Boonman,
+  A., Boonratana, R., Boorsma, T., {Breitenmoser-W{\"u}rsten}, C., Brodie, J.,
+  Cheyne, S.M., Devens, C., Duckworth, J.W., Duplaix, N., Eaton, J., Francis,
+  C., Fredriksson, G., Giordano, A.J., Gonner, C., Hall, J., Harrison, M.E.,
+  Hearn, A.J., Heckmann, I., Heydon, M., Hofer, H., Hon, J., Husson, S.,
+  Anwarali~Khan, F.A., Kingston, T., Kreb, D., Lammertink, M., Lane, D.,
+  Lasmana, F., Liat, L.B., Lim, N.T.L., Lindenborn, J., Loken, B., Macdonald,
+  D.W., Marshall, A.J., Maryanto, I., Mathai, J., McShea, W.J., Mohamed, A.,
+  Nakabayashi, M., Nakashima, Y., Niedballa, J., Noerfahmy, S., Persey, S.,
+  Peter, A., Pieterse, S., Pilgrim, J.D., Pollard, E., Purnama, S.,
+  Rafiastanto, A., Reinfelder, V., Reusch, C., Robson, C., Ross, J., Rustam,
+  R., Sadikin, L., Samejima, H., Santosa, E., Sapari, I., Sasaki, H., Scharf,
+  A.K., Semiadi, G., Shepherd, C.R., Sykes, R., {van Berkel}, T., Wells, K.,
+  Wielstra, B. \& Wong, A. (2015{\natexlab{b}}) Targeted {{Conservation}} to
+  {{Safeguard}} a {{Biodiversity Hotspot}} from {{Climate}} and
+  {{Land}}-{{Cover Change}}. \emph{Current Biology} \textbf{25}, 372--378.
 
-\bibitem[{Sun, VanderWeele  \&  Tchetgen~Tchetgen(2017)Sun, VanderWeele \&
-  Tchetgen~Tchetgen}]{sun_multinomial_2017}
-Sun, B., VanderWeele, T. \& Tchetgen~Tchetgen, E.J. (2017) A {Multinomial}
-  {Regression} {Approach} to {Model} {Outcome} {Heterogeneity}. \emph{American
+\bibitem[{Sun, {Van der Weele}  \&  Tchetgen~Tchetgen(2017)Sun, {Van der Weele}
+  \& Tchetgen~Tchetgen}]{sun_multinomial_2017}
+Sun, B., {Van der Weele}, T. \& Tchetgen~Tchetgen, E.J. (2017) A {{Multinomial
+  Regression Approach}} to {{Model Outcome Heterogeneity}}. \emph{American
   Journal of Epidemiology} \textbf{186}, 1097--1103.
 
 \bibitem[{Sun, Forsythe  \&  Waters(2007)Sun, Forsythe \&
   Waters}]{sun_modeling_2007}
-Sun, H., Forsythe, W. \& Waters, N. (2007) Modeling {Urban} {Land} {Use}
-  {Change} and {Urban} {Sprawl}: {Calgary}, {Alberta}, {Canada}. \emph{Networks
+Sun, H., Forsythe, W. \& Waters, N. (2007) Modeling {{Urban Land Use Change}}
+  and {{Urban Sprawl}}: {{Calgary}}, {{Alberta}}, {{Canada}}. \emph{Networks
   and Spatial Economics} \textbf{7}, 353--376.
 
 \bibitem[{Taylor, Stouffer  \&  Meehl(2012)Taylor, Stouffer \&
   Meehl}]{taylor_overview_2012}
-Taylor, K.E., Stouffer, R.J. \& Meehl, G.A. (2012) An {Overview} of {CMIP5} and
-  the {Experiment} {Design}. \emph{Bulletin of the American Meteorological
+Taylor, K.E., Stouffer, R.J. \& Meehl, G.A. (2012) An {{Overview}} of {{CMIP5}}
+  and the {{Experiment Design}}. \emph{Bulletin of the American Meteorological
   Society} \textbf{93}, 485--498.
 
 \bibitem[{Tayyebi  \&  Pijanowski(2014)Tayyebi \&
   Pijanowski}]{tayyebi_modeling_2014}
 Tayyebi, A. \& Pijanowski, B.C. (2014) Modeling multiple land use changes using
-  {ANN}, {CART} and {MARS}: {Comparing} tradeoffs in goodness of fit and
-  explanatory power of data mining tools. \emph{International Journal of
+  {{ANN}}, {{CART}} and {{MARS}}: {{Comparing}} tradeoffs in goodness of fit
+  and explanatory power of data mining tools. \emph{International Journal of
   Applied Earth Observation and Geoinformation} \textbf{28}, 102--116.
 
 \bibitem[{Thomas(2004)}]{thomas_climate_2004}
@@ -1230,8 +1590,7 @@ Thomas, C.D. (2004) Climate change and extinction risk. \emph{Nature}
   Cramer, Verburg \& Brotons}]{titeux_biodiversity_2016}
 Titeux, N., Henle, K., Mihoub, J.B., Regos, A., Geijzendorffer, I.R., Cramer,
   W., Verburg, P.H. \& Brotons, L. (2016) Biodiversity scenarios neglect future
-  land-use changes. \emph{Global Change Biology} \textbf{22}, 2505--2515,
-  tex.ids: titeux\_biodiversity\_2016-1.
+  land-use changes. \emph{Global Change Biology} \textbf{22}, 2505--2515.
 
 \bibitem[{Titeux et~al.(2017)Titeux, Henle, Mihoub, Regos, Geijzendorffer,
   Cramer, Verburg \& Brotons}]{titeux_global_2017}
@@ -1241,14 +1600,23 @@ Titeux, N., Henle, K., Mihoub, J.B., Regos, A., Geijzendorffer, I.R., Cramer,
   Distributions} \textbf{23}, 1231--1234.
 
 \bibitem[{Tol(2014)}]{tol_who_2014}
-Tol, R.S.J. (2014) Who {Benefits} and {Who} {Loses} from {Climate} {Change}?
-  \emph{Handbook of {Climate} {Change} {Mitigation} and {Adaptation}} (eds.
-  W.Y. Chen, T.~Suzuki \& M.~Lackner), pp. 1--12, Springer New York, New York,
-  NY.
+Tol, R.S.J. (2014) Who {{Benefits}} and {{Who Loses}} from {{Climate Change}}?
+  \emph{Handbook of {{Climate Change Mitigation}} and {{Adaptation}}} (eds.
+  W.Y. Chen, T.~Suzuki \& M.~Lackner), pp. 1--12, {Springer New York}, {New
+  York, NY}.
+
+\bibitem[{Troia  \&  McManamay(2016)Troia \& McManamay}]{troia_filling_2016}
+Troia, M.J. \& McManamay, R.A. (2016) Filling in the {{GAPS}}: Evaluating
+  completeness and coverage of open-access biodiversity databases in the
+  {{United States}}. \emph{Ecology and Evolution} \textbf{6}, 4654--4669.
 
 \bibitem[{{UN General Assembly}(2015)}]{un_general_assembly_transforming_2015}
-{UN General Assembly} (2015) Transforming {Our} {World}: {The} 2030 {Agenda}
-  for {Sustainable} {Development}. Resolution.
+{UN General Assembly} (2015) Transforming {{Our World}}: {{The}} 2030
+  {{Agenda}} for {{Sustainable Development}}. Resolution.
+
+\bibitem[{{UNEP}(2019)}]{unep_resolution_2019}
+{UNEP} (2019) Resolution 73/284: {{United Nations Decade}} on {{Ecosystem
+  Restoration}} (2021\textendash 2030).
 
 \bibitem[{Urban(2015)}]{urban_accelerating_2015}
 Urban, M.C. (2015) Accelerating extinction risk from climate change.
@@ -1263,97 +1631,107 @@ Urban, M.C., Bocedi, G., Hendry, A.P., Mihoub, J.B., Peer, G., Singer, A.,
   Hellmann, J.J., Holt, R.D., Huth, A., Johst, K., Krug, C.B., Leadley, P.W.,
   Palmer, S.C.F., Pantel, J.H., Schmitz, A., Zollner, P.A. \& Travis, J.M.J.
   (2016) Improving the forecast for biodiversity under climate change.
-  \emph{Science} \textbf{353}, aad8466--aad8466.
+  \emph{Science} \textbf{353}, 1--9.
 
-\bibitem[{van Asselen  \&  Verburg(2012)van Asselen \&
+\bibitem[{Valavi et~al.(2019)Valavi, Elith, Lahoz-Monfort \&
+  Guillera-Arroita}]{valavi_blockcv:_2019}
+Valavi, R., Elith, J., Lahoz-Monfort, J.J. \& Guillera-Arroita, G. (2019)
+  {{blockCV}}: {{An}} r package for generating spatially or environmentally
+  separated folds for k-fold cross-validation of species distribution models.
+  \emph{Methods in Ecology and Evolution} \textbf{10}, 225--232.
+
+\bibitem[{{van Asselen}  \&  Verburg(2012){van Asselen} \&
   Verburg}]{van_asselen_land_2012}
-van Asselen, S. \& Verburg, P.H. (2012) A {Land} {System} representation for
+{van Asselen}, S. \& Verburg, P.H. (2012) A {{Land System}} representation for
   global assessments and land-use modeling. \emph{Global Change Biology}
   \textbf{18}, 3125--3148.
 
 \bibitem[{Van~Asselen  \&  Verburg(2013)Van~Asselen \&
   Verburg}]{van_asselen_land_2013}
 Van~Asselen, S. \& Verburg, P.H. (2013) Land cover change or land-use
-  intensification: {Simulating} land system change with a global-scale land
+  intensification: {{Simulating}} land system change with a global-scale land
   change model. \emph{Global Change Biology} \textbf{19}, 3648--3667.
 
 \bibitem[{Van~Ha  \&  Kompas(2016)Van~Ha \& Kompas}]{van_ha_solving_2016}
-Van~Ha, P. \& Kompas, T. (2016) Solving intertemporal {CGE} models in parallel
-  using a singly bordered block diagonal ordering technique. \emph{Economic
-  Modelling} \textbf{52}, 3--12, citation Key Alias:
-  vanhaSolvingIntertemporalCGE2016a.
+Van~Ha, P. \& Kompas, T. (2016) Solving intertemporal {{CGE}} models in
+  parallel using a singly bordered block diagonal ordering technique.
+  \emph{Economic Modelling} \textbf{52}, 3--12.
 
 \bibitem[{Van~Ha et~al.(2017)Van~Ha, Kompas, Nguyen \&
   Long}]{van_ha_building_2017}
 Van~Ha, P., Kompas, T., Nguyen, H.T.M. \& Long, C.H. (2017) Building a better
-  trade model to determine local effects: {A} regional and intertemporal {GTAP}
-  model. \emph{Economic Modelling} \textbf{67}, 102--113, tex.ids=
-  van\_ha\_building\_2017-1.
+  trade model to determine local effects: {{A}} regional and intertemporal
+  {{GTAP}} model. \emph{Economic Modelling} \textbf{67}, 102--113.
 
-\bibitem[{van Proosdij et~al.(2016)van Proosdij, Sosef, Wieringa \&
+\bibitem[{{van Proosdij} et~al.(2016){van Proosdij}, Sosef, Wieringa \&
   Raes}]{van_proosdij_minimum_2016}
-van Proosdij, A.S.J., Sosef, M.S.M., Wieringa, J.J. \& Raes, N. (2016) Minimum
-  required number of specimen records to develop accurate species distribution
-  models. \emph{Ecography} \textbf{39}, 542--552.
+{van Proosdij}, A.S.J., Sosef, M.S.M., Wieringa, J.J. \& Raes, N. (2016)
+  Minimum required number of specimen records to develop accurate species
+  distribution models. \emph{Ecography} \textbf{39}, 542--552.
 
-\bibitem[{van Schrojenstein~Lantman et~al.(2011)van Schrojenstein~Lantman,
+\bibitem[{{van Schrojenstein Lantman} et~al.(2011){van Schrojenstein Lantman},
   Verburg, Bregt \& Geertman}]{koomen_core_2011}
-van Schrojenstein~Lantman, J., Verburg, P.H., Bregt, A. \& Geertman, S. (2011)
-  Core {Principles} and {Concepts} in {Land}-{Use} {Modelling}: {A}
-  {Literature} {Review}. \emph{Land-{Use} {Modelling} in {Planning} {Practice}}
-  (eds. E.~Koomen \& J.~Borsboom-van Beurden), vol. 101, pp. 35--57, Springer
-  Netherlands, Dordrecht.
+{van Schrojenstein Lantman}, J., Verburg, P.H., Bregt, A. \& Geertman, S.
+  (2011) Core {{Principles}} and {{Concepts}} in {{Land}}-{{Use Modelling}}:
+  {{A Literature Review}}. \emph{Land-{{Use Modelling}} in {{Planning
+  Practice}}} (eds. E.~Koomen \& J.~{Borsboom-van Beurden}), vol. 101, pp.
+  35--57, {Springer Netherlands}, {Dordrecht}.
 
-\bibitem[{van Vliet et~al.(2013)van Vliet, Naus, van Lammeren, Bregt, Hurkens
-  \& van Delden}]{van_vliet_measuring_2013}
-van Vliet, J., Naus, N., van Lammeren, R.J., Bregt, A.K., Hurkens, J. \& van
-  Delden, H. (2013) Measuring the neighbourhood effect to calibrate land use
-  models. \emph{Computers, Environment and Urban Systems} \textbf{41}, 55--64.
+\bibitem[{{van Vliet} et~al.(2013){van Vliet}, Naus, {van Lammeren}, Bregt,
+  Hurkens \& {van Delden}}]{van_vliet_measuring_2013}
+{van Vliet}, J., Naus, N., {van Lammeren}, R.J., Bregt, A.K., Hurkens, J. \&
+  {van Delden}, H. (2013) Measuring the neighbourhood effect to calibrate land
+  use models. \emph{Computers, Environment and Urban Systems} \textbf{41},
+  55--64.
 
-\bibitem[{van Vuuren  \&  Carter(2014)van Vuuren \&
+\bibitem[{{van Vuuren}  \&  Carter(2014){van Vuuren} \&
   Carter}]{van_vuuren_climate_2014}
-van Vuuren, D.P. \& Carter, T.R. (2014) Climate and socio-economic scenarios
-  for climate change research and assessment: {Reconciling} the new with the
+{van Vuuren}, D.P. \& Carter, T.R. (2014) Climate and socio-economic scenarios
+  for climate change research and assessment: {{Reconciling}} the new with the
   ol. \emph{Climatic Change} \textbf{122}, 415--429.
 
-\bibitem[{van Vuuren et~al.(2011)van Vuuren, Edmonds, Kainuma, Riahi, Thomson,
-  Hibbard, Hurtt, Kram, Krey, Lamarque, Masui, Meinshausen, Nakicenovic, Smith
-  \& Rose}]{van_vuuren_representative_2011}
-van Vuuren, D.P., Edmonds, J., Kainuma, M., Riahi, K., Thomson, A., Hibbard,
+\bibitem[{{van Vuuren} et~al.(2011){van Vuuren}, Edmonds, Kainuma, Riahi,
+  Thomson, Hibbard, Hurtt, Kram, Krey, Lamarque, Masui, Meinshausen,
+  Nakicenovic, Smith \& Rose}]{van_vuuren_representative_2011}
+{van Vuuren}, D.P., Edmonds, J., Kainuma, M., Riahi, K., Thomson, A., Hibbard,
   K., Hurtt, G.C., Kram, T., Krey, V., Lamarque, J.F., Masui, T., Meinshausen,
   M., Nakicenovic, N., Smith, S.J. \& Rose, S.K. (2011) The representative
-  concentration pathways: {An} overview. \emph{Climatic Change} \textbf{109},
+  concentration pathways: {{An}} overview. \emph{Climatic Change} \textbf{109},
   5--31.
 
-\bibitem[{van Vuuren et~al.(2014)van Vuuren, Kriegler, O'Neill, Ebi, Riahi,
+\bibitem[{{van Vuuren} et~al.(2014){van Vuuren}, Kriegler, O'Neill, Ebi, Riahi,
   Carter, Edmonds, Hallegatte, Kram, Mathur \& Winkler}]{van_vuuren_new_2014}
-van Vuuren, D.P., Kriegler, E., O'Neill, B.C., Ebi, K.L., Riahi, K., Carter,
+{van Vuuren}, D.P., Kriegler, E., O'Neill, B.C., Ebi, K.L., Riahi, K., Carter,
   T.R., Edmonds, J., Hallegatte, S., Kram, T., Mathur, R. \& Winkler, H. (2014)
-  A new scenario framework for {Climate} {Change} {Research}: {Scenario} matrix
+  A new scenario framework for {{Climate Change Research}}: {{Scenario}} matrix
   architecture. \emph{Climatic Change} \textbf{122}, 373--386.
 
-\bibitem[{van Vuuren et~al.(2017)van Vuuren, Stehfest, Gernaat, Doelman,
-  van~den Berg, Harmsen, de~Boer, Bouwman, Daioglou, Edelenbosch, Girod, Kram,
-  Lassaletta, Lucas, van Meijl, Müller, van Ruijven, van~der Sluis \&
-  Tabeau}]{van_vuuren_energy_2017}
-van Vuuren, D.P., Stehfest, E., Gernaat, D.E., Doelman, J.C., van~den Berg, M.,
-  Harmsen, M., de~Boer, H.S., Bouwman, L.F., Daioglou, V., Edelenbosch, O.Y.,
-  Girod, B., Kram, T., Lassaletta, L., Lucas, P.L., van Meijl, H., Müller, C.,
-  van Ruijven, B.J., van~der Sluis, S. \& Tabeau, A. (2017) Energy, land-use
-  and greenhouse gas emissions trajectories under a green growth paradigm.
-  \emph{Global Environmental Change} \textbf{42}, 237--250.
+\bibitem[{{van Vuuren} et~al.(2017){van Vuuren}, Stehfest, Gernaat, Doelman,
+  {van den Berg}, Harmsen, {de Boer}, Bouwman, Daioglou, Edelenbosch, Girod,
+  Kram, Lassaletta, Lucas, {van Meijl}, M{\"u}ller, {van Ruijven}, {van der
+  Sluis} \& Tabeau}]{van_vuuren_energy_2017}
+{van Vuuren}, D.P., Stehfest, E., Gernaat, D.E., Doelman, J.C., {van den Berg},
+  M., Harmsen, M., {de Boer}, H.S., Bouwman, L.F., Daioglou, V., Edelenbosch,
+  O.Y., Girod, B., Kram, T., Lassaletta, L., Lucas, P.L., {van Meijl}, H.,
+  M{\"u}ller, C., {van Ruijven}, B.J., {van der Sluis}, S. \& Tabeau, A. (2017)
+  Energy, land-use and greenhouse gas emissions trajectories under a green
+  growth paradigm. \emph{Global Environmental Change} \textbf{42}, 237--250.
 
 \bibitem[{Veerkamp et~al.(2020)Veerkamp, Dunford, Harrison, Mandryk, Priess,
   Schipper, Stehfest \& Alkemade}]{veerkamp_future_2020}
 Veerkamp, C.J., Dunford, R.W., Harrison, P.A., Mandryk, M., Priess, J.A.,
   Schipper, A.M., Stehfest, E. \& Alkemade, R. (2020) Future projections of
-  biodiversity and ecosystem services in {Europe} with two integrated
+  biodiversity and ecosystem services in {{Europe}} with two integrated
   assessment models. \emph{Regional Environmental Change} \textbf{20}, 103.
 
 \bibitem[{Veldkamp  \&  Fresco(1996)Veldkamp \& Fresco}]{veldkamp_clue_1996}
-Veldkamp, A. \& Fresco, L. (1996) {CLUE}: a conceptual model to study the
-  {Conversion} of {Land} {Use} and its {Effects}. \emph{Ecological Modelling}
-  \textbf{85}, 253--270.
+Veldkamp, A. \& Fresco, L. (1996) {{CLUE}}: A conceptual model to study the
+  {{Conversion}} of {{Land Use}} and its {{Effects}}. \emph{Ecological
+  Modelling} \textbf{85}, 253--270.
+
+\bibitem[{Venables  \&  Ripley(2002)Venables \& Ripley}]{venables_modern_2002}
+Venables, W.N. \& Ripley, B.D. (2002) \emph{Modern {{Applied Statistics}} with
+  {{S}}}. {Springer}, {New York}, fourth edn.
 
 \bibitem[{Verburg et~al.(1999)Verburg, De~Koning, Kok, Veldkamp \&
   Bouma}]{verburg_spatial_1999}
@@ -1362,19 +1740,16 @@ Verburg, P.H., De~Koning, G.H.J., Kok, K., Veldkamp, A. \& Bouma, J. (1999) A
   change based upon actual land use. \emph{Ecological Modelling} \textbf{116},
   45--61.
 
-\bibitem[{Verburg(1999)}]{verburg_clue-s_1999}
-Verburg, P. (1999) The {CLUE}-{S} model.
-
 \bibitem[{Verburg, A~Veldkamp  \&  Bouma(1999)Verburg, A~Veldkamp \&
   Bouma}]{verburg_land_1999}
 Verburg, P.H., A~Veldkamp, T. \& Bouma, J. (1999) Land use change under
-  conditions of high population pressure: {The} case of {Java}. \emph{Global
-  Environmental Change} \textbf{9}, 303--312.
+  conditions of high population pressure: {{The}} case of {{Java}}.
+  \emph{Global Environmental Change} \textbf{9}, 303--312.
 
-\bibitem[{Verburg et~al.(2004{\natexlab{a}})Verburg, de~Nijs, Ritsema~van Eck,
-  Visser \& de~Jong}]{verburg_method_2004}
-Verburg, P.H., de~Nijs, T.C., Ritsema~van Eck, J., Visser, H. \& de~Jong, K.
-  (2004{\natexlab{a}}) A method to analyse neighbourhood characteristics of
+\bibitem[{Verburg et~al.(2004{\natexlab{a}})Verburg, {de Nijs}, {Ritsema van
+  Eck}, Visser \& {de Jong}}]{verburg_method_2004}
+Verburg, P.H., {de Nijs}, T.C., {Ritsema van Eck}, J., Visser, H. \& {de Jong},
+  K. (2004{\natexlab{a}}) A method to analyse neighbourhood characteristics of
   land use patterns. \emph{Computers, Environment and Urban Systems}
   \textbf{28}, 667--690.
 
@@ -1382,68 +1757,81 @@ Verburg, P.H., de~Nijs, T.C., Ritsema~van Eck, J., Visser, H. \& de~Jong, K.
   Letourneau}]{verburg_global_2011}
 Verburg, P.H., Ellis, E.C. \& Letourneau, A. (2011) A global assessment of
   market accessibility and market influence for global environmental change
-  studies. \emph{Environmental Research Letters} \textbf{6}, 034019.
+  studies. \emph{Environmental Research Letters} \textbf{6}, 034019 (12pp).
 
 \bibitem[{Verburg  \&  Overmars(2009)Verburg \&
   Overmars}]{verburg_combining_2009}
 Verburg, P.H. \& Overmars, K.P. (2009) Combining top-down and bottom-up
-  dynamics in land use modeling: {Exploring} the future of abandoned farmlands
-  in {Europe} with the {Dyna}-{CLUE} model. \emph{Landscape Ecology}
-  \textbf{24}, 1167--1181.
+  dynamics in land use modeling: {{Exploring}} the future of abandoned
+  farmlands in {{Europe}} with the {{Dyna}}-{{CLUE}} model. \emph{Landscape
+  Ecology} \textbf{24}, 1167--1181.
 
 \bibitem[{Verburg et~al.(2004{\natexlab{b}})Verburg, Schot, Dijst \&
   Veldkamp}]{verburg_land_2004}
 Verburg, P.H., Schot, P.P., Dijst, M.J. \& Veldkamp, A. (2004{\natexlab{b}})
-  Land use change modelling: {Current} practice and research priorities.
+  Land use change modelling: {{Current}} practice and research priorities.
   \emph{GeoJournal} \textbf{61}, 309--324.
 
 \bibitem[{Verburg et~al.(2006)Verburg, Schulp, Witte \&
   Veldkamp}]{verburg_downscaling_2006}
 Verburg, P.H., Schulp, C.J.E., Witte, N. \& Veldkamp, A. (2006) Downscaling of
-  land use change scenarios to assess the dynamics of {European} landscapes.
+  land use change scenarios to assess the dynamics of {{European}} landscapes.
   \emph{Agriculture, Ecosystems and Environment} \textbf{114}, 39--56.
 
 \bibitem[{Verburg et~al.(2002)Verburg, Soepboer, Veldkamp, Limpiada, Espaldon
   \& Mastura}]{verburg_modeling_2002}
 Verburg, P.H., Soepboer, W., Veldkamp, A., Limpiada, R., Espaldon, V. \&
   Mastura, S.S.A. (2002) Modeling the spatial dynamics of regional land use:
-  {The} {CLUE}-{S} model. \emph{Environmental Management} \textbf{30},
+  {{The CLUE}}-{{S}} model. \emph{Environmental Management} \textbf{30},
   391--405.
 
 \bibitem[{Voigt(2019)}]{voigt2019international}
-Voigt, C. (2019) \emph{International judicial practice on the environment:
-  {Questions} of legitimacy}. Cambridge University Press.
+Voigt, C. (2019) \emph{International Judicial Practice on the Environment:
+  {{Questions}} of Legitimacy}. {Cambridge University Press}.
 
 \bibitem[{Wessel  \&  Smith(1996)Wessel \& Smith}]{wessel_global_1996}
 Wessel, P. \& Smith, W.H.F. (1996) A global, self-consistent, hierarchical,
   high-resolution shoreline database. \emph{Journal of Geophysical Research:
   Solid Earth} \textbf{101}, 8741--8743.
 
-\bibitem[{Whittaker, Nogués-Bravo  \&  Araújo(2006)Whittaker, Nogués-Bravo
-  \& Araújo}]{whittaker_geographical_2006}
-Whittaker, R.J., Nogués-Bravo, D. \& Araújo, M.B. (2006) Geographical
-  gradients of species richness: a test of the water-energy conjecture of )
-  using {European} data for five taxa. \emph{Global Ecology and Biogeography}
-  \textbf{0}, 061120101210013--???
+\bibitem[{Whittaker, {Nogu{\'e}s-Bravo}  \&  Ara{\'u}jo(2006)Whittaker,
+  {Nogu{\'e}s-Bravo} \& Ara{\'u}jo}]{whittaker_geographical_2006}
+Whittaker, R.J., {Nogu{\'e}s-Bravo}, D. \& Ara{\'u}jo, M.B. (2006) Geographical
+  gradients of species richness: A test of the water-energy conjecture of
+  {{Hawkins}} et al. (2003) using {{European}} data for five taxa. \emph{Global
+  Ecology and Biogeography} \textbf{16}, 76--89.
 
 \bibitem[{Wigley(2018)}]{wigley_paris_2018}
-Wigley, T. (2018) The {Paris} warming targets: emissions requirements and sea
+Wigley, T. (2018) The {{Paris}} warming targets: Emissions requirements and sea
   level consequences. \emph{Climatic Change} \textbf{147}, 31--45.
 
-\bibitem[{Wintle et~al.(2011)Wintle, Bekessy, Keith, van Wilgen, Cabeza,
-  Schröder, Carvalho, Falcucci, Maiorano, Regan, Rondinini, Boitani \&
+\bibitem[{Wilson, Roberts  \&  Reid(2011)Wilson, Roberts \&
+  Reid}]{wilson_applying_2011}
+Wilson, C.D., Roberts, D. \& Reid, N. (2011) Applying species distribution
+  modelling to identify areas of high conservation value for endangered
+  species: {{A}} case study using {{Margaritifera}} margaritifera ({{L}}.).
+  \emph{Biological Conservation} \textbf{144}, 821--829.
+
+\bibitem[{Windecker  \&  Visintin(2021)Windecker \&
+  Visintin}]{windecker_gdaltools_2021}
+Windecker, S. \& Visintin, C. (2021) Gdaltools: {{Wrapper}} functions for
+  system gdal calls. {{https://github.com/smwindecker/gdaltools.}} {{DOI}}:
+  10.5281/zenodo.5171569.
+
+\bibitem[{Wintle et~al.(2011)Wintle, Bekessy, a.~Keith, {van Wilgen}, Cabeza,
+  Schr{\"o}der, Carvalho, Falcucci, Maiorano, Regan, Rondinini, Boitani \&
   Possingham}]{wintle_ecologicaleconomic_2011}
-Wintle, B.A., Bekessy, S.A., Keith, D.a., van Wilgen, B.W., Cabeza, M.,
-  Schröder, B., Carvalho, S.B., Falcucci, A., Maiorano, L., Regan, T.J.,
-  Rondinini, C., Boitani, L. \& Possingham, H.P. (2011) Ecological–economic
-  optimization of biodiversity conservation under climate change. \emph{Nature
-  Climate Change} \textbf{1}, 355--359.
+Wintle, B.A., Bekessy, S.A., a.~Keith, D., {van Wilgen}, B.W., Cabeza, M.,
+  Schr{\"o}der, B., Carvalho, S.B., Falcucci, A., Maiorano, L., Regan, T.J.,
+  Rondinini, C., Boitani, L. \& Possingham, H.P. (2011) Ecological\textendash
+  economic optimization of biodiversity conservation under climate change.
+  \emph{Nature Climate Change} \textbf{1}, 355--359.
 
 \bibitem[{Wintle, Elith  \&  Potts(2005)Wintle, Elith \&
   Potts}]{wintle_fauna_2005}
 Wintle, B.A., Elith, J. \& Potts, J.M. (2005) Fauna habitat modelling and
-  mapping: {A} review and case study in the {Lower} {Hunter} {Central} {Coast}
-  region of {NSW}. \emph{Austral Ecology} \textbf{30}, 719--738.
+  mapping: {{A}} review and case study in the {{Lower Hunter Central Coast}}
+  region of {{NSW}}. \emph{Austral Ecology} \textbf{30}, 719--738.
 
 \bibitem[{Wintle et~al.(2019)Wintle, Kujala, Whitehead, Cameron, Veloz,
   Kukkala, Moilanen, Gordon, Lentini, Cadenhead \&
@@ -1455,14 +1843,15 @@ Wintle, B.A., Kujala, H., Whitehead, A., Cameron, A., Veloz, S., Kukkala, A.,
   Academy of Sciences} \textbf{116}, 909--914.
 
 \bibitem[{Wisz et~al.(2008)Wisz, Hijmans, Li, Peterson, Graham, Guisan, Elith,
-  Dudík, Ferrier, Huettmann, Leathwick, Lehmann, Lohmann, Loiselle, Manion,
-  Moritz, Nakamura, Nakazawa, Overton, Phillips, Richardson, Scachetti-Pereira,
-  Schapire, Soberón, Williams \& Zimmermann}]{wisz_effects_2008}
+  Dud{\'i}k, Ferrier, Huettmann, Leathwick, Lehmann, Lohmann, Loiselle, Manion,
+  Moritz, Nakamura, Nakazawa, Overton, Phillips, Richardson,
+  {Scachetti-Pereira}, Schapire, Sober{\'o}n, Williams \&
+  Zimmermann}]{wisz_effects_2008}
 Wisz, M.S., Hijmans, R.J., Li, J., Peterson, A.T., Graham, C.H., Guisan, A.,
-  Elith, J., Dudík, M., Ferrier, S., Huettmann, F., Leathwick, J.R., Lehmann,
-  A., Lohmann, L., Loiselle, B.A., Manion, G., Moritz, C., Nakamura, M.,
-  Nakazawa, Y., Overton, J.M., Phillips, S.J., Richardson, K.S.,
-  Scachetti-Pereira, R., Schapire, R.E., Soberón, J., Williams, S.E. \&
+  Elith, J., Dud{\'i}k, M., Ferrier, S., Huettmann, F., Leathwick, J.R.,
+  Lehmann, A., Lohmann, L., Loiselle, B.A., Manion, G., Moritz, C., Nakamura,
+  M., Nakazawa, Y., Overton, J.M., Phillips, S.J., Richardson, K.S.,
+  {Scachetti-Pereira}, R., Schapire, R.E., Sober{\'o}n, J., Williams, S.E. \&
   Zimmermann, N.E. (2008) Effects of sample size on the performance of species
   distribution models. \emph{Diversity and Distributions} \textbf{14},
   763--773.
@@ -1470,24 +1859,33 @@ Wisz, M.S., Hijmans, R.J., Li, J., Peterson, A.T., Graham, C.H., Guisan, A.,
 \bibitem[{Wood(2011)}]{wood_fast_2011}
 Wood, S.N. (2011) Fast stable restricted maximum likelihood and marginal
   likelihood estimation of semiparametric generalized linear models:
-  {Estimation} of {Semiparametric} {Generalized} {Linear} {Models}.
-  \emph{Journal of the Royal Statistical Society: Series B (Statistical
-  Methodology)} \textbf{73}, 3--36.
+  {{Estimation}} of {{Semiparametric Generalized Linear Models}}. \emph{Journal
+  of the Royal Statistical Society: Series B (Statistical Methodology)}
+  \textbf{73}, 3--36.
 
 \bibitem[{{World Bank Group}(2016)}]{world_bank_group_population_2016}
-{World Bank Group} (2016) Population {Estimates} and {Projections} .
+{World Bank Group} (2016) Population {{Estimates}} and {{Projections}}.
+  {{https://datatopics.worldbank.org/health}} .
 
 \bibitem[{Xian et~al.(2015)Xian, Homer, Rigge, Shi \&
   Meyer}]{xian_characterization_2015}
 Xian, G., Homer, C., Rigge, M., Shi, H. \& Meyer, D. (2015) Characterization of
-  shrubland ecosystem components as continuous fields in the northwest {United}
-  {States}. \emph{Remote Sensing of Environment} \textbf{168}, 286--300.
+  shrubland ecosystem components as continuous fields in the northwest {{United
+  States}}. \emph{Remote Sensing of Environment} \textbf{168}, 286--300.
 
-\bibitem[{Zurell et~al.(2021)Zurell, König, Malchow, Kapitza, Bocedi, Travis
-  \& Fandos}]{zurell_spatially-explicit_2021}
-Zurell, D., König, C., Malchow, A.K., Kapitza, S., Bocedi, G., Travis, J. \&
-  Fandos, G. (2021) Spatially-explicit models in animal conservation and
-  restoration: advances, opportunities and challenges. \emph{Ecography (under
-  review)} .
+\bibitem[{Zittis et~al.(2021)Zittis, Hadjinicolaou, Almazroui, Bucchignani,
+  Driouech, El~Rhaz, Kurnaz, Nikulin, Ntoumos, Ozturk, Proestos, Stenchikov,
+  Zaaboul \& Lelieveld}]{zittis_business-as-usual_2021}
+Zittis, G., Hadjinicolaou, P., Almazroui, M., Bucchignani, E., Driouech, F.,
+  El~Rhaz, K., Kurnaz, L., Nikulin, G., Ntoumos, A., Ozturk, T., Proestos, Y.,
+  Stenchikov, G., Zaaboul, R. \& Lelieveld, J. (2021) Business-as-usual will
+  lead to super and ultra-extreme heatwaves in the {{Middle East}} and {{North
+  Africa}}. \emph{npj Climate and Atmospheric Science} \textbf{4}, 20.
+
+\bibitem[{Zurell et~al.(under review)Zurell, K{\"o}nig, Malchow, Kapitza,
+  Bocedi, Travis \& Fandos}]{zurell_spatially-explicit_2021}
+Zurell, D., K{\"o}nig, C., Malchow, A.K., Kapitza, S., Bocedi, G., Travis, J.
+  \& Fandos, G. (under review) Spatially-explicit models in animal conservation
+  and restoration: Advances, opportunities and challenges .
 
 \end{thebibliography}

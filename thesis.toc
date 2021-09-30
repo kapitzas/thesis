@@ -1,0 +1,95 @@
+\contentsline {chapter}{Abstract}{iii}%
+\contentsline {chapter}{Declaration}{v}%
+\contentsline {chapter}{Preface}{vii}%
+\contentsline {chapter}{Acknowledgements}{ix}%
+\contentsline {chapter}{List of Figures}{xv}%
+\contentsline {chapter}{List of Tables}{xxi}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {1.1}Biodiversity in the anthropocene}{2}%
+\contentsline {section}{\numberline {1.2}Protecting biodiversity requires sound predictive modelling}{3}%
+\contentsline {section}{\numberline {1.3}Economic globalisation and biodiversity}{6}%
+\contentsline {section}{\numberline {1.4}Harmonization of future scenarios}{7}%
+\contentsline {section}{\numberline {1.5}Thesis aims and scope}{8}%
+\contentsline {section}{\numberline {1.6}Chapter outline}{9}%
+\contentsline {chapter}{\numberline {2}Assessing biophysical and socio-economic impacts of climate change on regional avian biodiversity}{11}%
+\contentsline {section}{\numberline {2.1}Abstract}{13}%
+\contentsline {section}{\numberline {2.2}Introduction}{13}%
+\contentsline {section}{\numberline {2.3}Results}{15}%
+\contentsline {subsection}{\numberline {2.3.1}Direct biophysical impacts dominate changing range sizes.}{15}%
+\contentsline {subsection}{\numberline {2.3.2}Land use changes in response to climate change vary by region.}{18}%
+\contentsline {section}{\numberline {2.4}Discussion}{21}%
+\contentsline {section}{\numberline {2.5}Methods}{23}%
+\contentsline {subsection}{\numberline {2.5.1}Study area}{23}%
+\contentsline {subsection}{\numberline {2.5.2}Climate Change}{23}%
+\contentsline {subsection}{\numberline {2.5.3}CGE models}{24}%
+\contentsline {subsection}{\numberline {2.5.4}Land use models.}{25}%
+\contentsline {subsection}{\numberline {2.5.5}Software and data}{27}%
+\contentsline {section}{\numberline {2.6}Acknowledgements}{27}%
+\contentsline {section}{\numberline {2.7}Competing interests}{27}%
+\contentsline {section}{\numberline {2.8}Data and code availability}{27}%
+\contentsline {chapter}{\numberline {3}A predictive model of fractional land use}{29}%
+\contentsline {section}{\numberline {3.1}Highlights}{31}%
+\contentsline {section}{\numberline {3.2}Abstract}{31}%
+\contentsline {section}{\numberline {3.3}Introduction}{31}%
+\contentsline {section}{\numberline {3.4}Materials and methods}{35}%
+\contentsline {subsection}{\numberline {3.4.1}Model description}{35}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Rule 1: Future land use supply meets additional demand}{36}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Rule 2: Cell-level fractions must sum to1}{37}%
+\contentsline {subsubsection}{\numberline {3.4.1.3}Rule 3: Allocations are determined by land use suitability}{37}%
+\contentsline {subsection}{\numberline {3.4.2}Data}{38}%
+\contentsline {subsection}{\numberline {3.4.3}Model constraints}{40}%
+\contentsline {subsection}{\numberline {3.4.4}Validating the intensity and direction of predicted changes}{40}%
+\contentsline {subsection}{\numberline {3.4.5}Case study: agricultural expansion in the Amazon Basin}{42}%
+\contentsline {section}{\numberline {3.5}Results}{43}%
+\contentsline {subsection}{\numberline {3.5.1}Predicting land use change intensity}{43}%
+\contentsline {subsection}{\numberline {3.5.2}Predicting the direction of land use changes}{46}%
+\contentsline {subsection}{\numberline {3.5.3}Predicting agricultural expansion and habitat declines}{46}%
+\contentsline {section}{\numberline {3.6}Discussion and conclusions}{48}%
+\contentsline {section}{\numberline {3.7}Acknowledgements}{50}%
+\contentsline {chapter}{\numberline {4}Toward streamlined and transparent economic-ecological predictions of land-use change impacts on biodiversity}{51}%
+\contentsline {section}{\numberline {4.1}Abstract}{52}%
+\contentsline {section}{\numberline {4.2}Introduction}{52}%
+\contentsline {subsection}{\numberline {4.2.1}Multiple threats to future biodiversity}{52}%
+\contentsline {subsection}{\numberline {4.2.2}Integrated biodiversity assessments}{53}%
+\contentsline {subsection}{\numberline {4.2.3}Shared future narratives}{53}%
+\contentsline {subsection}{\numberline {4.2.4}Aims of this chapter}{55}%
+\contentsline {section}{\numberline {4.3}Materials and Methods}{55}%
+\contentsline {subsection}{\numberline {4.3.1}Scenarios}{56}%
+\contentsline {subsection}{\numberline {4.3.2}Projecting changes in land demand}{59}%
+\contentsline {subsection}{\numberline {4.3.3}Spatially downscaling changes in land endowments}{60}%
+\contentsline {subsection}{\numberline {4.3.4}Predicting land-use intensity}{61}%
+\contentsline {subsection}{\numberline {4.3.5}Predicting biodiversity intactness}{63}%
+\contentsline {section}{\numberline {4.4}Results}{65}%
+\contentsline {subsection}{\numberline {4.4.1}Biodiversity intactness by biogeographic realm}{65}%
+\contentsline {subsection}{\numberline {4.4.2}Biodiversity intactness by land-use type/intensity class}{68}%
+\contentsline {subsection}{\numberline {4.4.3}Biodiversity intactness by commodity sector}{68}%
+\contentsline {subsection}{\numberline {4.4.4}Land endowment changes}{69}%
+\contentsline {subsection}{\numberline {4.4.5}Land-use type/intensity}{70}%
+\contentsline {section}{\numberline {4.5}Discussion}{74}%
+\contentsline {subsection}{\numberline {4.5.1}Model choice strongly affects biodiversity intactness predictions}{74}%
+\contentsline {subsection}{\numberline {4.5.2}Model assumptions for primary and secondary land allocation drive uncertainty}{75}%
+\contentsline {subsection}{\numberline {4.5.3}Changes in some commodity sectors drive losses in biodiversity intactness}{77}%
+\contentsline {subsection}{\numberline {4.5.4}The value of a streamlined and transparent workflow}{77}%
+\contentsline {subsection}{\numberline {4.5.5}Outlook}{78}%
+\contentsline {section}{\numberline {4.6}Conclusion}{78}%
+\contentsline {chapter}{\numberline {5}Discussion}{81}%
+\contentsline {section}{\numberline {5.1}Thesis synthesis}{82}%
+\contentsline {subsection}{\numberline {5.1.1}Improving the land-use change model (i)}{83}%
+\contentsline {subsection}{\numberline {5.1.2}Increasing the spatial extent of analyses (ii)}{83}%
+\contentsline {subsection}{\numberline {5.1.3}Scenario alignment (iii)}{84}%
+\contentsline {subsection}{\numberline {5.1.4}Increasing taxonomic scope (iv)}{84}%
+\contentsline {section}{\numberline {5.2}Opportunities for improvement}{86}%
+\contentsline {subsection}{\numberline {5.2.1}Improving the biodiversity intactness model}{86}%
+\contentsline {subsection}{\numberline {5.2.2}Improving FLUTES}{86}%
+\contentsline {subsection}{\numberline {5.2.3}A streamlined and open integrated assessment framework to predict biodiversity}{88}%
+\contentsline {subsection}{\numberline {5.2.4}A framework to measure progress toward Sustainable Development Goals}{89}%
+\contentsline {section}{\numberline {5.3}Concluding remarks}{90}%
+\contentsline {chapter}{References}{91}%
+\contentsline {chapter}{Appendix A: Supplementary Information Chapter 2}{117}%
+\contentsline {chapter}{Appendix B: Supplementary Information Chapter 3}{125}%
+\contentsline {chapter}{Appendix C: Supplementary Information Chapter 4}{127}%
+\contentsline {chapter}{Appendix D: Links to \texttt {R} code}{137}%
+\contentsline {section}{\numberline {D.1}Chapter 2}{138}%
+\contentsline {section}{\numberline {D.2}Chapter 3}{138}%
+\contentsline {section}{\numberline {D.3}Chapter 4}{139}%
+\contentsline {section}{\numberline {D.4}Other \texttt {R} packages}{140}%

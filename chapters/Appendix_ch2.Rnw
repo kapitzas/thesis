@@ -1,0 +1,152 @@
+\chapter{Supplementary Information Chapter 2}\label{apx:ch2}
+\newpage
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[htb]
+\centering
+\caption{Climate, other biophysical, and socioeconomic predictors used as initial input to bias model, SDM, and land use model. Predictor choices were made based on literature. The initial predictor sets were reduced using correlation analysis.}
+\label{apx:ch2:tab1}
+\begin{tabularx}{\textwidth}{lllllY}
+\toprule
+Short name & Long name & \multicolumn{3}{c}{Chosen?} & Source \\ \bottomrule
+ &  & \multicolumn{1}{c}{Bias} & \multicolumn{1}{c}{SDM} & Land use &  \\
+\textbf{} & \textbf{Climate predictors} & \textbf{} & \textbf{} &  & \citep{hijmans_very_2005} \\
+\textit{bio1} & Annual mean temperature &  & x & x &  \\
+\textit{bio2} & Mean diurnal range &  & x & x &  \\
+\textit{bio3} & Isothermality &  & x & x &  \\
+\textit{bio4} & Temperature seasonality &  & x & x &  \\
+\textit{bio5} & Maximum temperature of warmest month &  & x & x &  \\
+\textit{bio6} & Minimum temperature of coldest month &  & x & x &  \\
+\textit{bio7} & Temperature annual range &  & x & x &  \\
+\textit{bio8} & Mean temperature of wettest quarter &  & x & x &  \\
+\textit{bio9} & Mean temperature of driest quarter &  & x & x &  \\
+\textit{bio10} & Mean temperature of warmest quarter &  & x & x &  \\
+\textit{bio11} & Mean temperature of coldest quarter &  & x & x &  \\
+\textit{bio12} & Annual precipitation &  & x & x &  \\
+\textit{bio13} & Precipitation of wettest week &  & x & x &  \\
+\textit{bio14} & Precipitation of driest week &  & x & x &  \\
+\textit{bio15} & Precipitation of driest month &  & x & x &  \\
+\textit{bio16} & Precipitation of wettest quarter &  & x & x &  \\
+\textit{bio17} & Precipitation of driest quarter &  & x & x &  \\
+\textit{bio18} & Precipitation of warmest quarter &  & x & x &  \\
+\textit{bio19} & Precipitation of coldest quarter &  & x & x &  \\
+\textit{bioregions} & Bioregions in Australia &  & x &  & \citep{ciesn_global_2011} \\
+\textit{} &  &  &  &  &  \\
+\textit{\textbf{}} & \textbf{Other biophysical predictors} &  &  &  &  \\
+\textit{roughness} & Roughness & x &  & x & \citep{nasa_shuttle_2013} \\
+\textit{slope} & Slope &  & x & x & \citep{nasa_shuttle_2013} \\
+\textit{srtm} & Elevation &  & x & x & \citep{nasa_shuttle_2013} \\
+\textit{diri} & Distance to Rivers &  & x & x & \citep{wessel_global_1996} \\
+\textit{dila} & Distance to Lakes &  & x & x & \citep{wessel_global_1996} \\
+\textit{dico} & Distance to Coast &  &  & x & \citep{wessel_global_1996} \\
+\textit{nitro} & Soil Nitrogen Content &  &  & x & \citep{global_soil_data_task_group_global_2000} \\
+\textit{sawc} & Soil Available Water Content &  &  & x & \citep{global_soil_data_task_group_global_2000} \\
+\textit{carb} & Soil Carbon Density &  &  & x & \citep{global_soil_data_task_group_global_2000} \\
+\textit{bulk} & Soil Bulk Density &  &  & x & \citep{global_soil_data_task_group_global_2000} \\
+\textit{} &  &  &  &  &  \\
+\textit{\textbf{}} & \textbf{Socio-economic predictors} &  &  &  &  \\
+\textit{pa} & Protected Area & x &  & x & \citep{iucn_world_2014} \\
+\textit{diro} & Distance to Roads & x &  & x & \citep{ciesn_global_2013} \\
+\textit{dibu} & Distance to Built-up Areas & x &  & x & \citep{fao_built-up_1997} \\
+\textit{popdi} & Population density & x &  &  & \citep{ciesn_global_2011} \\
+\textit{landuse} & Land use – Urban &  & x & x & \citep{european_union_copernicus_2019} \\
+ & Land use – Cropland &  & x & x &  \\
+ & Land use – Herbaceous vegetation &  & x & x &  \\
+ & Land use – Shrubs &  & x & x &  \\
+ & Land use – Open Forest &  & x & x &  \\
+\textit{} & Land use – Closed Forest &  & x & x &  \\
+\textit{} & Land use - Herbaceous wetlands, moss and lichen &  & x &  &  \\
+\textit{} & Land use - Bare soil and sparse vegetation &  & x &  &  \\ \bottomrule
+\end{tabularx}%
+\end{table}
+
+\newpage
+
+\begin{figure*}[htb]
+  \centering
+  \includegraphics[width=\textwidth]{chapters/figures/chapter2/supfig1.pdf}
+  \caption{Predicted change in mean potential habitat in Australia (a and c) and Vietnam (b and d) under the first quartile of GCMs (a and c) and the third quartile of GCMs (c and d). Main results are predictions under the cell-level medians. Plots are constrained on the y-axis to  $<$ 8x and $>$ 1/16 x for visual clarity. Figure created in R version 3.5.1 (https://www.R-project.org/) \citep{r_development_core_team_r_2008}.}
+  \label{apx:ch2:fig1}
+\end{figure*}
+
+\begin{figure*}[htb]
+  \centering
+  \includegraphics[width=\textwidth]{chapters/figures/chapter2/supfig2.pdf}
+  \caption{Relative changes in total wheat sector outputs (a, b) and land endowments (c, d) of GTAP 9 countries under RCP 2.6 (a, c) and RCP 8.5 (b, d). The \% changes are relative to the economy after a forward propagation of the current economy without any scenario assumptions. Figure created in R version 3.5.1 (https://www.R-project.org/) \citep{r_development_core_team_r_2008}.}
+  \label{apx:ch2:fig2}
+\end{figure*}
+
+\begin{table}[htb]
+\centering
+\caption{List of Global Circulation Models (GCM). Downscaled outputs from these models were used to estimate cell-level medians and first and third quartiles of cell-level predictions of 19 biolcim variables. Data are available through WorldClim \citep{hijmans_worldclim_nodate}.}
+\label{apx:ch2:tab2}
+\begin{tabularx}{\textwidth}{@{}l Y@{}}
+\toprule
+GCM & Source \\ \toprule
+BCC-CSM1-1 & Beijing Climate Center, China Meteorological Administration \\
+CCSM4 & University of Miami - RSMAS \\
+CNRM-CM5 & Centre National de Recherches Météorologiques / Centre Européen de Recherche et Formation Avancée en Calcul Scientifique \\
+GFDL-CM3 & NOAA Geophysical Fluid Dynamics Laboratory \\
+GFDL-ESM2G & NOAA Geophysical Fluid Dynamics Laboratory \\
+GISS-E2-R & NASA Goddard Institute for Space Studies \\
+HadGEM2-AO & Met Office Hadley Centre (additional HadGEM2-ES realizations contributed by Instituto Nacional de Pesquisas Espaciais) \\
+HadGEM2-ES & Met Office Hadley Centre (additional HadGEM2-ES realizations contributed by Instituto Nacional de Pesquisas Espaciais) \\
+IPSL-CM5A-LR & Institut Pierre-Simon Laplace \\
+MIROC-ESM-CHEM & Japan Agency for Marine-Earth Science and Technology, Atmosphere and Ocean Research Institute (The University of Tokyo), and National Institute for Environmental Studies \\
+MIROC-ESM & Japan Agency for Marine-Earth Science and Technology, Atmosphere and Ocean Research Institute (The University of Tokyo), and National Institute for Environmental Studies \\
+MIROC5 & Atmosphere and Ocean Research Institute (The University of Tokyo), National Institute for Environmental Studies, and Japan Agency for Marine-Earth Science and Technology \\
+MPI-ESM-LR & Max-Planck-Institut für Meteorologie \\
+MRI-CGCM3 & Meteorological Research Institute \\
+NorESM1-M & Norwegian Climate Centre \\ \toprule
+\end{tabularx}
+\end{table}
+
+\begin{table}[htb]
+\centering
+\caption{Relative contributions of commodity sectors to the total area harvested in 2016 13. These values inform the weight of predicted land endowment changes when estimating total changes to crop land area.}
+\label{apx:ch2:tab3}
+\begin{tabularx}{0.5\textwidth}{@{}llcc@{}}
+\toprule
+Sector & Full name & Australia & Vietnam \\ \bottomrule
+c\_b & sugar cane, sugar beet & 0.020 & 0.018 \\
+gro & cereal grains & 0.250 & 0.081 \\
+ocr & crops nec & 0.094 & 0.129 \\
+osd & oil seeds & 0.108 & 0.034 \\
+pdr & paddy rice & 0.001 & 0.544 \\
+pfb & plant-based fibres & 0.012 & 0.001 \\
+v\_f & vegetables, fruit, nuts & 0.019 & 0.193 \\
+wht & wheat & 0.496 & - \\ \bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{chapters/figures/chapter2/supfig3a.pdf}
+\label{apx:ch2:fig3}
+\caption{}
+\end{figure}
+
+\begin{figure}[htb]
+\continuedfloat
+\centering
+\includegraphics[width=1\linewidth]{chapters/figures/chapter2/supfig3b.pdf}
+\caption{Effect sizes of predictors in land use suitability models. (a) Effect sizes of predictors in Australia and (b), effect sizes of predictors in Vietnam. Predictors were standardised and we used cross-validated Lasso penalization for predictor selection. Error bars are indicated in grey. The sample size for model building was n $=$ 20,000 in both countries. Figure created in R version 3.5.1 (https://www.R-project.org/) \citep{r_development_core_team_r_2008}.}
+\end{figure}%
+
+\begin{table}[htb]
+\centering
+\caption{Transition matrix of land use model. 1 indicate possible transitions from the class of the row to the class of the column of the cell. 0 indicate when transitions are not possible.}
+\label{apx:ch2:tab4}
+\begin{tabularx}{0.8\textwidth}{@{}lcccccc@{}}
+\toprule
+Class & Urban & Cropland & Herbaceous & Shrubs & Open Forest & Closed Forest \\ \bottomrule
+Urban & 1 & 0 & 0 & 0 & 0 & 0 \\
+Cropland & 1 & 1 & 1 & 1 & 1 & 1 \\
+Herbaceous & 1 & 1 & 1 & 1 & 1 & 1 \\
+Shrubs & 1 & 1 & 1 & 1 & 1 & 1 \\
+Open Forest & 1 & 1 & 1 & 1 & 1 & 1 \\
+Closed Forest & 1 & 1 & 1 & 1 & 1 & 1 \\ \bottomrule
+\end{tabularx}
+\end{table}

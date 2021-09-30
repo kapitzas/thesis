@@ -1,0 +1,118 @@
+\chapter{Links to \texttt{R} code}
+\label{apx:ch5}
+\newpage
+
+\noindent All code accompanying this thesis is documented on GitHub. Permanently archived versions will be provided after the thesis has passed examination.
+
+
+\section{Chapter 2}
+
+\noindent Functions required for the analysis: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/functions.R}
+\vspace{0.3cm}
+
+\noindent Preprocessing of environmental layers and presence data: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/preprocessing.R}
+\vspace{0.3cm}
+
+\noindent Estimate future trajectories of land demand change from GTAP outputs: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/gtaptrajectories.R}
+\vspace{0.3cm}
+
+\noindent Allocate land-use changes in line with demand trajectories in Dyna-CLUE: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/landuse.R}
+\vspace{0.3cm}
+
+\noindent Build and predict MaxEnt SDM: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/SDM.R}
+\vspace{0.3cm}
+
+\noindent Analysis of results and plots: \\
+\textit{https://github.com/kapitzas/thesis\_ch2/blob/main/R/plots.R}
+\vspace{0.3cm}
+
+\section{Chapter 3}
+
+\noindent Functions required for the analysis: \\
+\textit{https://github.com/kapitzas/thesis\_ch3/blob/main/R/functions.R}
+\vspace{0.3cm}
+
+\noindent Preprocessing of layers: \\
+\textit{https://github.com/kapitzas/thesis\_ch3/blob/main/R/preprocessing.R}
+\vspace{0.3cm}
+
+\noindent Land-use simulations using different model parametrizations: \\
+\textit{https://github.com/kapitzas/thesis\_ch3/blob/main/R/simulation.R}
+\vspace{0.3cm}
+
+\noindent Analysis of results and plots: \\
+\textit{https://github.com/kapitzas/thesis\_ch3/blob/main/R/results.R}
+\vspace{0.3cm}
+\newpage
+
+\noindent \texttt{FLUTES} package: \texttt{devtools::install\_github("kapitzas/flutes")}\\
+\noindent Detailed documentation for each function is built into the package. \\
+
+\noindent Conversion of land-use fractions into integer representation, using multinomial draws: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/integerify.R}
+\vspace{0.3cm}
+
+\noindent Allocation of changes in land-use demand across the landscape: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/allocation.R}
+\vspace{0.3cm}
+
+\noindent Automatic reduction of a data set based on estimated correlations: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/correlations.R}
+\vspace{0.3cm}
+
+\noindent Extraction of observed land-use changes from a time series: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/demand.R}
+\vspace{0.3cm}
+
+\noindent Application of neighbourhood functions to data: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/neighbourhood.R}
+\vspace{0.3cm}
+
+\noindent Estimation of parameters of multinomial, multi-class land-use suitability model: \\
+\textit{https://github.com/kapitzas/flutes/blob/main/R/suitmodel.R}
+\vspace{0.3cm}
+
+\section{Chapter 4}
+\noindent Functions required for the analysis: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/functions.R}
+\vspace{0.3cm}
+
+\noindent Preprocessing of layers: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/preprocessing.R}
+\vspace{0.3cm}
+
+\noindent Estimate future trajectories of land demand change from GTAP outputs and Message 8.5 land-use data: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/demands.R}
+\vspace{0.3cm}
+
+\noindent Land-use intensity model and prediction: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/intensity\_model\_validation.R}
+\vspace{0.3cm}
+
+\noindent Allocation of land demand changes: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/landuse.R}
+\vspace{0.3cm}
+
+\noindent Estimation and prediction of biodiversity intactness, based on PREDICTS: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/BII.R}
+\vspace{0.3cm}
+
+
+\noindent Analysis of results and figures: \\
+\textit{https://github.com/kapitzas/thesis\_ch4/blob/main/R/figures.R}
+\vspace{0.3cm}
+
+
+\section{Other \texttt{R} packages}
+\noindent Further packages developed for this thesis were 
+
+\begin{itemize}
+
+\item \texttt{kapitzas/WorldClimTiles}, a package to download and merge tiled worldclim data at 30 arcsec resolution (required in \Cref{ch2})
+\item \texttt{kapitzas/gdaltools}, a package to link R directly with the \texttt{gdal} library for fast spatial processing, developed by Saras Windecker and Casey Visintin \citep{windecker_gdaltools_2021} and adjusted for this thesis (required in \Cref{ch3,ch4}).
+\end{itemize}

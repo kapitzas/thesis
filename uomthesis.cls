@@ -247,10 +247,13 @@ has not been submitted in whole or part for a degree in any university.
 
 %%%%% optional packages
 \usepackage[authoryear]{natbib}
+
+
 		% this is the natural sciences bibliography citation
 		% style package.
 
 %%%%% set up the bibliography style
+% \bibliographystyle{apacite}
 \bibliographystyle{thesis_ref_style}
 
 % allows the table of contents, bibliography and index to be added to the table of
